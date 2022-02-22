@@ -9,6 +9,7 @@ sudo apt-get install guake
 # load guake preferences
 guake --restore-preferences ./guake_prefs.txt
 # guake --save-preferences ./guake_prefs.txt
+# sudo apt install tmux
 
 # VS Code
 sudo apt-get install code
@@ -58,6 +59,19 @@ sudo apt install dolphin
 git config --global user.email "john.paul.abrams@gmail.com"
 git config --global user.name "Paul Abrams"
 
+# zsh shell and oh-my-zsh
+ sudo apt install zsh
+sudo sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# Rust, cargo
+curl https://sh.rustup.rs -sSf | sh
+
 # broot file browser
+cargo install broot
+export PATH="/home/i/.cargo/bin:$PATH"
+cp ./broot/conf.hjson ~/.config/broot/conf.hjson 
 
 # lsd ls replacement
+
+
+# autojump
