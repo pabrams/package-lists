@@ -31,6 +31,7 @@ sudo apt install mc
 
 # duck-duck-go cli
 sudo apt install ddgr
+curl -fsSL https://raw.githubusercontent.com/Astranno/googlr/master/Install%20Scripts/install.sh | sudo sh
 
 # snap packagemanaer 
 sudo apt install snapd
@@ -80,8 +81,16 @@ mkdir ~/.config/lsd
 cp ./lsd/config.yaml ~/.config/lsd/config.yaml
 mkdir ~/.config/lsd/themes
 cp ./lsd/config.yaml ~/.config/lsd/themes/default.yaml
-
 # untested:  # echo alias ls='lsd' > ~/.zshrc
+source ./lsd/lscolors.sh
+wget "https://github.com/sharkdp/vivid/releases/download/v0.8.0/vivid_0.8.0_amd64.deb"
+sudo dpkg -i vivid_0.8.0_amd64.deb
 
+sudo npm install -g tldr
+
+# xplr
+https://github.com/sayanarijit/xplr.git
 
 # autojump
+
+
