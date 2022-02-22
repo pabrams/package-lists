@@ -15,7 +15,7 @@ sudo apt-get install code
 code --install-extension paulabrams1.trade-wars-2002-color-theme
 
 # npm
-sudo apt install npmchore: increment version
+sudo apt install npm
 
 # Joplin
 wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
