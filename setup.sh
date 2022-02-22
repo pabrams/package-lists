@@ -76,6 +76,12 @@ curl -s https://www.getdnote.com/install | sh
 
 # lsd ls replacement
 cargo install lsd
+mkdir ~/.config/lsd
 cp ./lsd/config.yaml ~/.config/lsd/config.yaml
+mkdir ~/.config/lsd/themes
+cp ./lsd/config.yaml ~/.config/lsd/themes/default.yaml
+
+# untested:  # echo alias ls='lsd' > ~/.zshrc
+
 
 # autojump
