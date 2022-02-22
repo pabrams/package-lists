@@ -1,3 +1,4 @@
+# install apps on fresh debian-based
 
 # tilde
 sudo apt-get install tilde
