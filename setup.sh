@@ -7,7 +7,8 @@ sudo apt-get install tilde
 sudo apt-get install guake
 
 # load guake preferences
-guake --restore-preferences ./guake_prefs
+guake --restore-preferences ./guake_prefs.txt
+# guake --save-preferences ./guake_prefs.txt
 
 # VS Code
 sudo apt-get install code
@@ -37,6 +38,26 @@ sudo apt install snapd
 snap install btop
 sudo apt install neofetch
 
+# optional btop config
+sudo snap connect btop:system-observe
+`sudo snap connect btop:physical-memory-observe`
+`sudo snap connect btop:mount-observe` 
+`sudo snap connect btop:hardware-observe`
+`sudo snap connect btop:process-control`
+`sudo snap connect btop:network-monitor`
+`sudo snap connect btop: removable-media` 
+
+# duf, ncdu disk usage
+sudo apt install duf
+sudo apt install ncdu
+
+# dolphin file manager
+sudo apt install dolphin
+
 # git config
 git config --global user.email "john.paul.abrams@gmail.com"
 git config --global user.name "Paul Abrams"
+
+# broot file browser
+
+# lsd ls replacement
