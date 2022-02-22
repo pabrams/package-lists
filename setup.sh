@@ -71,7 +71,11 @@ cargo install broot
 export PATH="/home/i/.cargo/bin:$PATH"
 cp ./broot/conf.hjson ~/.config/broot/conf.hjson 
 
-# lsd ls replacement
+# dnote
+curl -s https://www.getdnote.com/install | sh
 
+# lsd ls replacement
+cargo install lsd
+cp ./lsd/config.yaml ~/.config/lsd/config.yaml
 
 # autojump
