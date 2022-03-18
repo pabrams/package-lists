@@ -17,6 +17,9 @@ code --install-extension paulabrams1.trade-wars-2002-color-theme
 
 # npm
 sudo apt install npm
+sudo npm cache clean -f
+sudo npm install -g n
+sudo n stable
 
 # Joplin
 wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
@@ -42,12 +45,12 @@ sudo apt install neofetch
 
 # optional btop config
 sudo snap connect btop:system-observe
-`sudo snap connect btop:physical-memory-observe`
-`sudo snap connect btop:mount-observe` 
-`sudo snap connect btop:hardware-observe`
-`sudo snap connect btop:process-control`
-`sudo snap connect btop:network-monitor`
-`sudo snap connect btop: removable-media` 
+# `sudo snap connect btop:physical-memory-observe`
+# `sudo snap connect btop:mount-observe` 
+# `sudo snap connect btop:hardware-observe`
+# `sudo snap connect btop:process-control`
+# `sudo snap connect btop:network-monitor`
+# `sudo snap connect btop: removable-media` 
 
 # duf, ncdu disk usage
 sudo apt install duf
@@ -68,8 +71,8 @@ sudo sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/ins
 curl https://sh.rustup.rs -sSf | sh
 
 # broot file browser
-cargo install broot
 export PATH="/home/i/.cargo/bin:$PATH"
+cargo install broot
 cp ./broot/conf.hjson ~/.config/broot/conf.hjson 
 
 # dnote
@@ -89,7 +92,7 @@ sudo dpkg -i vivid_0.8.0_amd64.deb
 sudo npm install -g tldr
 
 # xplr
-https://github.com/sayanarijit/xplr.git
+# https://github.com/sayanarijit/xplr.git
 
 # autojump
 
