@@ -94,6 +94,11 @@ sudo npm install -g tldr
 # xplr
 # https://github.com/sayanarijit/xplr.git
 
+# Steam
+sudo apt install Steam
+
+
+
 # autojump
 
 
