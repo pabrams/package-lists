@@ -97,7 +97,9 @@ sudo npm install -g tldr
 # Steam
 sudo apt install Steam
 
-
+# gimp
+sudo snap install gimp
+sudo snap connect gimp:removable-media :removable-media
 
 # autojump
 
