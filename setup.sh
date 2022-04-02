@@ -101,6 +101,11 @@ sudo apt install Steam
 sudo snap install gimp
 sudo snap connect gimp:removable-media :removable-media
 
+# lutris
+sudo add-apt-repository ppa:lutris-team/lutris
+sudo apt update
+sudo apt install lutris
+
 # autojump
 
 
