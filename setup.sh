@@ -106,6 +106,25 @@ sudo add-apt-repository ppa:lutris-team/lutris
 sudo apt update
 sudo apt install lutris
 
+# [navi](https://github.com/denisidoro/navi)
+sudo apt-get install fzf
+# TODO: cargo install navi
+# instead must downnload the ['unknown linux'] binary and extract 
+# https://github.com/denisidoro/navi/releases/tag/v2.19.0
+
+
+# python
+sudo apt install python3
+sudo apt install python-is-python3
+
+
+# youtube-dl
+sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
+sudo chmod a+rx /usr/local/bin/youtube-dl
+
+# gparted
+sudo apt install gparted
+
 # autojump
 
 
