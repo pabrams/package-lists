@@ -117,7 +117,6 @@ sudo apt-get install fzf
 sudo apt install python3
 sudo apt install python-is-python3
 
-
 # youtube-dl
 sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
 sudo chmod a+rx /usr/local/bin/youtube-dl
