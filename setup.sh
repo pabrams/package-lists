@@ -124,6 +124,13 @@ sudo chmod a+rx /usr/local/bin/youtube-dl
 # gparted
 sudo apt install gparted
 
+# etcher
+# echo "deb https://deb.etcher.io stable etcher" | sudo tee /etc/apt/sources.list.d/balena-etcher.list
+# sudo apt-key adv --keyserver hkps://keyserver.ubuntu.com:443 --recv-keys 379CE192D401AB61
+# sudo apt update
+# sudo apt install balena-etcher-electron
+# TODO: get command line install to work. I got sick of all the errors and just installed directly (manually) from https://www.balena.io/etcher/
+
 # autojump
 
 
