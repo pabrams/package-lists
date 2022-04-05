@@ -131,6 +131,15 @@ sudo apt install gparted
 # sudo apt install balena-etcher-electron
 # TODO: get command line install to work. I got sick of all the errors and just installed directly (manually) from https://www.balena.io/etcher/
 
+# tilda
+sudo apt install tilda
+
+# byobu
+sudo apt install byobu
+
+#telegram
+# sudo apt install telegram-desktop
+
 # autojump
 
 
