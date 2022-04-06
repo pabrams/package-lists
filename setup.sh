@@ -141,5 +141,5 @@ sudo apt install byobu
 # sudo apt install telegram-desktop
 
 # autojump
-
+sudo apt-get install autojump
 
