@@ -143,3 +143,17 @@ sudo apt install byobu
 # autojump
 sudo apt-get install autojump
 
+# jumpapp
+# sudo apt-get install build-essential debhelper git pandoc shunit2
+# git clone https://github.com/mkropat/jumpapp.git
+# cd jumpapp
+# make deb
+# sudo dpkg -i jumpapp*all.deb
+# if there were missing dependencies
+# sudo apt-get install -f
+
+
+# xbindkeys
+# sudo apt install wmctrl
+# sudo apt install xbindkeys
+# cp .xbindkeysrc ~ 
