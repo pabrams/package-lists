@@ -156,4 +156,6 @@ sudo apt-get install autojump
 # xbindkeys
 # sudo apt install wmctrl
 # sudo apt install xbindkeys
-# cp .xbindkeysrc ~ 
+# cp .xbindkeysrc ~
+
+# mutt
