@@ -66,8 +66,8 @@ window-y=1563
 [io/elementary/appcenter/settings]
 last-refresh-time=int64 1648968896
 window-maximized=false
-window-position=(964, 525)
-window-size=(948, 477)
+window-position=(2435, 891)
+window-size=(948, 448)
 
 [org/gnome/Geary]
 folder-list-pane-position-horizontal=387
@@ -294,10 +294,10 @@ info-last-device='/org/freedesktop/UPower/devices/mouse_hidpp_battery_1'
 info-stats-type='discharge-accuracy'
 
 [org/gnome/settings-daemon/plugins/color]
-night-light-last-coordinates=(45.503398560115187, -75.657899999999998)
+night-light-last-coordinates=(45.494399280057593, -75.657899999999998)
 
 [org/gnome/settings-daemon/plugins/media-keys]
-custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5/']
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5/']
 screenreader=@as []
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
@@ -310,11 +310,6 @@ binding='<Alt><Super>c'
 command='jumpapp code'
 name='code'
 
-[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2]
-binding='<Alt><Super>s'
-command='jumpapp settings'
-name='settings'
-
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3]
 binding='<Alt><Super>h'
 command='jumpapp chrome'
@@ -326,9 +321,9 @@ command='jumpapp joplin'
 name='joplin'
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5]
-binding='<Alt><Super>g'
-command='jumpapp gnome-terminal'
-name='term'
+binding='<Alt><Super>t'
+command='jumpapp tilda'
+name='tilda term'
 
 [org/gnome/shell]
 enabled-extensions=['pop-cosmic@system76.com', 'cosmic-workspaces@system76.com', 'ding@rastersoft.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'sound-output-device-chooser@kgshank.net', 'nonblockingswitcher@scottworley.com']
@@ -360,7 +355,7 @@ sort-column='size'
 sort-directories-first=false
 sort-order='ascending'
 type-format='category'
-window-position=(2558, 791)
+window-position=(0, 141)
 window-size=(1124, 822)
 
 [system/proxy]
