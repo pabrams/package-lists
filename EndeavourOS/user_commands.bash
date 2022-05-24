@@ -50,11 +50,19 @@
 #----------------------------------------------------------------------------------
 # Full example (to try it, remove the first '#' from the lines below):
 #
-# #!/bin/bash
-#
-# # Note: needs ISO since year 2022
-#
-# username="$1"
-# echo "# Hello world!" >> /home/$username/.bashrc
-# pacman -S --noconfirm --needed geany chromium libreoffice-fresh
+#!/bin/bash
+# Note: needs ISO since year 2022
 
+username="pabrams"
+echo "# Hello world!" >> /home/$username/.bashrc
+pacman -S --noconfirm --needed git base-devel
+
+
+code --install-extension paulabrams1.trade-wars-2002-color-theme
+
+# oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
+
+# git config
+git config --global user.email "john.paul.abrams@gmail.com"
+git config --global user.name "Paul Abrams"
