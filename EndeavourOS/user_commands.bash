@@ -53,7 +53,7 @@
 #!/bin/bash
 # Note: needs ISO since year 2022
 
-username="pabrams"
+username="me"
 echo "# Hello world!" >> /home/$username/.bashrc
 pacman -S --noconfirm --needed git base-devel
 
