@@ -94,3 +94,7 @@ sudo pacman -S kitty --noconfirm
 
 # lsDeluxe
 sudo pacman -S lsd --noconfirm
+
+# nerd-fonts
+yay -S nerd-fonts-complete --noconfirm
+
