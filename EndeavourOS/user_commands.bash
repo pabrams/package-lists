@@ -87,4 +87,4 @@ sudo pacman -S broot --noconfirm
 sudo pacman -S yt-dlp --noconfirm
 
 # instlal kitty
-sudo pacman -S kitty
+sudo pacman -S kitty --noconfirm
