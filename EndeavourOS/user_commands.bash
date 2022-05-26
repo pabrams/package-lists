@@ -71,7 +71,6 @@ sudo pacman -S zsh --noconfirm
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 
 # make it default shell
-chsh -l
 chsh -s /usr/bin/zsh
 
 # install and enable powerlevel10k
