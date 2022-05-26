@@ -64,19 +64,11 @@ pacman -S --noconfirm --needed git base-devel
 yay -S visual-studio-code-bin --noconfirm
 code --install-extension paulabrams1.trade-wars-2002-color-theme
 
+# zsh
+sudo pacman -S zsh --noconfirm
+
 # oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
-
-# git config
-git config --global user.email "john.paul.abrams@gmail.com"
-git config --global user.name "Paul Abrams"
-
-
-# install code
-sudo pacaur -S visual-studio-code-bin --noconfirm
-
-# install zsh
-pacman -S zsh
 
 # make it default shell
 chsh -l
