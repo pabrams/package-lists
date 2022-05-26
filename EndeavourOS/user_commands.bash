@@ -66,3 +66,30 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 # git config
 git config --global user.email "john.paul.abrams@gmail.com"
 git config --global user.name "Paul Abrams"
+
+
+# install code
+sudo pacaur -S visual-studio-code-bin --noconfirm
+
+# install zsh
+pacman -S zsh
+
+# make it default shell
+chsh -l
+chsh -s /usr/bin/zsh
+
+# install and enable powerlevel10k
+yay -S --noconfirm zsh-theme-powerlevel10k-git
+echo 'source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
+
+# install btop
+sudo pacman -S btop --noconfirm
+
+# install broot (br)
+sudo pacman -S broot --noconfirm
+
+# install youtub-dl fork
+sudo pacman -S yt-dlp --noconfirm
+
+# instlal kitty
+sudo pacman -S kitty
