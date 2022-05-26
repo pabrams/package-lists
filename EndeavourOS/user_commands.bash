@@ -53,11 +53,15 @@
 #!/bin/bash
 # Note: needs ISO since year 2022
 
+git config --global user.email "john.paul.abrams@gmail.com"
+git config --global user.name "Paul Abrams"
+
 username="me"
 echo "# Hello world!" >> /home/$username/.bashrc
 pacman -S --noconfirm --needed git base-devel
 
-
+#install code
+yay -S visual-studio-code-bin --noconfirm
 code --install-extension paulabrams1.trade-wars-2002-color-theme
 
 # oh-my-zsh
