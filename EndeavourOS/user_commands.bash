@@ -91,3 +91,6 @@ sudo pacman -S yt-dlp --noconfirm
 
 # instlal kitty
 sudo pacman -S kitty --noconfirm
+
+# lsDeluxe
+sudo pacman -S lsd --noconfirm
