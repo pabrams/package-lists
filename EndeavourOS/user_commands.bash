@@ -60,6 +60,9 @@ username="me"
 echo "# Hello world!" >> /home/$username/.bashrc
 pacman -S --noconfirm --needed git base-devel
 
+# install some missing deps
+sudo pacman -S gnome-keyring libsecret --noconfirm
+
 #install code
 yay -S visual-studio-code-bin --noconfirm
 code --install-extension paulabrams1.trade-wars-2002-color-theme
