@@ -118,3 +118,9 @@ yay -S chromium --noconfirm
 
 # jumpapp
 yay -S jumpapp --noconfirm
+
+# tmux
+yay -S tmux --noconfirm
+
+# guake
+yay -S guake --noconfirm
