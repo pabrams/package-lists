@@ -106,3 +106,6 @@ sudo chmod +x Joplin_install_and_update.sh
 # steam
 sudo pacman -Syu
 sudo pacman -S steam
+
+# zettlr
+sudo pacman -S zettlr --noconfirm
