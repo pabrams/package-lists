@@ -140,3 +140,12 @@ yay -S gimp --noconfirm
 
 # rpg-cli
 $ cargo install --git https://github.com/facundoolano/rpg-cli --force --tag 1.0.1
+
+# node
+yay -S nodejs-lts-gallium --noconfirm
+
+# npm 
+yay -S npm --noconfirm
+
+# godot
+yay -S godot-git --noconfirm
