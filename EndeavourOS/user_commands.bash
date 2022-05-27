@@ -109,3 +109,12 @@ sudo pacman -S steam
 
 # zettlr
 sudo pacman -S zettlr --noconfirm
+
+# Badwolf browser
+yay -S badwolf --noconfirm
+
+# Chromium browser
+yay -S chromium --noconfirm
+
+# jumpapp
+yay -S jumpapp --noconfirm
