@@ -134,3 +134,6 @@ yay -S mc
 # duf ncdu
 yay -S duf --noconfirm
 yay -S ncdu --noconfirm
+
+# the gimp
+yay -S gimp --noconfirm
