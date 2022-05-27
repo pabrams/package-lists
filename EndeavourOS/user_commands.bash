@@ -124,3 +124,13 @@ yay -S tmux --noconfirm
 
 # guake
 yay -S guake --noconfirm
+
+# ddgr
+yay -S ddgr --noconfirm
+
+# mc file man
+yay -S mc
+
+# duf ncdu
+yay -S duf --noconfirm
+yay -S ncdu --noconfirm
