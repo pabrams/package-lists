@@ -137,3 +137,6 @@ yay -S ncdu --noconfirm
 
 # the gimp
 yay -S gimp --noconfirm
+
+# rpg-cli
+$ cargo install --git https://github.com/facundoolano/rpg-cli --force --tag 1.0.1
