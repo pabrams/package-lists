@@ -149,3 +149,6 @@ yay -S npm --noconfirm
 
 # godot
 yay -S godot-git --noconfirm
+
+# game conqueror
+sudo pacman -S gameconqueror
