@@ -73,6 +73,9 @@ yay -S xbindkeys --noconfirm
 # default config
 # xbindkeys --defaults > ~/.xbindkeysrcq
 
+# /etc/nftables is not compatible with firewalld apparently
+mv /etc/nftables.conf /etc/nftables.conf.old
+
 # docker
 sudo pacman -S docker --noconfirm
 
