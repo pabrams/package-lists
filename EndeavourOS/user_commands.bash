@@ -71,7 +71,7 @@ code --install-extension paulabrams1.trade-wars-2002-color-theme
 yay -S xbindkeys --noconfirm
 
 # default config
-# xbindkeys --defaults > ~/.xbindkeysrc
+# xbindkeys --defaults > ~/.xbindkeysrcq
 
 # docker
 sudo pacman -S docker --noconfirm
@@ -84,6 +84,12 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 # make it default shell
 chsh -s /usr/bin/zsh
+
+# kibi
+cargo install kibi
+
+#tilde
+yay -S tilde --nonconfirm
 
 # install and enable powerlevel10k
 yay -S --noconfirm zsh-theme-powerlevel10k-git
