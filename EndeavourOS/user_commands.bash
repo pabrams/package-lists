@@ -152,3 +152,12 @@ yay -S godot-git --noconfirm
 
 # game conqueror
 sudo pacman -S gameconqueror
+
+# webcamoid
+yay -S webcamoid --noconfirm
+
+# digikam
+sudo pacman -Sy digikam
+
+# htop
+sudo pacman -S htop --noconfirm
