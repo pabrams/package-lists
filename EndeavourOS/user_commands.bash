@@ -67,6 +67,9 @@ sudo pacman -S gnome-keyring libsecret --noconfirm
 yay -S visual-studio-code-bin --noconfirm
 code --install-extension paulabrams1.trade-wars-2002-color-theme
 
+# docker
+sudo pacman -S docker --noconfirm
+
 # zsh
 sudo pacman -S zsh --noconfirm
 
