@@ -179,3 +179,6 @@ sudo pacman -Sy digikam
 
 # htop
 sudo pacman -S htop --noconfirm
+
+# smplayer
+sudo pacman -S smplayer --noconfirm
