@@ -102,7 +102,6 @@ ipw2200-fw
 iwd
 jfsutils
 jumpapp-git
-kate
 kcalc
 kde-gtk-config
 kdeconnect
