@@ -37,7 +37,6 @@ docker
 dolphin
 dosfstools
 downgrade
-dragon
 duf
 e2fsprogs
 efibootmgr
