@@ -87,6 +87,7 @@ gst-plugin-pipewire 1:0.3.52-2
 gst-plugins-bad 1.20.3-1
 gst-plugins-ugly 1.20.3-1
 guake 3.9.0-2
+gwenview 22.04.2-1
 gzip 1.12-1
 haveged 1.9.18-1
 hdparm 9.63-2

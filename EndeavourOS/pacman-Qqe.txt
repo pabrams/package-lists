@@ -87,6 +87,7 @@ gst-plugin-pipewire
 gst-plugins-bad
 gst-plugins-ugly
 guake
+gwenview
 gzip
 haveged
 hdparm
