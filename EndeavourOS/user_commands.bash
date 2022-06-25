@@ -57,7 +57,6 @@ git config --global user.email "john.paul.abrams@gmail.com"
 git config --global user.name "Paul Abrams"
 
 username="me"
-echo "# Hello world!" >> /home/$username/.bashrc
 pacman -S --noconfirm --needed git base-devel
 
 # install some missing deps
