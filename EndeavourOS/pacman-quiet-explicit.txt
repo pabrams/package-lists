@@ -199,6 +199,7 @@ rebuild-detector
 reflector
 reflector-simple
 reiserfsprogs
+rkhunter
 rp-pppoe
 rsync
 s-nail
