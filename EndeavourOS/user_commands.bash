@@ -181,3 +181,6 @@ sudo pacman -S htop --noconfirm
 
 # smplayer
 sudo pacman -S smplayer --noconfirm
+
+# rkhunter
+yay -S rkhunter --noconfirm
