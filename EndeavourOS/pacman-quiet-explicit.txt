@@ -2,6 +2,7 @@ accountsservice
 adobe-source-han-sans-cn-fonts
 adobe-source-han-sans-jp-fonts
 adobe-source-han-sans-kr-fonts
+alacritty
 alsa-firmware
 alsa-plugins
 alsa-utils
@@ -54,7 +55,6 @@ eos-quickstart
 eos-rankmirrors
 eos-update-notifier
 ethtool
-evdi
 exfatprogs
 f2fs-tools
 fakeroot
@@ -109,7 +109,6 @@ khotkeys
 kinfocenter
 kinit
 kio-fuse
-kitty
 konsole
 kscreen
 kwallet-pam
@@ -119,6 +118,9 @@ libgsf
 libopenraw
 libtool
 libwnck3
+lightdm
+lightdm-gtk-greeter
+lightdm-gtk-greeter-settings
 linux
 linux-firmware
 linux-headers
@@ -149,6 +151,7 @@ ncdu
 ndisc6
 neofetch
 neomutt
+nerd-fonts-hermit
 netctl
 networkmanager
 networkmanager-openvpn
@@ -183,6 +186,7 @@ plasma-desktop
 plasma-disks
 plasma-nm
 plasma-pa
+plasma-wayland-session
 poppler-glib
 power-profiles-daemon
 powerdevil
@@ -216,6 +220,7 @@ steam
 sudo
 sysfsutils
 systemd-sysvcompat
+terminator
 texinfo
 tilde
 tldr

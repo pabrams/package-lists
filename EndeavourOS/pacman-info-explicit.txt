@@ -9,7 +9,7 @@ Provides        : libaccountsservice.so=0-64
 Depends On      : glib2  polkit  systemd  shadow  libxcrypt  libglib-2.0.so=0-64  libgobject-2.0.so=0-64  libgio-2.0.so=0-64  libsystemd.so=0-64  libcrypt.so=2-64
 Optional Deps   : None
 Required By     : plasma-workspace
-Optional For    : None
+Optional For    : lightdm
 Conflicts With  : None
 Replaces        : None
 Installed Size  : 988.89 KiB
@@ -82,6 +82,28 @@ Installed Size  : 31.19 MiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Wed 02 Jun 2021 11:28:39 AM
 Install Date    : Thu 26 May 2022 06:09:36 PM
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : alacritty
+Version         : 0.10.1-2
+Description     : A cross-platform, GPU-accelerated terminal emulator
+Architecture    : x86_64
+URL             : https://github.com/alacritty/alacritty
+Licenses        : Apache
+Groups          : None
+Provides        : None
+Depends On      : freetype2  fontconfig  libxi  libxcursor  libxrandr
+Optional Deps   : ncurses: for alacritty terminfo database [installed]
+Required By     : None
+Optional For    : eos-quickstart
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 5.63 MiB
+Packager        : kpcyrd <kpcyrd@archlinux.org>
+Build Date      : Fri 27 May 2022 10:36:16 PM
+Install Date    : Tue 28 Jun 2022 07:51:27 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -427,7 +449,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : breeze-gtk
-Version         : 5.25.1-1
+Version         : 5.25.2-1
 Description     : Breeze widget theme for GTK 2 and 3
 Architecture    : any
 URL             : https://kde.org/plasma-desktop/
@@ -442,8 +464,8 @@ Conflicts With  : None
 Replaces        : None
 Installed Size  : 1171.33 KiB
 Packager        : Antonio Rojas <arojas@archlinux.org>
-Build Date      : Tue 21 Jun 2022 08:33:12 AM
-Install Date    : Sat 25 Jun 2022 08:23:59 AM
+Build Date      : Tue 28 Jun 2022 09:54:38 AM
+Install Date    : Wed 29 Jun 2022 08:14:17 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -561,7 +583,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : ddgr
-Version         : 1.9-1
+Version         : 2.0-1
 Description     : DuckDuckGo from the terminal
 Architecture    : any
 URL             : https://github.com/jarun/ddgr
@@ -574,10 +596,10 @@ Required By     : None
 Optional For    : None
 Conflicts With  : ddgr-git
 Replaces        : None
-Installed Size  : 90.85 KiB
+Installed Size  : 92.14 KiB
 Packager        : Unknown Packager
-Build Date      : Fri 27 May 2022 03:53:54 AM
-Install Date    : Fri 27 May 2022 03:53:56 AM
+Build Date      : Sun 26 Jun 2022 03:06:53 AM
+Install Date    : Sun 26 Jun 2022 03:07:21 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : None
@@ -712,8 +734,8 @@ Conflicts With  : None
 Replaces        : None
 Installed Size  : 13.11 MiB
 Packager        : Unknown Packager
-Build Date      : Tue 14 Jun 2022 01:55:17 AM
-Install Date    : Sat 25 Jun 2022 03:17:45 PM
+Build Date      : Wed 29 Jun 2022 08:42:07 AM
+Install Date    : Wed 29 Jun 2022 08:42:11 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : None
@@ -1181,7 +1203,7 @@ Optional Deps   : konsole [installed]
                   gnome-terminal
                   xfce4-terminal
                   xterm [installed]
-                  alacritty
+                  alacritty [installed]
                   lxterminal
 Required By     : welcome
 Optional For    : None
@@ -1264,28 +1286,6 @@ Install Date    : Sat 25 Jun 2022 08:24:06 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
-
-Name            : evdi
-Version         : 1.11.0-2
-Description     : A Linux® kernel module that enables management of multiple screens.
-Architecture    : x86_64
-URL             : https://github.com/DisplayLink/evdi
-Licenses        : GPL
-Groups          : None
-Provides        : None
-Depends On      : glibc  dkms  libdrm
-Optional Deps   : None
-Required By     : displaylink
-Optional For    : None
-Conflicts With  : None
-Replaces        : None
-Installed Size  : 185.42 KiB
-Packager        : Unknown Packager
-Build Date      : Tue 14 Jun 2022 01:59:26 AM
-Install Date    : Sat 25 Jun 2022 03:16:25 PM
-Install Reason  : Explicitly installed
-Install Script  : No
-Validated By    : None
 
 Name            : exfatprogs
 Version         : 1.1.3-1
@@ -1420,7 +1420,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : firefox
-Version         : 101.0.1-1
+Version         : 102.0-1
 Description     : Standalone web browser from mozilla.org
 Architecture    : x86_64
 URL             : https://www.mozilla.org/firefox/
@@ -1438,10 +1438,10 @@ Required By     : None
 Optional For    : None
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 233.82 MiB
+Installed Size  : 232.55 MiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
-Build Date      : Thu 09 Jun 2022 12:35:15 PM
-Install Date    : Sat 25 Jun 2022 08:24:07 AM
+Build Date      : Mon 27 Jun 2022 01:45:05 PM
+Install Date    : Wed 29 Jun 2022 08:14:18 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -1633,7 +1633,7 @@ Install Script  : Yes
 Validated By    : Signature
 
 Name            : git
-Version         : 2.36.1-1
+Version         : 2.37.0-1
 Description     : the fast distributed version control system
 Architecture    : x86_64
 URL             : https://git-scm.com/
@@ -1658,10 +1658,10 @@ Required By     : yay
 Optional For    : gettext  ktexteditor  pass
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 33.74 MiB
+Installed Size  : 34.47 MiB
 Packager        : Christian Hesse <eworm@archlinux.org>
-Build Date      : Sat 07 May 2022 10:10:37 AM
-Install Date    : Thu 26 May 2022 06:09:34 PM
+Build Date      : Mon 27 Jun 2022 03:28:05 PM
+Install Date    : Wed 29 Jun 2022 08:14:18 AM
 Install Reason  : Explicitly installed
 Install Script  : Yes
 Validated By    : Signature
@@ -1761,7 +1761,7 @@ Install Script  : No
 Validated By    : None
 
 Name            : google-chrome
-Version         : 102.0.5005.61-1
+Version         : 103.0.5060.53-1
 Description     : The popular and trusted web browser by Google (Stable Channel)
 Architecture    : x86_64
 URL             : https://www.google.com/chrome
@@ -1777,10 +1777,10 @@ Required By     : None
 Optional For    : None
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 264.03 MiB
+Installed Size  : 267.43 MiB
 Packager        : Unknown Packager
-Build Date      : Fri 03 Jun 2022 12:26:44 AM
-Install Date    : Fri 03 Jun 2022 12:27:45 AM
+Build Date      : Sun 26 Jun 2022 03:07:23 AM
+Install Date    : Sun 26 Jun 2022 03:07:32 AM
 Install Reason  : Explicitly installed
 Install Script  : Yes
 Validated By    : None
@@ -2435,7 +2435,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : kde-gtk-config
-Version         : 5.25.1-1
+Version         : 5.25.2-1
 Description     : GTK2 and GTK3 Configurator for KDE
 Architecture    : x86_64
 URL             : https://kde.org/plasma-desktop/
@@ -2451,8 +2451,8 @@ Conflicts With  : None
 Replaces        : None
 Installed Size  : 285.73 KiB
 Packager        : Antonio Rojas <arojas@archlinux.org>
-Build Date      : Tue 21 Jun 2022 08:35:49 AM
-Install Date    : Sat 25 Jun 2022 08:24:15 AM
+Build Date      : Tue 28 Jun 2022 09:57:15 AM
+Install Date    : Wed 29 Jun 2022 08:14:18 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -2482,7 +2482,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : khotkeys
-Version         : 5.25.1-1
+Version         : 5.25.2-1
 Description     : KHotKeys
 Architecture    : x86_64
 URL             : https://kde.org/plasma-desktop/
@@ -2497,14 +2497,14 @@ Conflicts With  : None
 Replaces        : None
 Installed Size  : 3.92 MiB
 Packager        : Antonio Rojas <arojas@archlinux.org>
-Build Date      : Tue 21 Jun 2022 08:26:40 AM
-Install Date    : Sat 25 Jun 2022 08:24:19 AM
+Build Date      : Tue 28 Jun 2022 09:48:01 AM
+Install Date    : Wed 29 Jun 2022 08:14:19 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
 
 Name            : kinfocenter
-Version         : 5.25.1-1
+Version         : 5.25.2-1
 Description     : A utility that provides information about a computer system
 Architecture    : x86_64
 URL             : https://kde.org/plasma-desktop/
@@ -2519,8 +2519,8 @@ Conflicts With  : None
 Replaces        : None
 Installed Size  : 3.49 MiB
 Packager        : Antonio Rojas <arojas@archlinux.org>
-Build Date      : Tue 21 Jun 2022 08:28:42 AM
-Install Date    : Sat 25 Jun 2022 08:24:19 AM
+Build Date      : Tue 28 Jun 2022 09:50:04 AM
+Install Date    : Wed 29 Jun 2022 08:14:19 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -2569,30 +2569,6 @@ Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
 
-Name            : kitty
-Version         : 0.25.2-1
-Description     : A modern, hackable, featureful, OpenGL-based terminal emulator
-Architecture    : x86_64
-URL             : https://github.com/kovidgoyal/kitty
-Licenses        : GPL3
-Groups          : None
-Provides        : None
-Depends On      : python3  freetype2  fontconfig  wayland  libx11  libxkbcommon-x11  libxi  hicolor-icon-theme  libgl  dbus  lcms2  librsync  kitty-terminfo  kitty-shell-integration
-Optional Deps   : imagemagick: viewing images with icat [installed]
-                  python-pygments: syntax highlighting in kitty +kitten diff
-                  libcanberra: playing "bell" sound on terminal bell [installed]
-Required By     : None
-Optional For    : None
-Conflicts With  : None
-Replaces        : None
-Installed Size  : 22.20 MiB
-Packager        : Sven-Hendrik Haase <svenstaro@gmail.com>
-Build Date      : Wed 08 Jun 2022 02:34:33 PM
-Install Date    : Sat 25 Jun 2022 08:24:19 AM
-Install Reason  : Explicitly installed
-Install Script  : No
-Validated By    : Signature
-
 Name            : konsole
 Version         : 22.04.2-1
 Description     : KDE terminal emulator
@@ -2616,7 +2592,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : kscreen
-Version         : 5.25.1-1
+Version         : 5.25.2-1
 Description     : KDE screen management software
 Architecture    : x86_64
 URL             : https://kde.org/plasma-desktop/
@@ -2631,14 +2607,14 @@ Conflicts With  : None
 Replaces        : None
 Installed Size  : 905.25 KiB
 Packager        : Antonio Rojas <arojas@archlinux.org>
-Build Date      : Tue 21 Jun 2022 08:38:46 AM
-Install Date    : Sat 25 Jun 2022 08:24:19 AM
+Build Date      : Tue 28 Jun 2022 10:00:12 AM
+Install Date    : Wed 29 Jun 2022 08:14:19 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
 
 Name            : kwallet-pam
-Version         : 5.25.1-1
+Version         : 5.25.2-1
 Description     : KWallet PAM integration
 Architecture    : x86_64
 URL             : https://kde.org/plasma-desktop/
@@ -2653,8 +2629,8 @@ Conflicts With  : None
 Replaces        : None
 Installed Size  : 30.96 KiB
 Packager        : Antonio Rojas <arojas@archlinux.org>
-Build Date      : Tue 21 Jun 2022 08:39:49 AM
-Install Date    : Sat 25 Jun 2022 08:24:19 AM
+Build Date      : Tue 28 Jun 2022 10:01:16 AM
+Install Date    : Wed 29 Jun 2022 08:14:19 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -2726,7 +2702,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : libopenraw
-Version         : 0.3.1-1
+Version         : 0.3.2-1
 Description     : Library for decoding RAW files
 Architecture    : x86_64
 URL             : https://libopenraw.freedesktop.org/
@@ -2739,10 +2715,10 @@ Required By     : None
 Optional For    : gdk-pixbuf2
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 2.38 MiB
+Installed Size  : 3.84 MiB
 Packager        : Frederik Schwan <freswa@archlinux.org>
-Build Date      : Mon 18 Apr 2022 05:16:30 PM
-Install Date    : Thu 26 May 2022 06:09:35 PM
+Build Date      : Mon 27 Jun 2022 10:15:21 AM
+Install Date    : Wed 29 Jun 2022 08:14:19 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -2791,11 +2767,79 @@ Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
 
+Name            : lightdm
+Version         : 1:1.30.0-4
+Description     : A lightweight display manager
+Architecture    : x86_64
+URL             : https://github.com/canonical/lightdm
+Licenses        : GPL3  LGPL3
+Groups          : None
+Provides        : None
+Depends On      : glib2  libgcrypt  libx11  libxcb  libxdmcp  libxklavier  pam  polkit
+Optional Deps   : accountsservice: Enhanced user accounts handling [installed]
+                  lightdm-gtk-greeter: GTK greeter [installed]
+                  xorg-server-xephyr: LightDM test mode
+Required By     : lightdm-gtk-greeter
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 1103.48 KiB
+Packager        : Tobias Powalowski <tpowa@archlinux.org>
+Build Date      : Fri 14 Aug 2020 08:54:32 AM
+Install Date    : Wed 29 Jun 2022 11:27:37 PM
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : lightdm-gtk-greeter
+Version         : 1:2.0.8-2
+Description     : GTK+ greeter for LightDM
+Architecture    : x86_64
+URL             : https://github.com/Xubuntu/lightdm-gtk-greeter
+Licenses        : GPL3  LGPL3
+Groups          : None
+Provides        : None
+Depends On      : gtk3  lightdm
+Optional Deps   : None
+Required By     : lightdm-gtk-greeter-settings
+Optional For    : lightdm
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 324.21 KiB
+Packager        : Evangelos Foutras <foutrelis@archlinux.org>
+Build Date      : Sun 06 Mar 2022 10:46:37 AM
+Install Date    : Wed 29 Jun 2022 11:27:37 PM
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : lightdm-gtk-greeter-settings
+Version         : 1.2.2-7
+Description     : Settings editor for the LightDM GTK+ Greeter
+Architecture    : any
+URL             : https://github.com/xubuntu/lightdm-gtk-greeter-settings
+Licenses        : GPL3
+Groups          : None
+Provides        : None
+Depends On      : gtk-update-icon-cache  lightdm-gtk-greeter  python-gobject
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 936.85 KiB
+Packager        : Felix Yan <felixonmars@archlinux.org>
+Build Date      : Thu 02 Dec 2021 06:33:00 PM
+Install Date    : Wed 29 Jun 2022 11:27:37 PM
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
 Name            : linux
-Version         : 5.18.6.arch1-1
+Version         : 5.18.7.arch1-1
 Description     : The Linux kernel and modules
 Architecture    : x86_64
-URL             : https://github.com/archlinux/linux/commits/v5.18.6-arch1
+URL             : https://github.com/archlinux/linux/commits/v5.18.7-arch1
 Licenses        : GPL2
 Groups          : None
 Provides        : VIRTUALBOX-GUEST-MODULES  WIREGUARD-MODULE
@@ -2806,10 +2850,10 @@ Required By     : None
 Optional For    : base
 Conflicts With  : None
 Replaces        : virtualbox-guest-modules-arch  wireguard-arch
-Installed Size  : 174.55 MiB
+Installed Size  : 174.48 MiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
-Build Date      : Wed 22 Jun 2022 02:10:56 PM
-Install Date    : Sat 25 Jun 2022 08:24:21 AM
+Build Date      : Sat 25 Jun 2022 04:22:01 PM
+Install Date    : Wed 29 Jun 2022 08:14:20 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -2831,16 +2875,16 @@ Replaces        : None
 Installed Size  : 164.42 MiB
 Packager        : Laurent Carlier <lordheavym@archlinux.org>
 Build Date      : Tue 21 Jun 2022 11:42:09 AM
-Install Date    : Sat 25 Jun 2022 08:24:22 AM
+Install Date    : Wed 29 Jun 2022 08:18:24 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
 
 Name            : linux-headers
-Version         : 5.18.6.arch1-1
+Version         : 5.18.7.arch1-1
 Description     : Headers and scripts for building modules for the Linux kernel
 Architecture    : x86_64
-URL             : https://github.com/archlinux/linux/commits/v5.18.6-arch1
+URL             : https://github.com/archlinux/linux/commits/v5.18.7-arch1
 Licenses        : GPL2
 Groups          : None
 Provides        : None
@@ -2852,8 +2896,8 @@ Conflicts With  : None
 Replaces        : None
 Installed Size  : 141.78 MiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
-Build Date      : Wed 22 Jun 2022 02:10:56 PM
-Install Date    : Sat 25 Jun 2022 08:24:28 AM
+Build Date      : Sat 25 Jun 2022 04:22:01 PM
+Install Date    : Wed 29 Jun 2022 08:14:22 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -3277,7 +3321,7 @@ Install Script  : Yes
 Validated By    : Signature
 
 Name            : modemmanager
-Version         : 1.18.8-1
+Version         : 1.18.10-1
 Description     : Mobile broadband modem management service
 Architecture    : x86_64
 URL             : https://www.freedesktop.org/wiki/Software/ModemManager/
@@ -3290,10 +3334,10 @@ Required By     : modemmanager-qt
 Optional For    : networkmanager
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 5.38 MiB
+Installed Size  : 5.39 MiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
-Build Date      : Thu 28 Apr 2022 04:09:50 PM
-Install Date    : Thu 26 May 2022 06:09:34 PM
+Build Date      : Sat 25 Jun 2022 04:29:50 PM
+Install Date    : Wed 29 Jun 2022 08:14:22 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -3488,6 +3532,28 @@ Install Date    : Thu 26 May 2022 10:20:21 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
+
+Name            : nerd-fonts-hermit
+Version         : 2.1.0-2
+Description     : Patched font Hermit (Hurmit) from the nerd-fonts library
+Architecture    : any
+URL             : https://github.com/ryanoasis/nerd-fonts
+Licenses        : MIT
+Groups          : None
+Provides        : None
+Depends On      : None
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 15.44 MiB
+Packager        : Unknown Packager
+Build Date      : Tue 28 Jun 2022 07:46:51 AM
+Install Date    : Tue 28 Jun 2022 08:13:49 PM
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : None
 
 Name            : netctl
 Version         : 1.28-1
@@ -3710,7 +3776,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : npm
-Version         : 8.5.5-1
+Version         : 8.8.0-1
 Description     : A package manager for javascript
 Architecture    : any
 URL             : https://www.npmjs.com/
@@ -3723,10 +3789,10 @@ Required By     : None
 Optional For    : nodejs-lts-gallium
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 6.05 MiB
+Installed Size  : 6.13 MiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
-Build Date      : Fri 18 Mar 2022 03:34:19 PM
-Install Date    : Fri 27 May 2022 04:18:41 AM
+Build Date      : Wed 29 Jun 2022 09:52:58 AM
+Install Date    : Wed 29 Jun 2022 07:27:26 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -4195,7 +4261,7 @@ Install Script  : Yes
 Validated By    : Signature
 
 Name            : plasma-desktop
-Version         : 5.25.1-1
+Version         : 5.25.2-1
 Description     : KDE Plasma Desktop
 Architecture    : x86_64
 URL             : https://kde.org/plasma-desktop/
@@ -4214,16 +4280,16 @@ Required By     : None
 Optional For    : None
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 22.36 MiB
+Installed Size  : 22.37 MiB
 Packager        : Antonio Rojas <arojas@archlinux.org>
-Build Date      : Tue 21 Jun 2022 08:41:40 AM
-Install Date    : Sat 25 Jun 2022 08:24:31 AM
+Build Date      : Tue 28 Jun 2022 10:03:07 AM
+Install Date    : Wed 29 Jun 2022 08:14:22 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
 
 Name            : plasma-disks
-Version         : 5.25.1-1
+Version         : 5.25.2-1
 Description     : Monitors S.M.A.R.T. capable devices for imminent failure
 Architecture    : x86_64
 URL             : https://kde.org/plasma-desktop/
@@ -4238,14 +4304,14 @@ Conflicts With  : None
 Replaces        : None
 Installed Size  : 431.93 KiB
 Packager        : Antonio Rojas <arojas@archlinux.org>
-Build Date      : Tue 21 Jun 2022 08:45:20 AM
-Install Date    : Sat 25 Jun 2022 08:24:31 AM
+Build Date      : Tue 28 Jun 2022 10:06:41 AM
+Install Date    : Wed 29 Jun 2022 08:14:22 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
 
 Name            : plasma-nm
-Version         : 5.25.1-1
+Version         : 5.25.2-1
 Description     : Plasma applet written in QML for managing network connections
 Architecture    : x86_64
 URL             : https://kde.org/plasma-desktop/
@@ -4260,14 +4326,14 @@ Conflicts With  : None
 Replaces        : None
 Installed Size  : 8.21 MiB
 Packager        : Antonio Rojas <arojas@archlinux.org>
-Build Date      : Tue 21 Jun 2022 08:46:57 AM
-Install Date    : Sat 25 Jun 2022 08:24:31 AM
+Build Date      : Tue 28 Jun 2022 10:08:18 AM
+Install Date    : Wed 29 Jun 2022 08:14:22 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
 
 Name            : plasma-pa
-Version         : 5.25.1-1
+Version         : 5.25.2-1
 Description     : Plasma applet for audio volume management using PulseAudio
 Architecture    : x86_64
 URL             : https://kde.org/plasma-desktop/
@@ -4282,8 +4348,30 @@ Conflicts With  : None
 Replaces        : None
 Installed Size  : 985.35 KiB
 Packager        : Antonio Rojas <arojas@archlinux.org>
-Build Date      : Tue 21 Jun 2022 08:48:50 AM
-Install Date    : Sat 25 Jun 2022 08:24:31 AM
+Build Date      : Tue 28 Jun 2022 10:10:11 AM
+Install Date    : Wed 29 Jun 2022 08:14:22 AM
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : plasma-wayland-session
+Version         : 5.25.2-1
+Description     : Plasma Wayland session
+Architecture    : x86_64
+URL             : https://kde.org/plasma-desktop/
+Licenses        : LGPL
+Groups          : None
+Provides        : None
+Depends On      : plasma-workspace  qt5-wayland  kwayland-integration  xorg-xwayland
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 3.32 KiB
+Packager        : Antonio Rojas <arojas@archlinux.org>
+Build Date      : Tue 28 Jun 2022 09:39:51 AM
+Install Date    : Wed 29 Jun 2022 08:14:22 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -4311,7 +4399,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : power-profiles-daemon
-Version         : 0.11.1-1
+Version         : 0.12-1
 Description     : Makes power profiles handling available over D-Bus
 Architecture    : x86_64
 URL             : https://gitlab.freedesktop.org/hadess/power-profiles-daemon
@@ -4324,16 +4412,16 @@ Required By     : None
 Optional For    : powerdevil
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 77.65 KiB
+Installed Size  : 81.64 KiB
 Packager        : Antonio Rojas <arojas@archlinux.org>
-Build Date      : Mon 02 May 2022 02:01:20 PM
-Install Date    : Thu 26 May 2022 06:09:36 PM
+Build Date      : Tue 28 Jun 2022 11:16:39 AM
+Install Date    : Wed 29 Jun 2022 08:14:22 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
 
 Name            : powerdevil
-Version         : 5.25.1-1
+Version         : 5.25.2-1
 Description     : Manages the power consumption settings of a Plasma Shell
 Architecture    : x86_64
 URL             : https://kde.org/plasma-desktop/
@@ -4349,8 +4437,8 @@ Conflicts With  : None
 Replaces        : None
 Installed Size  : 2.69 MiB
 Packager        : Antonio Rojas <arojas@archlinux.org>
-Build Date      : Tue 21 Jun 2022 08:30:27 AM
-Install Date    : Sat 25 Jun 2022 08:24:31 AM
+Build Date      : Tue 28 Jun 2022 09:51:50 AM
+Install Date    : Wed 29 Jun 2022 08:14:22 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -4458,7 +4546,7 @@ Optional Deps   : python-setuptools [installed]
                   mpdecimal: for decimal
                   xz: for lzma [installed]
                   tk: for tkinter
-Required By     : bind  ddgr  fwupd  gameconqueror  glances  kitty  kitty-shell-integration  node-gyp  nvidia-installer-dkms  pahole  pcsclite  python-appdirs  python-cairo  python-certifi  python-colorama  python-defusedxml  python-future  python-gobject  python-jaraco.context  python-more-itertools  python-ordered-set  python-ply  python-psutil  python-pyparsing  python-pyqt5-sip  python-shtab  python-termcolor  python-tomli  python-trove-classifiers  python-yaml  python-zipp  reflector  smbclient  steam
+Required By     : bind  ddgr  fwupd  gameconqueror  glances  kitty-shell-integration  node-gyp  nvidia-installer-dkms  pahole  pcsclite  python-appdirs  python-cairo  python-certifi  python-colorama  python-defusedxml  python-future  python-gobject  python-jaraco.context  python-more-itertools  python-ordered-set  python-ply  python-psutil  python-pyparsing  python-pyqt5-sip  python-shtab  python-six  python-termcolor  python-tomli  python-trove-classifiers  python-yaml  python-zipp  reflector  smbclient  steam
 Optional For    : btrfs-progs  git  glib2  graphviz  gstreamer  gtk2  gupnp  imath  ki18n  ldb  lensfun  libbytesize  libevent  libftdi  libieee1284  libnewt  libproxy  libsmbios  libxml2  libxslt  lilv  mc  neomutt  net-snmp  nfs-utils  nftables  openconnect  talloc  tdb  tevent  usbutils  util-linux  volume_key  xfsprogs  zbar
 Conflicts With  : None
 Replaces        : python3
@@ -4749,7 +4837,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : sddm-kcm
-Version         : 5.25.1-1
+Version         : 5.25.2-1
 Description     : KDE Config Module for SDDM
 Architecture    : x86_64
 URL             : https://kde.org/plasma-desktop/
@@ -4764,8 +4852,8 @@ Conflicts With  : None
 Replaces        : None
 Installed Size  : 450.41 KiB
 Packager        : Antonio Rojas <arojas@archlinux.org>
-Build Date      : Tue 21 Jun 2022 08:53:19 AM
-Install Date    : Sat 25 Jun 2022 08:24:32 AM
+Build Date      : Tue 28 Jun 2022 10:14:31 AM
+Install Date    : Wed 29 Jun 2022 08:14:22 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -5035,6 +5123,28 @@ Installed Size  : 2.36 KiB
 Packager        : Christian Hesse <eworm@archlinux.org>
 Build Date      : Thu 02 Jun 2022 02:32:08 PM
 Install Date    : Sat 25 Jun 2022 08:24:32 AM
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : terminator
+Version         : 2.1.1-3
+Description     : Terminal emulator that supports tabs and grids
+Architecture    : any
+URL             : https://github.com/gnome-terminator/terminator
+Licenses        : GPL2
+Groups          : None
+Provides        : None
+Depends On      : gsettings-desktop-schemas  libkeybinder3  libnotify  python-cairo  python-configobj  python-dbus  python-psutil  python-gobject  vte3  xdg-utils
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 2.52 MiB
+Packager        : Evangelos Foutras <foutrelis@archlinux.org>
+Build Date      : Thu 02 Dec 2021 07:06:45 PM
+Install Date    : Tue 28 Jun 2022 07:44:15 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -5327,7 +5437,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : visual-studio-code-bin
-Version         : 1.67.2-1
+Version         : 1.68.1-1
 Description     : Visual Studio Code (vscode): Editor for building and debugging modern web and cloud applications (official binary version)
 Architecture    : x86_64
 URL             : https://code.visualstudio.com/
@@ -5343,10 +5453,10 @@ Required By     : None
 Optional For    : None
 Conflicts With  : code
 Replaces        : None
-Installed Size  : 281.34 MiB
+Installed Size  : 284.89 MiB
 Packager        : Unknown Packager
-Build Date      : Thu 26 May 2022 06:34:26 PM
-Install Date    : Thu 26 May 2022 06:37:24 PM
+Build Date      : Sun 26 Jun 2022 03:07:37 AM
+Install Date    : Sun 26 Jun 2022 03:07:49 AM
 Install Reason  : Explicitly installed
 Install Script  : Yes
 Validated By    : None
@@ -5627,7 +5737,7 @@ Optional Deps   : kde-cli-tools: for KDE Plasma5 support in xdg-open [installed]
                   perl-file-mimeinfo: for generic support in xdg-open
                   perl-net-dbus: Perl extension to dbus used in xdg-screensaver
                   perl-x11-protocol: Perl X11 protocol used in xdg-screensaver
-Required By     : eos-bash-shared  eos-update-notifier  google-chrome  mpv  openconnect  qt5-base  qt6-base  visual-studio-code-bin
+Required By     : eos-bash-shared  eos-update-notifier  google-chrome  mpv  openconnect  qt5-base  qt6-base  terminator  visual-studio-code-bin
 Optional For    : electron17
 Conflicts With  : None
 Replaces        : None
@@ -5922,7 +6032,7 @@ Replaces        : None
 Installed Size  : 1829.43 KiB
 Packager        : Antonio Rojas <arojas@archlinux.org>
 Build Date      : Tue 07 Jun 2022 02:01:39 PM
-Install Date    : Sat 25 Jun 2022 08:24:32 AM
+Install Date    : Tue 28 Jun 2022 07:52:18 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -5973,7 +6083,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : yt-dlp
-Version         : 2022.06.22.1-1
+Version         : 2022.06.29-1
 Description     : A youtube-dl fork with additional features and fixes
 Architecture    : any
 URL             : https://github.com/yt-dlp/yt-dlp
@@ -5992,10 +6102,10 @@ Required By     : None
 Optional For    : mpv  smplayer
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 19.86 MiB
+Installed Size  : 19.92 MiB
 Packager        : Antonio Rojas <arojas@archlinux.org>
-Build Date      : Wed 22 Jun 2022 02:08:37 AM
-Install Date    : Sat 25 Jun 2022 08:24:33 AM
+Build Date      : Wed 29 Jun 2022 10:29:43 AM
+Install Date    : Wed 29 Jun 2022 07:27:27 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature

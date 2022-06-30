@@ -187,5 +187,3 @@ yay -S rkhunter --noconfirm
 
 # nerd fonts
 yay -S nerd-fonts-hermit --noconfirm
-
-
