@@ -30,7 +30,6 @@ dhclient
 dialog
 diffutils
 digikam
-displaylink
 dmidecode
 dmraid
 dnsmasq

@@ -718,28 +718,6 @@ Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
 
-Name            : displaylink
-Version         : 5.6-1
-Description     : Linux driver for DL-6xxx, DL-5xxx, DL-41xx and DL-3x00
-Architecture    : x86_64
-URL             : https://www.synaptics.com/products/displaylink-graphics
-Licenses        : custom  GPL2  LGPL2.1
-Groups          : None
-Provides        : None
-Depends On      : evdi>=1.10.1  libusb>=1.0.0
-Optional Deps   : None
-Required By     : None
-Optional For    : None
-Conflicts With  : None
-Replaces        : None
-Installed Size  : 13.11 MiB
-Packager        : Unknown Packager
-Build Date      : Wed 29 Jun 2022 08:42:07 AM
-Install Date    : Wed 29 Jun 2022 08:42:11 AM
-Install Reason  : Explicitly installed
-Install Script  : No
-Validated By    : None
-
 Name            : dmidecode
 Version         : 3.3-1
 Description     : Desktop Management Interface table related utilities
