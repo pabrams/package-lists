@@ -11,6 +11,7 @@ audiocd-kio
 autoconf
 automake
 b43-fwcutter
+barrier
 base
 bash-completion
 bind
@@ -115,6 +116,7 @@ less
 libdvdcss
 libgsf
 libopenraw
+libreoffice-still
 libtool
 libwnck3
 lightdm
@@ -206,6 +208,7 @@ rkhunter
 rp-pppoe
 rsync
 s-nail
+samba
 sddm-kcm
 sed
 sg3_utils
