@@ -116,7 +116,6 @@ less
 libdvdcss
 libgsf
 libopenraw
-libreoffice-still
 libtool
 libwnck3
 lightdm
@@ -145,8 +144,6 @@ mkinitcpio-openswap
 mlocate
 modemmanager
 mtools
-nano
-nano-syntax-highlighting
 nbd
 ncdu
 ndisc6
@@ -156,13 +153,12 @@ nerd-fonts-hermit
 netctl
 networkmanager
 networkmanager-openvpn
+newsboat
 nfs-utils
 nilfs-utils
 nitrogen
 nmap
-nodejs-lts-gallium
 noto-fonts
-npm
 nss-mdns
 ntfs-3g
 ntp
@@ -227,6 +223,7 @@ texinfo
 tilde
 tldr
 tmux
+traceroute
 ttf-bitstream-vera
 ttf-dejavu
 ttf-liberation
@@ -245,6 +242,7 @@ which
 whois
 wireless-regdb
 wireless_tools
+wireplumber
 wpa_supplicant
 xbindkeys
 xdg-user-dirs
@@ -262,7 +260,6 @@ xsettingsd
 xterm
 yad-eos
 yakuake
-yarn
 yay
 yt-dlp
 zettlr

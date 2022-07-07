@@ -383,7 +383,7 @@ Install Script  : Yes
 Validated By    : Signature
 
 Name            : binutils
-Version         : 2.38-5
+Version         : 2.38-6
 Description     : A set of programs to assemble and manipulate binary and object files
 Architecture    : x86_64
 URL             : https://www.gnu.org/software/binutils/
@@ -396,10 +396,10 @@ Required By     : gcc  mkinitcpio
 Optional For    : None
 Conflicts With  : binutils-multilib
 Replaces        : binutils-multilib
-Installed Size  : 30.90 MiB
-Packager        : Frederik Schwan <freswa@archlinux.org>
-Build Date      : Fri 06 May 2022 12:22:37 PM
-Install Date    : Thu 26 May 2022 06:07:28 PM
+Installed Size  : 30.91 MiB
+Packager        : Evangelos Foutras <foutrelis@archlinux.org>
+Build Date      : Mon 27 Jun 2022 05:56:44 PM
+Install Date    : Wed 06 Jul 2022 07:26:57 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -493,7 +493,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : broot
-Version         : 1.13.3-1
+Version         : 1.14.0-1
 Description     : Fuzzy Search + tree + cd
 Architecture    : x86_64
 URL             : https://github.com/Canop/broot
@@ -506,16 +506,16 @@ Required By     : None
 Optional For    : None
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 7.52 MiB
+Installed Size  : 7.37 MiB
 Packager        : Orhun Parmaksız <orhun@archlinux.org>
-Build Date      : Sun 19 Jun 2022 03:32:50 PM
-Install Date    : Sat 25 Jun 2022 08:23:59 AM
+Build Date      : Tue 05 Jul 2022 05:15:29 PM
+Install Date    : Wed 06 Jul 2022 07:26:57 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
 
 Name            : btop
-Version         : 1.2.7-1
+Version         : 1.2.8-1
 Description     : A monitor of system resources, bpytop ported to C++
 Architecture    : x86_64
 URL             : https://github.com/aristocratos/btop
@@ -528,10 +528,10 @@ Required By     : None
 Optional For    : None
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 1254.54 KiB
+Installed Size  : 1271.17 KiB
 Packager        : Caleb Maclennan <alerque@archlinux.org>
-Build Date      : Sat 28 May 2022 03:27:37 PM
-Install Date    : Wed 01 Jun 2022 03:16:05 PM
+Build Date      : Wed 29 Jun 2022 01:01:08 PM
+Install Date    : Wed 06 Jul 2022 07:26:57 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -741,7 +741,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : dmidecode
-Version         : 3.3-1
+Version         : 3.4-1
 Description     : Desktop Management Interface table related utilities
 Architecture    : x86_64
 URL             : https://www.nongnu.org/dmidecode
@@ -754,10 +754,10 @@ Required By     : kinfocenter
 Optional For    : flashrom  inxi
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 200.06 KiB
+Installed Size  : 209.45 KiB
 Packager        : Jelle van der Waa <jelle@archlinux.org>
-Build Date      : Thu 15 Oct 2020 08:05:05 AM
-Install Date    : Thu 26 May 2022 06:09:36 PM
+Build Date      : Sun 03 Jul 2022 11:39:23 AM
+Install Date    : Wed 06 Jul 2022 07:26:57 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -1250,7 +1250,7 @@ Provides        : None
 Depends On      : eos-bash-shared  pacman-contrib  xdg-utils
 Optional Deps   : yay: alternative AUR helper supported by eos-update-notifier [installed]
                   paru: alternative AUR helper supported by eos-update-notifier
-                  nano: alternative editor (see EOS_SUDO_EDITORS in /etc/eos-script-lib-yad.conf for more) [installed]
+                  nano: alternative editor (see EOS_SUDO_EDITORS in /etc/eos-script-lib-yad.conf for more)
                   emacs: alternative editor (see EOS_SUDO_EDITORS in /etc/eos-script-lib-yad.conf for more)
                   vim: alternative editor (see EOS_SUDO_EDITORS in /etc/eos-script-lib-yad.conf for more)
 Required By     : None
@@ -1385,7 +1385,7 @@ Groups          : base-devel
 Provides        : libmagic.so=1-64
 Depends On      : glibc  zlib  xz  bzip2  libseccomp  libseccomp.so=2-64
 Optional Deps   : None
-Required By     : base  nano  util-linux  xdg-utils
+Required By     : base  util-linux  xdg-utils
 Optional For    : inxi
 Conflicts With  : None
 Replaces        : None
@@ -1420,7 +1420,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : firefox
-Version         : 102.0-1
+Version         : 102.0.1-1
 Description     : Standalone web browser from mozilla.org
 Architecture    : x86_64
 URL             : https://www.mozilla.org/firefox/
@@ -1438,10 +1438,10 @@ Required By     : None
 Optional For    : None
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 232.55 MiB
+Installed Size  : 232.48 MiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
-Build Date      : Mon 27 Jun 2022 01:45:05 PM
-Install Date    : Wed 29 Jun 2022 08:14:18 AM
+Build Date      : Wed 06 Jul 2022 08:23:07 AM
+Install Date    : Wed 06 Jul 2022 07:27:00 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -1951,7 +1951,7 @@ Provides        : gst-ffmpeg=1.20.3
 Depends On      : gst-plugins-base-libs=1.20.3  bzip2  ffmpeg
 Optional Deps   : None
 Required By     : None
-Optional For    : phonon-qt5-gstreamer  qt5-multimedia  webkit2gtk
+Optional For    : phonon-qt5-gstreamer  qt5-multimedia  webkit2gtk  webkit2gtk-4.1
 Conflicts With  : None
 Replaces        : None
 Installed Size  : 234.48 KiB
@@ -1963,7 +1963,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : gst-plugin-pipewire
-Version         : 1:0.3.52-2
+Version         : 1:0.3.53-3
 Description     : Multimedia graph framework - pipewire plugin
 Architecture    : x86_64
 URL             : https://pipewire.org
@@ -1977,9 +1977,9 @@ Optional For    : pipewire
 Conflicts With  : None
 Replaces        : None
 Installed Size  : 127.21 KiB
-Packager        : David Runge <dvzrv@archlinux.org>
-Build Date      : Tue 14 Jun 2022 02:40:51 PM
-Install Date    : Sat 25 Jun 2022 08:24:09 AM
+Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+Build Date      : Tue 05 Jul 2022 06:48:18 PM
+Install Date    : Wed 06 Jul 2022 07:27:00 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -1995,7 +1995,7 @@ Provides        : None
 Depends On      : gst-plugins-bad-libs=1.20.3  aom  libass  libbs2b  bzip2  chromaprint  pango  lcms2  curl  libxml2  libdc1394  libde265  openssl  libdca  faac  faad2  libfdk-aac  fluidsynth  libgme  nettle  libkate  liblrdf  lilv  libmodplug  mjpegtools  libmpcdec  neon  openal  openexr  openjpeg2  opus  libdvdnav  libdvdread  librsvg  rtmpdump  sbc  libsndfile  libltc  soundtouch  spandsp  srt  libsrtp  zvbi  vulkan-icd-loader  libxcb  wayland  libwebp  libnice  webrtc-audio-processing  wildmidi  x265  zbar  gsm  libopenmpt  libldac  libfreeaptx  qrencode  json-glib  libavtp  libmicrodns  svt-hevc  zxing-cpp
 Optional Deps   : None
 Required By     : None
-Optional For    : phonon-qt5-gstreamer  qt5-multimedia  webcamoid  webkit2gtk
+Optional For    : phonon-qt5-gstreamer  qt5-multimedia  webcamoid  webkit2gtk  webkit2gtk-4.1
 Conflicts With  : None
 Replaces        : None
 Installed Size  : 3.92 MiB
@@ -2723,42 +2723,6 @@ Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
 
-Name            : libreoffice-still
-Version         : 7.2.7-3
-Description     : LibreOffice maintenance branch
-Architecture    : x86_64
-URL             : https://www.libreoffice.org/
-Licenses        : LGPL3
-Groups          : None
-Provides        : libreoffice  libreoffice-en-US
-Depends On      : curl>=7.20.0  hunspell>=1.2.8  python>=3.7  libwpd>=0.9.2  libwps  neon>=0.28.6  pango  nspr  libjpeg  libxrandr  libgl  libxslt  redland  hyphen  lpsolve  gcc-libs  sh  graphite  icu  lcms2  poppler>=0.24.0  libvisio  libetonyek  libodfgen  libcdr  libmspub  harfbuzz-icu  nss  clucene  hicolor-icon-theme  desktop-file-utils  shared-mime-info  libpagemaker  libxinerama  libabw  libmwaw  libe-book  libcups  liblangtag  libexttextcat  liborcus  libtommath  libzmf  libatomic_ops  xmlsec  gpgme  libnumbertext  libfreehand  libstaroffice  libepubgen  libqxp  libepoxy  box2d  xdg-utils
-Optional Deps   : java-runtime: adds java support
-                  java-environment: required by extension-wiki-publisher and extension-nlpsolver
-                  pstoedit: translates PostScript and PDF graphics into other vector formats
-                  libmythes: for use in thesaurus
-                  beanshell: interactive java -- good for prototyping/macros
-                  libwpg: library for importing and converting WordPerfect Graphics format [installed]
-                  sane: for scanner access [installed]
-                  unixodbc: adds ODBC database support
-                  gst-plugins-base-libs: for multimedia content, e.g. in Impress [installed]
-                  libpaper: takes care of papersize [installed]
-                  postgresql-libs: for postgresql-connector
-                  mariadb-libs: for mysql-connector
-                  coin-or-mp: required by the Calc solver
-                  gtk3: for GTK3 integration [installed]
-                  kio: for KF5 KDE desktop integration [installed]
-Required By     : None
-Optional For    : None
-Conflicts With  : libreoffice-fresh
-Replaces        : None
-Installed Size  : 400.80 MiB
-Packager        : Evangelos Foutras <foutrelis@archlinux.org>
-Build Date      : Mon 13 Jun 2022 06:16:46 AM
-Install Date    : Sat 02 Jul 2022 07:28:06 PM
-Install Reason  : Explicitly installed
-Install Script  : No
-Validated By    : Signature
-
 Name            : libtool
 Version         : 2.4.7-2
 Description     : A generic library support script
@@ -2872,10 +2836,10 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : linux
-Version         : 5.18.7.arch1-1
+Version         : 5.18.9.arch1-1
 Description     : The Linux kernel and modules
 Architecture    : x86_64
-URL             : https://github.com/archlinux/linux/commits/v5.18.7-arch1
+URL             : https://github.com/archlinux/linux/commits/v5.18.9-arch1
 Licenses        : GPL2
 Groups          : None
 Provides        : VIRTUALBOX-GUEST-MODULES  WIREGUARD-MODULE
@@ -2886,10 +2850,10 @@ Required By     : None
 Optional For    : base
 Conflicts With  : None
 Replaces        : virtualbox-guest-modules-arch  wireguard-arch
-Installed Size  : 174.48 MiB
+Installed Size  : 174.49 MiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
-Build Date      : Sat 25 Jun 2022 04:22:01 PM
-Install Date    : Wed 29 Jun 2022 08:14:20 AM
+Build Date      : Sat 02 Jul 2022 05:03:06 PM
+Install Date    : Wed 06 Jul 2022 07:27:05 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -2917,10 +2881,10 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : linux-headers
-Version         : 5.18.7.arch1-1
+Version         : 5.18.9.arch1-1
 Description     : Headers and scripts for building modules for the Linux kernel
 Architecture    : x86_64
-URL             : https://github.com/archlinux/linux/commits/v5.18.7-arch1
+URL             : https://github.com/archlinux/linux/commits/v5.18.9-arch1
 Licenses        : GPL2
 Groups          : None
 Provides        : None
@@ -2932,8 +2896,8 @@ Conflicts With  : None
 Replaces        : None
 Installed Size  : 141.78 MiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
-Build Date      : Sat 25 Jun 2022 04:22:01 PM
-Install Date    : Wed 29 Jun 2022 08:14:22 AM
+Build Date      : Sat 02 Jul 2022 05:03:06 PM
+Install Date    : Wed 06 Jul 2022 07:27:10 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -3242,7 +3206,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : mkinitcpio
-Version         : 31-2
+Version         : 31-3
 Description     : Modular initramfs image creation utility
 Architecture    : any
 URL             : https://github.com/archlinux/mkinitcpio
@@ -3260,10 +3224,10 @@ Required By     : linux  mkinitcpio-openswap
 Optional For    : None
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 112.85 KiB
+Installed Size  : 112.87 KiB
 Packager        : Giancarlo Razzolini <grazzolini@archlinux.org>
-Build Date      : Fri 03 Dec 2021 05:11:24 AM
-Install Date    : Thu 26 May 2022 06:07:30 PM
+Build Date      : Tue 05 Jul 2022 09:58:54 AM
+Install Date    : Wed 06 Jul 2022 07:27:04 PM
 Install Reason  : Explicitly installed
 Install Script  : Yes
 Validated By    : Signature
@@ -3397,50 +3361,6 @@ Installed Size  : 386.03 KiB
 Packager        : David Runge <dvzrv@archlinux.org>
 Build Date      : Tue 07 Jun 2022 04:39:47 AM
 Install Date    : Sat 25 Jun 2022 08:24:28 AM
-Install Reason  : Explicitly installed
-Install Script  : No
-Validated By    : Signature
-
-Name            : nano
-Version         : 6.3-1
-Description     : Pico editor clone with enhancements
-Architecture    : x86_64
-URL             : https://www.nano-editor.org
-Licenses        : GPL
-Groups          : None
-Provides        : None
-Depends On      : ncurses  file  sh
-Optional Deps   : None
-Required By     : nano-syntax-highlighting
-Optional For    : eos-update-notifier
-Conflicts With  : None
-Replaces        : None
-Installed Size  : 2.48 MiB
-Packager        : Andreas Radke <andyrtr@archlinux.org>
-Build Date      : Thu 28 Apr 2022 02:48:46 PM
-Install Date    : Thu 26 May 2022 06:07:32 PM
-Install Reason  : Explicitly installed
-Install Script  : No
-Validated By    : Signature
-
-Name            : nano-syntax-highlighting
-Version         : 2020.10.10-1
-Description     : Nano editor syntax highlighting enhancements
-Architecture    : any
-URL             : https://github.com/scopatz/nanorc
-Licenses        : GPL3
-Groups          : None
-Provides        : None
-Depends On      : nano
-Optional Deps   : None
-Required By     : None
-Optional For    : None
-Conflicts With  : None
-Replaces        : None
-Installed Size  : 196.97 KiB
-Packager        : Morten Linderud <foxboron@archlinux.org>
-Build Date      : Mon 12 Oct 2020 04:21:29 PM
-Install Date    : Thu 26 May 2022 06:09:37 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -3676,6 +3596,32 @@ Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
 
+Name            : newsboat
+Version         : 2.28-1
+Description     : An RSS/Atom feed reader for text terminals
+Architecture    : x86_64
+URL             : https://newsboat.org/
+Licenses        : MIT
+Groups          : None
+Provides        : None
+Depends On      : curl  hicolor-icon-theme  json-c  libxml2  sqlite  stfl
+Optional Deps   : buku: for bookmark-buku.sh
+                  kitty: for kitty-img-pager.sh
+                  perl: for pinboard.pl [installed]
+                  python: for exportOPMLWithTags.py [installed]
+                  ruby: for feedgrabber.rb, heise.rb, and slashdot.rb
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : newsbeuter
+Installed Size  : 9.42 MiB
+Packager        : Daniel M. Capella <polyzen@archlinux.org>
+Build Date      : Sun 26 Jun 2022 08:58:19 PM
+Install Date    : Sun 03 Jul 2022 07:49:47 PM
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
 Name            : nfs-utils
 Version         : 2.6.1-1
 Description     : Support programs for Network File Systems
@@ -3765,28 +3711,6 @@ Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
 
-Name            : nodejs-lts-gallium
-Version         : 16.15.1-1
-Description     : Evented I/O for V8 javascript (LTS release: Gallium)
-Architecture    : x86_64
-URL             : https://nodejs.org/
-Licenses        : MIT
-Groups          : None
-Provides        : nodejs=16.15.1
-Depends On      : openssl  zlib  icu  libuv  c-ares  brotli  libnghttp2
-Optional Deps   : npm: nodejs package manager [installed]
-Required By     : node-gyp  nodejs-nopt  npm  semver  yarn
-Optional For    : None
-Conflicts With  : nodejs
-Replaces        : None
-Installed Size  : 33.68 MiB
-Packager        : Bruno Pagani <archange@archlinux.org>
-Build Date      : Sat 04 Jun 2022 03:42:29 PM
-Install Date    : Sat 25 Jun 2022 08:24:29 AM
-Install Reason  : Explicitly installed
-Install Script  : No
-Validated By    : Signature
-
 Name            : noto-fonts
 Version         : 20220607-1
 Description     : Google Noto TTF fonts
@@ -3807,28 +3731,6 @@ Installed Size  : 109.70 MiB
 Packager        : Antonio Rojas <arojas@archlinux.org>
 Build Date      : Tue 21 Jun 2022 12:25:11 PM
 Install Date    : Sat 25 Jun 2022 08:24:00 AM
-Install Reason  : Explicitly installed
-Install Script  : No
-Validated By    : Signature
-
-Name            : npm
-Version         : 8.8.0-1
-Description     : A package manager for javascript
-Architecture    : any
-URL             : https://www.npmjs.com/
-Licenses        : custom:Artistic
-Groups          : None
-Provides        : None
-Depends On      : nodejs  node-gyp  nodejs-nopt  semver
-Optional Deps   : None
-Required By     : None
-Optional For    : nodejs-lts-gallium
-Conflicts With  : None
-Replaces        : None
-Installed Size  : 6.13 MiB
-Packager        : Felix Yan <felixonmars@archlinux.org>
-Build Date      : Wed 29 Jun 2022 09:52:58 AM
-Install Date    : Wed 29 Jun 2022 07:27:26 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -3900,23 +3802,23 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : nvidia-dkms
-Version         : 515.48.07-2
+Version         : 515.57-1
 Description     : NVIDIA drivers - module sources
 Architecture    : x86_64
 URL             : http://www.nvidia.com/
 Licenses        : custom
 Groups          : None
 Provides        : NVIDIA-MODULE  nvidia
-Depends On      : dkms  nvidia-utils=515.48.07  libglvnd
+Depends On      : dkms  nvidia-utils=515.57  libglvnd
 Optional Deps   : None
 Required By     : None
 Optional For    : None
 Conflicts With  : NVIDIA-MODULE  nvidia
 Replaces        : None
-Installed Size  : 52.45 MiB
+Installed Size  : 52.46 MiB
 Packager        : Sven-Hendrik Haase <svenstaro@gmail.com>
-Build Date      : Sun 05 Jun 2022 07:56:17 PM
-Install Date    : Sat 25 Jun 2022 08:24:29 AM
+Build Date      : Wed 29 Jun 2022 08:21:05 PM
+Install Date    : Wed 06 Jul 2022 07:27:10 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -4067,7 +3969,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : pacman-contrib
-Version         : 1.5.3-1
+Version         : 1.6.0-1
 Description     : Contributed scripts and tools for pacman systems
 Architecture    : x86_64
 URL             : https://gitlab.archlinux.org/pacman/pacman-contrib
@@ -4084,10 +3986,10 @@ Required By     : downgrade  eos-update-notifier  rebuild-detector
 Optional For    : None
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 107.61 KiB
+Installed Size  : 114.80 KiB
 Packager        : Daniel M. Capella <polyzen@archlinux.org>
-Build Date      : Thu 09 Jun 2022 02:15:49 PM
-Install Date    : Sat 25 Jun 2022 08:24:03 AM
+Build Date      : Thu 30 Jun 2022 07:07:27 PM
+Install Date    : Wed 06 Jul 2022 07:27:10 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -4175,7 +4077,7 @@ Provides        : perl-archive-tar=2.40  perl-attribute-handlers=1.02  perl-auto
 Depends On      : gdbm>=1.17  db  glibc  libxcrypt  libcrypt.so=2-64
 Optional Deps   : None
 Required By     : autoconf  automake  checkbashisms  ghc-libs  git  groff  gwenview  hyphen  inxi  kdelibs4support  kscreenlocker  libwpg  ndisc6  netpbm  ntp  pacman-contrib  parallel  perl-clone  perl-encode-locale  perl-error  perl-file-listing  perl-html-tagset  perl-http-cookies  perl-http-daemon  perl-http-message  perl-http-negotiate  perl-image-exiftool  perl-io-html  perl-libwww  perl-lwp-mediatypes  perl-net-http  perl-parse-yapp  perl-timedate  perl-try-tiny  perl-uri  perl-www-robotrules  perl-xml-writer  plasma-integration  plasma-pa  pptpclient  rkhunter  rsync  texinfo
-Optional For    : digikam  gd  glibc  graphviz  hunspell  jemalloc  kconfigwidgets  kio-extras  libproxy  lm_sensors  mc  mpg123  neomutt  openmpi  openssl  qt5-base  qt6-base
+Optional For    : digikam  gd  glibc  graphviz  hunspell  jemalloc  kconfigwidgets  kio-extras  libproxy  lm_sensors  mc  mpg123  neomutt  newsboat  openmpi  openssl  qt5-base  qt6-base
 Conflicts With  : None
 Replaces        : None
 Installed Size  : 59.79 MiB
@@ -4187,67 +4089,67 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : pipewire-alsa
-Version         : 1:0.3.52-2
+Version         : 1:0.3.53-3
 Description     : Low-latency audio/video router and processor - ALSA configuration
 Architecture    : x86_64
 URL             : https://pipewire.org
 Licenses        : MIT
 Groups          : None
 Provides        : pulseaudio-alsa
-Depends On      : pipewire-session-manager
+Depends On      : wireplumber
 Optional Deps   : None
 Required By     : None
 Optional For    : pipewire
 Conflicts With  : None
 Replaces        : None
 Installed Size  : 1218.00 B
-Packager        : David Runge <dvzrv@archlinux.org>
-Build Date      : Tue 14 Jun 2022 02:40:51 PM
-Install Date    : Sat 25 Jun 2022 08:24:30 AM
+Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+Build Date      : Tue 05 Jul 2022 06:48:18 PM
+Install Date    : Wed 06 Jul 2022 07:27:10 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
 
 Name            : pipewire-jack
-Version         : 1:0.3.52-2
+Version         : 1:0.3.53-3
 Description     : Low-latency audio/video router and processor - JACK support
 Architecture    : x86_64
 URL             : https://pipewire.org
 Licenses        : MIT  GPL2
 Groups          : None
 Provides        : jack  libjack.so=0-64  libjackserver.so=0-64  libjacknet.so=0-64
-Depends On      : pipewire-session-manager  libpipewire-0.3.so=0-64  sh
+Depends On      : wireplumber  libpipewire-0.3.so=0-64  sh
 Optional Deps   : jack-example-tools: for official JACK example-clients and tools
 Required By     : ffmpeg  ffmpeg4.4  fluidsynth  mpv  portaudio
 Optional For    : alsa-plugins  mpg123  pipewire  sdl2  vlc  webcamoid
 Conflicts With  : jack  jack2
 Replaces        : None
-Installed Size  : 674.79 KiB
-Packager        : David Runge <dvzrv@archlinux.org>
-Build Date      : Tue 14 Jun 2022 02:40:51 PM
-Install Date    : Sat 25 Jun 2022 08:23:55 AM
+Installed Size  : 674.83 KiB
+Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+Build Date      : Tue 05 Jul 2022 06:48:18 PM
+Install Date    : Wed 06 Jul 2022 07:26:58 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
 
 Name            : pipewire-pulse
-Version         : 1:0.3.52-2
+Version         : 1:0.3.53-3
 Description     : Low-latency audio/video router and processor - PulseAudio replacement
 Architecture    : x86_64
 URL             : https://pipewire.org
 Licenses        : MIT
 Groups          : None
 Provides        : pulseaudio  pulseaudio-bluetooth
-Depends On      : pipewire-session-manager  libpipewire-0.3.so=0-64  libpulse.so=0-64  libavahi-client.so=3-64  libavahi-common.so=3-64
+Depends On      : wireplumber  libpipewire-0.3.so=0-64  libpulse.so=0-64  libavahi-client.so=3-64  libavahi-common.so=3-64
 Optional Deps   : None
 Required By     : plasma-pa
 Optional For    : firefox  pavucontrol  phonon-qt5  phonon-qt5-gstreamer  pipewire
 Conflicts With  : pulseaudio  pulseaudio-bluetooth
 Replaces        : None
 Installed Size  : 496.69 KiB
-Packager        : David Runge <dvzrv@archlinux.org>
-Build Date      : Tue 14 Jun 2022 02:40:51 PM
-Install Date    : Sat 25 Jun 2022 08:24:30 AM
+Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+Build Date      : Tue 05 Jul 2022 06:48:18 PM
+Install Date    : Wed 06 Jul 2022 07:27:10 PM
 Install Reason  : Explicitly installed
 Install Script  : Yes
 Validated By    : Signature
@@ -4582,8 +4484,8 @@ Optional Deps   : python-setuptools [installed]
                   mpdecimal: for decimal
                   xz: for lzma [installed]
                   tk: for tkinter
-Required By     : bind  ceph-libs  ddgr  fwupd  gameconqueror  glances  kitty-shell-integration  libixion  libreoffice-still  node-gyp  nvidia-installer-dkms  pahole  pcsclite  python-appdirs  python-cairo  python-certifi  python-colorama  python-defusedxml  python-future  python-gobject  python-jaraco.context  python-more-itertools  python-ordered-set  python-ply  python-psutil  python-pyparsing  python-pyqt5-sip  python-shtab  python-six  python-termcolor  python-tomli  python-trove-classifiers  python-yaml  python-zipp  reflector  samba  smbclient  steam
-Optional For    : btrfs-progs  git  glib2  graphviz  gstreamer  gtk2  gupnp  imath  ki18n  ldb  lensfun  libbytesize  libevent  libftdi  libieee1284  libnewt  libproxy  libsmbios  libxml2  libxslt  lilv  mc  neomutt  net-snmp  nfs-utils  nftables  openconnect  talloc  tdb  tevent  usbutils  util-linux  volume_key  xfsprogs  zbar
+Required By     : bind  ceph-libs  ddgr  fwupd  gameconqueror  glances  kitty-shell-integration  libixion  nvidia-installer-dkms  pahole  pcsclite  python-appdirs  python-cairo  python-certifi  python-colorama  python-defusedxml  python-future  python-gobject  python-jaraco.context  python-more-itertools  python-ordered-set  python-ply  python-psutil  python-pyparsing  python-pyqt5-sip  python-shtab  python-six  python-termcolor  python-tomli  python-trove-classifiers  python-yaml  python-zipp  reflector  samba  smbclient  steam
+Optional For    : btrfs-progs  git  glib2  graphviz  gstreamer  gtk2  gupnp  imath  ki18n  ldb  lensfun  libbytesize  libevent  libftdi  libieee1284  libnewt  libproxy  libsmbios  libxml2  libxslt  lilv  mc  neomutt  net-snmp  newsboat  nfs-utils  nftables  openconnect  talloc  tdb  tevent  usbutils  util-linux  volume_key  xfsprogs  zbar
 Conflicts With  : None
 Replaces        : python3
 Installed Size  : 54.28 MiB
@@ -5012,7 +4914,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : sof-firmware
-Version         : 2.1.1.a-1
+Version         : 2.2-1
 Description     : Sound Open Firmware
 Architecture    : x86_64
 URL             : https://www.sofproject.org/
@@ -5025,10 +4927,10 @@ Required By     : None
 Optional For    : None
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 14.08 MiB
+Installed Size  : 15.12 MiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
-Build Date      : Wed 22 Jun 2022 02:21:06 PM
-Install Date    : Sat 25 Jun 2022 08:24:32 AM
+Build Date      : Sun 03 Jul 2022 03:48:05 PM
+Install Date    : Wed 06 Jul 2022 07:27:11 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -5293,6 +5195,28 @@ Installed Size  : 1075.30 KiB
 Packager        : Alexander Epaneshnikov <alex19ep@archlinux.org>
 Build Date      : Sat 11 Jun 2022 03:55:57 PM
 Install Date    : Sat 25 Jun 2022 08:24:32 AM
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : traceroute
+Version         : 2.1.0-5
+Description     : Tracks the route taken by packets over an IP network
+Architecture    : x86_64
+URL             : http://traceroute.sourceforge.net/
+Licenses        : GPL2
+Groups          : None
+Provides        : None
+Depends On      : glibc
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 78.11 KiB
+Packager        : Anatol Pomozov <anatol.pomozov@gmail.com>
+Build Date      : Thu 21 Nov 2019 04:06:38 AM
+Install Date    : Mon 04 Jul 2022 10:42:45 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -5716,6 +5640,28 @@ Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
 
+Name            : wireplumber
+Version         : 0.4.10-3
+Description     : Session / policy manager implementation for PipeWire
+Architecture    : x86_64
+URL             : https://pipewire.pages.freedesktop.org/wireplumber/
+Licenses        : MIT
+Groups          : None
+Provides        : pipewire-session-manager  libwireplumber-0.4.so=0-64
+Depends On      : pipewire>=0.3.43  lua  libpipewire-0.3.so=0-64  libsystemd.so=0-64  libglib-2.0.so=0-64  libgmodule-2.0.so=0-64  libgobject-2.0.so=0-64  libgio-2.0.so=0-64
+Optional Deps   : wireplumber-docs: Documentation
+Required By     : gst-plugin-pipewire  kwin  pipewire-alsa  pipewire-jack  pipewire-pulse
+Optional For    : pipewire
+Conflicts With  : pipewire-media-session
+Replaces        : None
+Installed Size  : 2.12 MiB
+Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+Build Date      : Wed 11 May 2022 09:37:46 AM
+Install Date    : Wed 06 Jul 2022 06:54:11 PM
+Install Reason  : Explicitly installed
+Install Script  : Yes
+Validated By    : Signature
+
 Name            : wpa_supplicant
 Version         : 2:2.10-4
 Description     : A utility providing key negotiation for WPA wireless networks
@@ -5797,7 +5743,7 @@ Optional Deps   : kde-cli-tools: for KDE Plasma5 support in xdg-open [installed]
                   perl-file-mimeinfo: for generic support in xdg-open
                   perl-net-dbus: Perl extension to dbus used in xdg-screensaver
                   perl-x11-protocol: Perl X11 protocol used in xdg-screensaver
-Required By     : eos-bash-shared  eos-update-notifier  google-chrome  libreoffice-still  mpv  openconnect  qt5-base  qt6-base  terminator  visual-studio-code-bin
+Required By     : eos-bash-shared  eos-update-notifier  google-chrome  mpv  openconnect  qt5-base  qt6-base  terminator  visual-studio-code-bin
 Optional For    : electron17
 Conflicts With  : None
 Replaces        : None
@@ -6093,28 +6039,6 @@ Installed Size  : 1829.43 KiB
 Packager        : Antonio Rojas <arojas@archlinux.org>
 Build Date      : Tue 07 Jun 2022 02:01:39 PM
 Install Date    : Tue 28 Jun 2022 07:52:18 AM
-Install Reason  : Explicitly installed
-Install Script  : No
-Validated By    : Signature
-
-Name            : yarn
-Version         : 1.22.19-1
-Description     : Fast, reliable, and secure dependency management
-Architecture    : any
-URL             : https://classic.yarnpkg.com/
-Licenses        : BSD
-Groups          : None
-Provides        : None
-Depends On      : nodejs
-Optional Deps   : None
-Required By     : None
-Optional For    : None
-Conflicts With  : None
-Replaces        : None
-Installed Size  : 5.08 MiB
-Packager        : Sven-Hendrik Haase <svenstaro@gmail.com>
-Build Date      : Mon 16 May 2022 12:33:47 PM
-Install Date    : Thu 02 Jun 2022 11:34:36 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
