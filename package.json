@@ -1,5 +1,5 @@
 {
-  "name": "dotfiles",
+  "name": "package-lists",
   "version": "1.0.0",
   "description": "to save time installing stuff",
   "main": "index.js",
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pabrams/dotfiles.git"
+    "url": "git+https://github.com/pabrams/package-lists.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pabrams/dotfiles/issues"
+    "url": "https://github.com/pabrams/package-lists/issues"
   },
-  "homepage": "https://github.com/pabrams/dotfiles#readme"
+  "homepage": "https://github.com/pabrams/package-lists#readme"
 }
