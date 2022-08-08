@@ -704,5 +704,4 @@
 
 # copy guillemotright symbol to clipboard
 "echo » | tr -d '\n'| xclip; sleep 1; xclip -o"
-  Mod4 + shift + period                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
-nnnnnnnnnnnnnnnnnnnnnnnnnnn          nnmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnm 
+  Mod4 + shift + period
