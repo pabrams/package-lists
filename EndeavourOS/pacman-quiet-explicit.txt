@@ -159,6 +159,7 @@ nilfs-utils
 nitrogen
 nmap
 noto-fonts
+npm
 nss-mdns
 ntfs-3g
 ntp
@@ -260,6 +261,7 @@ xsettingsd
 xterm
 yad-eos
 yakuake
+yarn
 yay
 yt-dlp
 zettlr
