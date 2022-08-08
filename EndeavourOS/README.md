@@ -1,5 +1,3 @@
 Setup for EndeavourOS
 
-run export-packages to generate
-    pacman-Qe.txt
-    pacman-Qqe.txt
+run ../EndeavourOS/export-packages to generate some package lists
