@@ -28,6 +28,7 @@ cryptsetup
 ddgr
 device-mapper
 dhclient
+dhcpcd
 dialog
 diffutils
 digikam
@@ -87,6 +88,8 @@ gst-plugin-pipewire
 gst-plugins-bad
 gst-plugins-ugly
 guake
+gvfs-gphoto2
+gvfs-mtp
 gwenview
 gzip
 haveged
@@ -101,6 +104,7 @@ ipw2100-fw
 ipw2200-fw
 iwd
 jfsutils
+jmtpfs
 jumpapp-git
 kcalc
 kde-gtk-config
@@ -144,6 +148,7 @@ mkinitcpio-openswap
 mlocate
 modemmanager
 mtools
+mtpfs
 nbd
 ncdu
 ndisc6
@@ -165,6 +170,7 @@ ntfs-3g
 ntp
 nvidia-dkms
 nvidia-installer-dkms
+obs-studio
 okular
 openconnect
 openvpn
@@ -263,6 +269,7 @@ yad-eos
 yakuake
 yarn
 yay
+youtube-dl
 yt-dlp
 zettlr
 zsh

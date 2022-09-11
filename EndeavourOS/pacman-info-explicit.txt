@@ -670,6 +670,28 @@ Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
 
+Name            : dhcpcd
+Version         : 9.4.1-1
+Description     : RFC2131 compliant DHCP client daemon
+Architecture    : x86_64
+URL             : https://roy.marples.name/projects/dhcpcd/
+Licenses        : BSD
+Groups          : None
+Provides        : dhcp-client
+Depends On      : glibc  sh  udev  systemd-libs
+Optional Deps   : openresolv: resolvconf support [installed]
+Required By     : None
+Optional For    : netctl  networkmanager
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 484.66 KiB
+Packager        : Giancarlo Razzolini <grazzolini@archlinux.org>
+Build Date      : Mon 06 Dec 2021 07:27:39 AM
+Install Date    : Thu 01 Sep 2022 02:31:58 AM
+Install Reason  : Explicitly installed
+Install Script  : Yes
+Validated By    : Signature
+
 Name            : dialog
 Version         : 1:1.3_20220526-1
 Description     : A tool to display dialog boxes from shell scripts
@@ -1362,7 +1384,7 @@ Licenses        : GPL2
 Groups          : None
 Provides        : None
 Depends On      : ffmpeg  libjpeg  libpng
-Optional Deps   : gvfs: support for gio uris
+Optional Deps   : gvfs: support for gio uris [installed]
 Required By     : None
 Optional For    : None
 Conflicts With  : None
@@ -1619,7 +1641,7 @@ Optional Deps   : gutenprint: for sophisticated printing only as gimp has built-
                   alsa-lib: for MIDI event controller module [installed]
                   curl: for URI support [installed]
                   ghostscript: for postscript support [installed]
-                  gvfs: for HTTP/S support (and many other schemes)
+                  gvfs: for HTTP/S support (and many other schemes) [installed]
 Required By     : None
 Optional For    : None
 Conflicts With  : gimp-plugin-wavelet-decompose
@@ -2050,6 +2072,50 @@ Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
 
+Name            : gvfs-gphoto2
+Version         : 1.50.2-1
+Description     : Virtual filesystem implementation for GIO (gphoto2 backend; PTP camera, MTP media player)
+Architecture    : x86_64
+URL             : https://wiki.gnome.org/Projects/gvfs
+Licenses        : LGPL
+Groups          : gnome
+Provides        : None
+Depends On      : gvfs=1.50.2  libgphoto2
+Optional Deps   : None
+Required By     : None
+Optional For    : gvfs
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 168.51 KiB
+Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+Build Date      : Thu 26 May 2022 08:27:48 AM
+Install Date    : Thu 01 Sep 2022 07:57:53 AM
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : gvfs-mtp
+Version         : 1.50.2-1
+Description     : Virtual filesystem implementation for GIO (MTP backend; Android, media player)
+Architecture    : x86_64
+URL             : https://wiki.gnome.org/Projects/gvfs
+Licenses        : LGPL
+Groups          : gnome
+Provides        : None
+Depends On      : gvfs=1.50.2  libmtp
+Optional Deps   : None
+Required By     : None
+Optional For    : gvfs
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 164.48 KiB
+Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+Build Date      : Thu 26 May 2022 08:27:48 AM
+Install Date    : Thu 01 Sep 2022 07:56:58 AM
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
 Name            : gwenview
 Version         : 22.04.2-1
 Description     : A fast and easy to use image viewer
@@ -2389,6 +2455,28 @@ Install Date    : Thu 26 May 2022 06:07:30 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
+
+Name            : jmtpfs
+Version         : 0.5-3
+Description     : FUSE and libmtp based filesystem for accessing MTP (Media Transfer Protocol) devices
+Architecture    : x86_64
+URL             : https://github.com/JasonFerrara/jmtpfs
+Licenses        : GPL3
+Groups          : None
+Provides        : None
+Depends On      : fuse  libmtp
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 178.38 KiB
+Packager        : Unknown Packager
+Build Date      : Thu 01 Sep 2022 07:56:24 AM
+Install Date    : Thu 01 Sep 2022 07:56:32 AM
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : None
 
 Name            : jumpapp-git
 Version         : 1.2.r113.b29ea37-1
@@ -3365,6 +3453,28 @@ Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
 
+Name            : mtpfs
+Version         : 1.1-4
+Description     : A FUSE filesystem that supports reading and writing from any MTP device
+Architecture    : x86_64
+URL             : https://www.adebenham.com/mtpfs/
+Licenses        : GPL3
+Groups          : None
+Provides        : None
+Depends On      : libmtp  glib2  libid3tag  fuse2  libmad
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 38.02 KiB
+Packager        : Felix Yan <felixonmars@archlinux.org>
+Build Date      : Tue 07 Jul 2020 08:37:03 AM
+Install Date    : Thu 01 Sep 2022 07:55:05 AM
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
 Name            : nbd
 Version         : 3.24-1
 Description     : tools for network block devices, allowing you to use remote block devices over TCP/IP
@@ -3522,7 +3632,7 @@ Provides        : None
 Depends On      : coreutils  iproute2  resolvconf  systemd>=233
 Optional Deps   : dialog: for the menu based wifi assistant [installed]
                   dhclient: for DHCP support (or dhcpcd) [installed]
-                  dhcpcd: for DHCP support (or dhclient)
+                  dhcpcd: for DHCP support (or dhclient) [installed]
                   wpa_supplicant: for wireless networking support [installed]
                   ifplugd: for automatic wired connections through netctl-ifplugd
                   ppp: for PPP connections [installed]
@@ -3558,7 +3668,7 @@ Optional Deps   : polkit: let non-root users control networking [installed]
                   modemmanager: cellular network support [installed]
                   iwd: wpa_supplicant alternative [installed]
                   dhclient: alternative DHCP client [installed]
-                  dhcpcd: alternative DHCP client
+                  dhcpcd: alternative DHCP client [installed]
                   openresolv: alternative resolv.conf manager [installed]
                   firewalld: firewall support [installed]
 Required By     : networkmanager-qt
@@ -3870,6 +3980,34 @@ Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
 
+Name            : obs-studio
+Version         : 27.2.4-2
+Description     : Free, open source software for live streaming and recording
+Architecture    : x86_64
+URL             : https://obsproject.com
+Licenses        : GPL2
+Groups          : None
+Provides        : None
+Depends On      : ffmpeg  jansson  libxinerama  libxkbcommon-x11  mbedtls  rnnoise  pciutils  qt5-svg  curl  jack  gtk-update-icon-cache  pipewire  libxcomposite
+Optional Deps   : libfdk-aac: FDK AAC codec support [installed]
+                  libva-intel-driver: hardware encoding
+                  libva-mesa-driver: hardware encoding
+                  luajit: scripting support [installed]
+                  python: scripting support [installed]
+                  sndio: Sndio input client
+                  v4l2loopback-dkms: virtual camera support
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 17.61 MiB
+Packager        : Christian Hesse <eworm@archlinux.org>
+Build Date      : Mon 11 Jul 2022 04:35:15 PM
+Install Date    : Sun 04 Sep 2022 09:57:35 PM
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
 Name            : okular
 Version         : 22.04.2-3
 Description     : Document Viewer
@@ -4142,7 +4280,7 @@ Groups          : None
 Provides        : jack  libjack.so=0-64  libjackserver.so=0-64  libjacknet.so=0-64
 Depends On      : wireplumber  libpipewire-0.3.so=0-64  sh
 Optional Deps   : jack-example-tools: for official JACK example-clients and tools
-Required By     : ffmpeg  ffmpeg4.4  fluidsynth  mpv  portaudio
+Required By     : ffmpeg  ffmpeg4.4  fluidsynth  mpv  obs-studio  portaudio
 Optional For    : alsa-plugins  mpg123  pipewire  sdl2  vlc  webcamoid
 Conflicts With  : jack  jack2
 Replaces        : None
@@ -4506,8 +4644,8 @@ Optional Deps   : python-setuptools [installed]
                   mpdecimal: for decimal
                   xz: for lzma [installed]
                   tk: for tkinter
-Required By     : bind  ceph-libs  ddgr  fwupd  gameconqueror  glances  kitty-shell-integration  libixion  node-gyp  nvidia-installer-dkms  pahole  pcsclite  python-appdirs  python-cairo  python-certifi  python-colorama  python-defusedxml  python-future  python-gobject  python-jaraco.context  python-more-itertools  python-ordered-set  python-ply  python-psutil  python-pyparsing  python-pyqt5-sip  python-shtab  python-six  python-termcolor  python-tomli  python-trove-classifiers  python-yaml  python-zipp  reflector  samba  smbclient  steam
-Optional For    : btrfs-progs  git  glib2  graphviz  gstreamer  gtk2  gupnp  imath  ki18n  ldb  lensfun  libbytesize  libevent  libftdi  libieee1284  libnewt  libproxy  libsmbios  libxml2  libxslt  lilv  mc  neomutt  net-snmp  newsboat  nfs-utils  nftables  openconnect  talloc  tdb  tevent  usbutils  util-linux  volume_key  xfsprogs  zbar
+Required By     : bind  ceph-libs  ddgr  fwupd  gameconqueror  glances  kitty-shell-integration  libixion  node-gyp  nvidia-installer-dkms  pahole  pcsclite  python-appdirs  python-cairo  python-certifi  python-colorama  python-defusedxml  python-future  python-gobject  python-jaraco.context  python-more-itertools  python-ordered-set  python-ply  python-psutil  python-pyparsing  python-pyqt5-sip  python-shtab  python-six  python-termcolor  python-tomli  python-trove-classifiers  python-yaml  python-zipp  reflector  samba  smbclient  steam  youtube-dl
+Optional For    : btrfs-progs  git  glib2  graphviz  gstreamer  gtk2  gupnp  imath  ki18n  ldb  lensfun  libbytesize  libevent  libftdi  libieee1284  libnewt  libproxy  libsmbios  libxml2  libxslt  lilv  mc  neomutt  net-snmp  newsboat  nfs-utils  nftables  obs-studio  openconnect  talloc  tdb  tevent  usbutils  util-linux  volume_key  xfsprogs  zbar
 Conflicts With  : None
 Replaces        : python3
 Installed Size  : 54.28 MiB
@@ -4920,7 +5058,7 @@ Depends On      : glibc  qt5-base  mpv  libx11  zlib  gcc-libs  hicolor-icon-the
 Optional Deps   : smplayer-themes: icon themes collection
                   smplayer-skins: skin themes collection
                   smtube: browse and play youtube videos
-                  youtube-dl: youtube videos and streaming
+                  youtube-dl: youtube videos and streaming [installed]
                   yt-dlp: youtube videos and streaming [installed]
                   mplayer: alternative multimedia engine
 Required By     : None
@@ -6106,6 +6244,31 @@ Installed Size  : 7.04 MiB
 Packager        : EndeavourOS <info@endeavouros.com>
 Build Date      : Fri 17 Jun 2022 06:46:38 AM
 Install Date    : Sat 25 Jun 2022 08:24:32 AM
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : youtube-dl
+Version         : 2021.12.17-1
+Description     : A command-line program to download videos from YouTube.com and a few more sites
+Architecture    : any
+URL             : https://ytdl-org.github.io/youtube-dl/
+Licenses        : custom
+Groups          : None
+Provides        : None
+Depends On      : python
+Optional Deps   : ffmpeg: for video post-processing [installed]
+                  rtmpdump: for rtmp streams support [installed]
+                  atomicparsley: for embedding thumbnails into m4a files
+                  python-pycryptodome: for hlsnative downloader
+Required By     : None
+Optional For    : mpv  smplayer
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 13.48 MiB
+Packager        : Daniel M. Capella <polyzen@archlinux.org>
+Build Date      : Thu 16 Dec 2021 07:20:38 PM
+Install Date    : Fri 19 Aug 2022 06:23:58 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature

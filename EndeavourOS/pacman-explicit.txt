@@ -28,6 +28,7 @@ cryptsetup 2.4.3-2
 ddgr 2.0-1
 device-mapper 2.03.16-1
 dhclient 4.4.3-1
+dhcpcd 9.4.1-1
 dialog 1:1.3_20220526-1
 diffutils 3.8-1
 digikam 7.7.0-1
@@ -87,6 +88,8 @@ gst-plugin-pipewire 1:0.3.53-3
 gst-plugins-bad 1.20.3-1
 gst-plugins-ugly 1.20.3-1
 guake 3.9.0-2
+gvfs-gphoto2 1.50.2-1
+gvfs-mtp 1.50.2-1
 gwenview 22.04.2-1
 gzip 1.12-1
 haveged 1.9.18-1
@@ -101,6 +104,7 @@ ipw2100-fw 1.3-10
 ipw2200-fw 3.1-8
 iwd 1.28-1
 jfsutils 1.1.15-8
+jmtpfs 0.5-3
 jumpapp-git 1.2.r113.b29ea37-1
 kcalc 22.04.2-1
 kde-gtk-config 5.25.2-1
@@ -144,6 +148,7 @@ mkinitcpio-openswap 0.1.0-3
 mlocate 0.26.git.20170220-7
 modemmanager 1.18.10-1
 mtools 1:4.0.40-1
+mtpfs 1.1-4
 nbd 3.24-1
 ncdu 2.1.2-1
 ndisc6 1.0.5-1
@@ -165,6 +170,7 @@ ntfs-3g 2022.5.17-1
 ntp 4.2.8.p15-1
 nvidia-dkms 515.57-1
 nvidia-installer-dkms 3.5-1
+obs-studio 27.2.4-2
 okular 22.04.2-3
 openconnect 1:9.01-2
 openvpn 2.5.7-1
@@ -263,6 +269,7 @@ yad-eos 12.0-1.3
 yakuake 22.04.2-1
 yarn 1.22.19-1
 yay 11.2.0-1
+youtube-dl 2021.12.17-1
 yt-dlp 2022.06.29-1
 zettlr 2.3.0-1
 zsh 5.9-1
