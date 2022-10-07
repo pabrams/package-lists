@@ -53,26 +53,25 @@
 #!/bin/bash
 # Note: needs ISO since year 2022
 
-git config --global user.email "john.paul.abrams@gmail.com"
-git config --global user.name "Paul Abrams"
+username="{$USERNAME}"
 
-username="me"
 pacman -S --noconfirm --needed git base-devel
+
+git config --global user.email "john.paul.abrams@gmail.com"
+git config --global user.name "pabrams"
 
 # install some missing deps
 sudo pacman -S gnome-keyring libsecret --noconfirm
+
+# get volta (nvm alterantive)
+curl https://get.volta.sh | bash
 
 #install code
 yay -S visual-studio-code-bin --noconfirm
 code --install-extension paulabrams1.trade-wars-2002-color-theme
 
 # xbindkeys
-yay -S xbindkeys --noconfirm
-
-# default config
-# xbindkeys --defaults > ~/.xbindkeysrcq
-
-# /etc/nftables is not compatible with firewalld apparently
+yay -S xbindkeys --noconfirmfbles is not compatible with firewalld apparently
 mv /etc/nftables.conf /etc/nftables.conf.old
 
 # docker
@@ -86,9 +85,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 # make it default shell
 chsh -s /usr/bin/zsh
-
-# kibi
-cargo install kibi
 
 #tilde
 yay -S tilde --nonconfirm
@@ -157,6 +153,9 @@ yay -S gimp --noconfirm
 
 # rpg-cli
 $ cargo install --git https://github.com/facundoolano/rpg-cli --force --tag 1.0.1
+
+# kibi
+cargo install kibi
 
 # node
 yay -S nodejs-lts-gallium --noconfirm
