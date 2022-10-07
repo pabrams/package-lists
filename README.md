@@ -1,6 +1,6 @@
 # README
 
-to save time installing stuff
+See subfolder readmes.
 
 ## dump all from Settings -> Keyboard -> Custom Shortcuts
 

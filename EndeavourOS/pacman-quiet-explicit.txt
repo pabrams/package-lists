@@ -24,6 +24,8 @@ broot
 btop
 btrfs-progs
 cantarell-fonts
+chezmoi
+cloudcross
 cryptsetup
 ddgr
 device-mapper
@@ -72,9 +74,11 @@ gcc
 gettext
 gimp
 git
+github-cli
 glances
 gnome-keyring
 gnu-netcat
+go
 godot-git
 google-chrome
 gparted
@@ -106,6 +110,7 @@ iwd
 jfsutils
 jmtpfs
 jumpapp-git
+kate
 kcalc
 kde-gtk-config
 kdeconnect
@@ -113,8 +118,14 @@ khotkeys
 kinfocenter
 kinit
 kio-fuse
+kio-gdrive
+kmail
+kolourpaint
 konsole
+krename
+krita
 kscreen
+ktorrent
 kwallet-pam
 less
 libdvdcss
@@ -171,12 +182,14 @@ ntp
 nvidia-dkms
 nvidia-installer-dkms
 obs-studio
+obsidian
 okular
 openconnect
 openvpn
 os-prober
 pacman
 pacman-contrib
+partitionmanager
 pass
 patch
 pavucontrol
@@ -203,6 +216,8 @@ python-capng
 python-defusedxml
 python-packaging
 python-pyqt5
+qt5-base
+rapid-photo-downloader
 rebuild-detector
 reflector
 reflector-simple
@@ -223,6 +238,7 @@ spectacle
 sshfs
 steam
 sudo
+syncthing
 sysfsutils
 systemd-sysvcompat
 terminator
@@ -252,6 +268,7 @@ wireless_tools
 wireplumber
 wpa_supplicant
 xbindkeys
+xbindkeys_config-gtk2
 xdg-user-dirs
 xdg-utils
 xf86-input-libinput

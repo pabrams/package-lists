@@ -207,7 +207,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : audiocd-kio
-Version         : 22.08.1-1
+Version         : 22.08.1-2
 Description     : Kioslave for accessing audio CDs
 Architecture    : x86_64
 URL             : https://apps.kde.org/kio_audiocd/
@@ -221,9 +221,9 @@ Optional For    : None
 Conflicts With  : None
 Replaces        : None
 Installed Size  : 2.11 MiB
-Packager        : Antonio Rojas <arojas@archlinux.org>
-Build Date      : Tue 06 Sep 2022 02:32:16 PM
-Install Date    : Sun 11 Sep 2022 06:21:54 AM
+Packager        : Felix Yan <felixonmars@archlinux.org>
+Build Date      : Tue 13 Sep 2022 04:01:19 PM
+Install Date    : Thu 22 Sep 2022 10:14:30 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -245,7 +245,7 @@ Replaces        : None
 Installed Size  : 2.20 MiB
 Packager        : Allan McRae <allan@archlinux.org>
 Build Date      : Tue 02 Feb 2021 11:03:39 PM
-Install Date    : Thu 26 May 2022 06:07:28 PM
+Install Date    : Sun 02 Oct 2022 05:05:27 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -267,7 +267,7 @@ Replaces        : None
 Installed Size  : 1611.88 KiB
 Packager        : Antonio Rojas <arojas@archlinux.org>
 Build Date      : Mon 04 Oct 2021 03:45:02 PM
-Install Date    : Thu 26 May 2022 06:07:28 PM
+Install Date    : Sun 02 Oct 2022 05:05:27 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -339,7 +339,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : bash-completion
-Version         : 2.11-2
+Version         : 2.11-3
 Description     : Programmable completion for the bash shell
 Architecture    : any
 URL             : https://github.com/scop/bash-completion
@@ -352,16 +352,16 @@ Required By     : None
 Optional For    : bash  firewalld
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 851.13 KiB
-Packager        : Giancarlo Razzolini <grazzolini@archlinux.org>
-Build Date      : Mon 03 May 2021 07:14:45 AM
-Install Date    : Thu 26 May 2022 06:09:34 PM
+Installed Size  : 851.14 KiB
+Packager        : Evangelos Foutras <foutrelis@archlinux.org>
+Build Date      : Wed 21 Sep 2022 02:02:44 PM
+Install Date    : Thu 22 Sep 2022 10:14:30 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
 
 Name            : bind
-Version         : 9.18.6-1
+Version         : 9.18.7-1
 Description     : A complete, highly portable implementation of the DNS protocol
 Architecture    : x86_64
 URL             : https://www.isc.org/software/bind/
@@ -376,8 +376,8 @@ Conflicts With  : bind-tools  dnsutils
 Replaces        : bind-tools  dnsutils  host
 Installed Size  : 11.43 MiB
 Packager        : Sébastien Luttringer <seblu@seblu.net>
-Build Date      : Wed 17 Aug 2022 06:21:59 PM
-Install Date    : Sun 11 Sep 2022 06:21:55 AM
+Build Date      : Thu 22 Sep 2022 08:09:02 AM
+Install Date    : Mon 26 Sep 2022 06:00:35 AM
 Install Reason  : Explicitly installed
 Install Script  : Yes
 Validated By    : Signature
@@ -399,7 +399,7 @@ Replaces        : binutils-multilib
 Installed Size  : 35.50 MiB
 Packager        : Frederik Schwan <freswa@archlinux.org>
 Build Date      : Fri 19 Aug 2022 08:18:26 PM
-Install Date    : Sun 11 Sep 2022 06:21:55 AM
+Install Date    : Sun 02 Oct 2022 05:05:27 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -421,7 +421,7 @@ Replaces        : None
 Installed Size  : 2.53 MiB
 Packager        : Antonio Rojas <arojas@archlinux.org>
 Build Date      : Sun 24 Apr 2022 05:27:10 AM
-Install Date    : Thu 26 May 2022 06:07:28 PM
+Install Date    : Sun 02 Oct 2022 05:05:27 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -493,7 +493,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : broot
-Version         : 1.14.2-2
+Version         : 1.15.0-1
 Description     : Fuzzy Search + tree + cd
 Architecture    : x86_64
 URL             : https://github.com/Canop/broot
@@ -506,10 +506,10 @@ Required By     : None
 Optional For    : None
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 7.92 MiB
-Packager        : Felix Yan <felixonmars@archlinux.org>
-Build Date      : Fri 19 Aug 2022 04:39:06 AM
-Install Date    : Sun 11 Sep 2022 06:21:56 AM
+Installed Size  : 8.00 MiB
+Packager        : Orhun Parmaksız <orhun@archlinux.org>
+Build Date      : Sun 25 Sep 2022 06:57:50 AM
+Install Date    : Mon 26 Sep 2022 06:00:36 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -537,7 +537,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : btrfs-progs
-Version         : 5.19-1
+Version         : 5.19.1-1
 Description     : Btrfs filesystem utilities
 Architecture    : x86_64
 URL             : https://btrfs.wiki.kernel.org
@@ -552,10 +552,10 @@ Required By     : libblockdev
 Optional For    : docker  gparted
 Conflicts With  : btrfs-progs-unstable
 Replaces        : btrfs-progs-unstable
-Installed Size  : 5.09 MiB
+Installed Size  : 5.13 MiB
 Packager        : Tobias Powalowski <tpowa@archlinux.org>
-Build Date      : Tue 16 Aug 2022 01:01:28 PM
-Install Date    : Sun 11 Sep 2022 06:21:40 AM
+Build Date      : Mon 12 Sep 2022 01:51:06 PM
+Install Date    : Thu 22 Sep 2022 10:14:28 PM
 Install Reason  : Explicitly installed
 Install Script  : Yes
 Validated By    : Signature
@@ -582,6 +582,50 @@ Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
 
+Name            : chezmoi
+Version         : 2.24.0-1
+Description     : Manage your dotfiles across multiple machines
+Architecture    : x86_64
+URL             : https://www.chezmoi.io/
+Licenses        : MIT
+Groups          : None
+Provides        : None
+Depends On      : glibc
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 30.16 MiB
+Packager        : Daurnimator <daurnimator@archlinux.org>
+Build Date      : Mon 26 Sep 2022 07:50:13 AM
+Install Date    : Tue 27 Sep 2022 08:07:43 AM
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : cloudcross
+Version         : 1.4.8-1
+Description     : Opensource cross-platform client for multiple cloud providers.
+Architecture    : x86_64
+URL             : http://cloudcross.mastersoft24.ru
+Licenses        : BSD
+Groups          : None
+Provides        : None
+Depends On      : qt5-base  curl
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : grive2
+Installed Size  : 951.20 KiB
+Packager        : Unknown Packager
+Build Date      : Sun 02 Oct 2022 05:02:08 PM
+Install Date    : Sun 02 Oct 2022 05:03:04 PM
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : None
+
 Name            : cryptsetup
 Version         : 2.5.0-1
 Description     : Userspace setup tool for transparent encryption of block devices using dm-crypt
@@ -605,23 +649,23 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : ddgr
-Version         : 2.0-1
+Version         : 2.0-4
 Description     : DuckDuckGo from the terminal
 Architecture    : any
 URL             : https://github.com/jarun/ddgr
 Licenses        : GPL3
 Groups          : None
 Provides        : None
-Depends On      : python
+Depends On      : python>=3.7
 Optional Deps   : None
 Required By     : None
 Optional For    : None
-Conflicts With  : ddgr-git
+Conflicts With  : None
 Replaces        : None
 Installed Size  : 92.14 KiB
 Packager        : Unknown Packager
-Build Date      : Sun 26 Jun 2022 03:06:53 AM
-Install Date    : Sun 26 Jun 2022 03:07:21 AM
+Build Date      : Thu 22 Sep 2022 10:20:16 PM
+Install Date    : Thu 22 Sep 2022 10:20:18 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : None
@@ -746,7 +790,7 @@ Groups          : None
 Provides        : None
 Depends On      : lensfun  opencv  akonadi-contacts  knotifyconfig  libksane  kfilemetadata  qtav  marble-common  threadweaver  kcalendarcore  qt5-xmlpatterns  imagemagick  jasper  glu  perl-image-exiftool
 Optional Deps   : hugin: panorama tool
-                  qt5-imageformats: support for additional image formats (WEBP, TIFF)
+                  qt5-imageformats: support for additional image formats (WEBP, TIFF) [installed]
                   rawtherapee: RAW import
                   darktable: RAW import
                   perl: for digitaglinktree [installed]
@@ -807,7 +851,7 @@ Install Script  : Yes
 Validated By    : Signature
 
 Name            : dnsmasq
-Version         : 2.86-2
+Version         : 2.87-1
 Description     : Lightweight, easy to configure DNS forwarder and DHCP server
 Architecture    : x86_64
 URL             : http://www.thekelleys.org.uk/dnsmasq/doc.html
@@ -820,10 +864,10 @@ Required By     : None
 Optional For    : networkmanager
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 823.35 KiB
+Installed Size  : 844.46 KiB
 Packager        : Christian Hesse <eworm@archlinux.org>
-Build Date      : Wed 08 Jun 2022 02:58:23 AM
-Install Date    : Sat 25 Jun 2022 08:24:02 AM
+Build Date      : Mon 26 Sep 2022 03:02:31 AM
+Install Date    : Sun 02 Oct 2022 06:13:57 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -890,7 +934,7 @@ Provides        : None
 Depends On      : glibc
 Optional Deps   : None
 Required By     : libblockdev
-Optional For    : gparted  grub  udisks2
+Optional For    : gparted  grub  kpmcore  udisks2
 Conflicts With  : None
 Replaces        : None
 Installed Size  : 408.88 KiB
@@ -958,7 +1002,7 @@ Optional Deps   : lvm2: for e2scrub [installed]
                   util-linux: for e2scrub [installed]
                   smtp-forwarder: for e2scrub_fail script
 Required By     : bind  fsarchiver  hwdetect  krb5  lib32-e2fsprogs  libldap  mc
-Optional For    : btrfs-progs
+Optional For    : btrfs-progs  kpmcore
 Conflicts With  : None
 Replaces        : None
 Installed Size  : 4.92 MiB
@@ -1080,7 +1124,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : endeavouros-theming
-Version         : 10.0-1
+Version         : 22.09.3.2-1
 Description     : Default EndeavourOS background images and icons for all different DE
 Architecture    : any
 URL             : https://www.endeavouros.com
@@ -1093,12 +1137,12 @@ Required By     : eos-bash-shared
 Optional For    : None
 Conflicts With  : None
 Replaces        : EndeavourOS-theming
-Installed Size  : 9.12 MiB
+Installed Size  : 9.07 MiB
 Packager        : EndeavourOS <info@endeavouros.com>
-Build Date      : Mon 08 Aug 2022 04:09:53 PM
-Install Date    : Sun 11 Sep 2022 06:22:17 AM
+Build Date      : Fri 23 Sep 2022 08:57:20 AM
+Install Date    : Mon 26 Sep 2022 06:00:36 AM
 Install Reason  : Explicitly installed
-Install Script  : Yes
+Install Script  : No
 Validated By    : Signature
 
 Name            : eos-apps-info
@@ -1147,7 +1191,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : eos-log-tool
-Version         : 1.4.15-1
+Version         : 1.10-1
 Description     : Gathers selected system logs and sends them to the internet.
 Architecture    : any
 URL             : https://github.com/endeavouros-team/PKGBUILDS/raw/master/eos-log-tool
@@ -1161,10 +1205,10 @@ Required By     : None
 Optional For    : None
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 14.75 KiB
+Installed Size  : 19.16 KiB
 Packager        : EndeavourOS <info@endeavouros.com>
-Build Date      : Mon 11 Apr 2022 11:25:02 AM
-Install Date    : Thu 26 May 2022 06:09:36 PM
+Build Date      : Sun 02 Oct 2022 05:24:36 AM
+Install Date    : Sun 02 Oct 2022 06:13:57 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -1214,7 +1258,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : eos-quickstart
-Version         : 1.3-2
+Version         : 1.3-3
 Description     : An application for getting a quick start with installing packages
 Architecture    : x86_64
 URL             : None
@@ -1234,14 +1278,14 @@ Conflicts With  : None
 Replaces        : None
 Installed Size  : 127.40 KiB
 Packager        : EndeavourOS <info@endeavouros.com>
-Build Date      : Sat 11 Jun 2022 12:07:38 PM
-Install Date    : Sat 25 Jun 2022 08:24:06 AM
+Build Date      : Wed 28 Sep 2022 09:04:32 AM
+Install Date    : Sun 02 Oct 2022 06:13:57 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
 
 Name            : eos-rankmirrors
-Version         : 2.3-1
+Version         : 2.5-1
 Description     : EndeavourOS mirror ranking tool
 Architecture    : any
 URL             : https://raw.githubusercontent.com/endeavouros-team/PKGBUILDS/master/eos-rankmirrors
@@ -1254,10 +1298,10 @@ Required By     : None
 Optional For    : None
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 15.05 KiB
+Installed Size  : 15.72 KiB
 Packager        : EndeavourOS <info@endeavouros.com>
-Build Date      : Mon 25 Jul 2022 05:10:15 AM
-Install Date    : Sun 11 Sep 2022 06:22:23 AM
+Build Date      : Sat 01 Oct 2022 09:58:02 AM
+Install Date    : Sun 02 Oct 2022 06:13:57 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -1321,7 +1365,7 @@ Provides        : exfat-utils
 Depends On      : glibc
 Optional Deps   : None
 Required By     : None
-Optional For    : gparted
+Optional For    : gparted  kpmcore
 Conflicts With  : exfat-utils
 Replaces        : None
 Installed Size  : 153.26 KiB
@@ -1343,7 +1387,7 @@ Provides        : libf2fs.so=9-64  bf2fs_format.so
 Depends On      : util-linux
 Optional Deps   : None
 Required By     : None
-Optional For    : gparted
+Optional For    : gparted  kpmcore
 Conflicts With  : None
 Replaces        : None
 Installed Size  : 586.17 KiB
@@ -1371,7 +1415,7 @@ Replaces        : None
 Installed Size  : 134.23 KiB
 Packager        : Christian Hesse <eworm@archlinux.org>
 Build Date      : Mon 23 May 2022 06:30:38 PM
-Install Date    : Thu 26 May 2022 06:07:28 PM
+Install Date    : Sun 02 Oct 2022 05:05:27 PM
 Install Reason  : Explicitly installed
 Install Script  : Yes
 Validated By    : Signature
@@ -1399,7 +1443,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : file
-Version         : 5.42-2
+Version         : 5.43-1
 Description     : File type identification utility
 Architecture    : x86_64
 URL             : https://www.darwinsys.com/file/
@@ -1408,14 +1452,14 @@ Groups          : base-devel
 Provides        : libmagic.so=1-64
 Depends On      : glibc  zlib  xz  bzip2  libseccomp  libseccomp.so=2-64
 Optional Deps   : None
-Required By     : base  util-linux  xdg-utils
+Required By     : base  hwdetect  util-linux  xdg-utils
 Optional For    : inxi
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 7.60 MiB
-Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
-Build Date      : Sun 28 Aug 2022 07:50:19 PM
-Install Date    : Sun 11 Sep 2022 06:21:38 AM
+Installed Size  : 7.80 MiB
+Packager        : Sébastien Luttringer <seblu@seblu.net>
+Build Date      : Fri 16 Sep 2022 02:41:17 AM
+Install Date    : Sun 02 Oct 2022 05:05:27 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -1437,13 +1481,13 @@ Replaces        : None
 Installed Size  : 1416.31 KiB
 Packager        : Tobias Powalowski <tpowa@archlinux.org>
 Build Date      : Wed 02 Feb 2022 12:55:26 AM
-Install Date    : Thu 26 May 2022 06:07:26 PM
+Install Date    : Sun 02 Oct 2022 05:05:25 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
 
 Name            : firefox
-Version         : 104.0.2-1
+Version         : 105.0.1-1
 Description     : Standalone web browser from mozilla.org
 Architecture    : x86_64
 URL             : https://www.mozilla.org/firefox/
@@ -1461,16 +1505,16 @@ Required By     : None
 Optional For    : None
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 234.69 MiB
+Installed Size  : 235.39 MiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
-Build Date      : Mon 05 Sep 2022 02:55:25 PM
-Install Date    : Sun 11 Sep 2022 06:22:58 AM
+Build Date      : Sat 24 Sep 2022 01:04:01 PM
+Install Date    : Mon 26 Sep 2022 06:00:39 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
 
 Name            : firewalld
-Version         : 1.2.0-1
+Version         : 1.2.1-1
 Description     : Firewall daemon with D-Bus interface
 Architecture    : any
 URL             : https://firewalld.org/
@@ -1488,10 +1532,10 @@ Required By     : None
 Optional For    : networkmanager
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 18.62 MiB
+Installed Size  : 18.84 MiB
 Packager        : Maxime Gauduin <alucryd@archlinux.org>
-Build Date      : Sun 24 Jul 2022 01:57:12 PM
-Install Date    : Sun 11 Sep 2022 06:23:00 AM
+Build Date      : Thu 29 Sep 2022 09:40:41 AM
+Install Date    : Sun 02 Oct 2022 06:13:57 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -1513,7 +1557,7 @@ Replaces        : None
 Installed Size  : 971.00 KiB
 Packager        : Evangelos Foutras <evangelos@foutrelis.com>
 Build Date      : Wed 13 Nov 2019 12:43:31 PM
-Install Date    : Thu 26 May 2022 06:07:28 PM
+Install Date    : Sun 02 Oct 2022 05:05:27 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -1579,7 +1623,7 @@ Replaces        : None
 Installed Size  : 3.07 MiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Mon 05 Sep 2022 11:37:19 AM
-Install Date    : Sun 11 Sep 2022 06:21:54 AM
+Install Date    : Sun 02 Oct 2022 05:05:25 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -1601,7 +1645,7 @@ Replaces        : gcc-multilib
 Installed Size  : 169.93 MiB
 Packager        : Frederik Schwan <freswa@archlinux.org>
 Build Date      : Fri 19 Aug 2022 09:12:31 PM
-Install Date    : Sun 11 Sep 2022 06:22:07 AM
+Install Date    : Sun 02 Oct 2022 05:05:28 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -1623,13 +1667,13 @@ Replaces        : None
 Installed Size  : 6.83 MiB
 Packager        : Allan McRae <allan@archlinux.org>
 Build Date      : Mon 28 Feb 2022 02:53:03 AM
-Install Date    : Thu 26 May 2022 06:07:27 PM
+Install Date    : Sun 02 Oct 2022 05:05:25 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
 
 Name            : gimp
-Version         : 2.10.32-1
+Version         : 2.10.32-2
 Description     : GNU Image Manipulation Program
 Architecture    : x86_64
 URL             : https://www.gimp.org/
@@ -1649,8 +1693,8 @@ Conflicts With  : gimp-plugin-wavelet-decompose
 Replaces        : gimp-plugin-wavelet-decompose
 Installed Size  : 113.04 MiB
 Packager        : Christian Hesse <eworm@archlinux.org>
-Build Date      : Mon 13 Jun 2022 02:33:36 AM
-Install Date    : Sat 25 Jun 2022 08:24:09 AM
+Build Date      : Thu 22 Sep 2022 01:48:45 PM
+Install Date    : Mon 26 Sep 2022 06:00:49 AM
 Install Reason  : Explicitly installed
 Install Script  : Yes
 Validated By    : Signature
@@ -1664,7 +1708,7 @@ Licenses        : GPL2
 Groups          : None
 Provides        : None
 Depends On      : curl  expat  perl  perl-error  perl-mailtools  openssl  pcre2  grep  shadow  zlib
-Optional Deps   : tk: gitk and git gui
+Optional Deps   : tk: gitk and git gui [installed]
                   perl-libwww: git svn [installed]
                   perl-term-readkey: git svn and interactive.singlekey setting
                   perl-io-socket-ssl: git send-email TLS support
@@ -1678,7 +1722,7 @@ Optional Deps   : tk: gitk and git gui
                   org.freedesktop.secrets: keyring credential helper [installed]
                   libsecret: libsecret credential helper [installed]
 Required By     : yay
-Optional For    : gettext  ktexteditor  pass
+Optional For    : gettext  github-cli  kate  ktexteditor  pass
 Conflicts With  : None
 Replaces        : None
 Installed Size  : 34.49 MiB
@@ -1687,6 +1731,28 @@ Build Date      : Tue 30 Aug 2022 02:50:44 PM
 Install Date    : Sun 11 Sep 2022 06:23:13 AM
 Install Reason  : Explicitly installed
 Install Script  : Yes
+Validated By    : Signature
+
+Name            : github-cli
+Version         : 2.16.1-1
+Description     : The GitHub CLI
+Architecture    : x86_64
+URL             : https://github.com/cli/cli
+Licenses        : MIT
+Groups          : None
+Provides        : None
+Depends On      : glibc  mailcap
+Optional Deps   : git: To interact with repositories [installed]
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 36.10 MiB
+Packager        : Caleb Maclennan <alerque@archlinux.org>
+Build Date      : Tue 27 Sep 2022 01:33:02 AM
+Install Date    : Fri 07 Oct 2022 11:03:15 AM
+Install Reason  : Explicitly installed
+Install Script  : No
 Validated By    : Signature
 
 Name            : glances
@@ -1761,6 +1827,28 @@ Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
 
+Name            : go
+Version         : 2:1.19.1-1
+Description     : Core compiler tools for the Go programming language
+Architecture    : x86_64
+URL             : https://golang.org/
+Licenses        : BSD
+Groups          : None
+Provides        : go-pie
+Depends On      : None
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : go-pie
+Installed Size  : 434.91 MiB
+Packager        : Morten Linderud <foxboron@archlinux.org>
+Build Date      : Sat 10 Sep 2022 07:11:07 AM
+Install Date    : Mon 03 Oct 2022 06:52:05 AM
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
 Name            : godot-git
 Version         : 4.0.r1.8a21f72-1
 Description     : Godot Game Engine: An advanced, feature packed, multi-platform 2D and 3D game engine.
@@ -1784,7 +1872,7 @@ Install Script  : No
 Validated By    : None
 
 Name            : google-chrome
-Version         : 103.0.5060.53-1
+Version         : 105.0.5195.125-1
 Description     : The popular and trusted web browser by Google (Stable Channel)
 Architecture    : x86_64
 URL             : https://www.google.com/chrome
@@ -1800,10 +1888,10 @@ Required By     : None
 Optional For    : None
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 267.43 MiB
+Installed Size  : 283.94 MiB
 Packager        : Unknown Packager
-Build Date      : Sun 26 Jun 2022 03:07:23 AM
-Install Date    : Sun 26 Jun 2022 03:07:32 AM
+Build Date      : Thu 22 Sep 2022 10:20:32 PM
+Install Date    : Thu 22 Sep 2022 10:20:41 PM
 Install Reason  : Explicitly installed
 Install Script  : Yes
 Validated By    : None
@@ -1860,7 +1948,7 @@ Replaces        : None
 Installed Size  : 872.67 KiB
 Packager        : Sébastien Luttringer <seblu@seblu.net>
 Build Date      : Sun 04 Sep 2022 10:33:58 AM
-Install Date    : Sun 11 Sep 2022 06:21:54 AM
+Install Date    : Sun 02 Oct 2022 05:05:25 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -1885,7 +1973,7 @@ Replaces        : None
 Installed Size  : 9.31 MiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Tue 29 Mar 2022 05:05:12 PM
-Install Date    : Thu 26 May 2022 06:07:28 PM
+Install Date    : Sun 02 Oct 2022 05:05:28 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -1964,7 +2052,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : gst-libav
-Version         : 1.20.3-1
+Version         : 1.20.3-2
 Description     : Multimedia graph framework - libav plugin
 Architecture    : x86_64
 URL             : https://gstreamer.freedesktop.org/
@@ -1979,14 +2067,14 @@ Conflicts With  : None
 Replaces        : None
 Installed Size  : 234.48 KiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
-Build Date      : Thu 16 Jun 2022 04:55:13 PM
-Install Date    : Sat 25 Jun 2022 08:24:09 AM
+Build Date      : Tue 13 Sep 2022 02:10:33 PM
+Install Date    : Thu 22 Sep 2022 10:14:33 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
 
 Name            : gst-plugin-pipewire
-Version         : 1:0.3.57-1
+Version         : 1:0.3.58-1
 Description     : Multimedia graph framework - pipewire plugin
 Architecture    : x86_64
 URL             : https://pipewire.org
@@ -2001,14 +2089,14 @@ Conflicts With  : None
 Replaces        : None
 Installed Size  : 127.21 KiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
-Build Date      : Fri 02 Sep 2022 02:30:32 PM
-Install Date    : Sun 11 Sep 2022 06:23:23 AM
+Build Date      : Thu 15 Sep 2022 12:16:02 PM
+Install Date    : Thu 22 Sep 2022 10:14:33 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
 
 Name            : gst-plugins-bad
-Version         : 1.20.3-1
+Version         : 1.20.3-2
 Description     : Multimedia graph framework - bad plugins
 Architecture    : x86_64
 URL             : https://gstreamer.freedesktop.org/
@@ -2023,14 +2111,14 @@ Conflicts With  : None
 Replaces        : None
 Installed Size  : 3.92 MiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
-Build Date      : Thu 16 Jun 2022 04:55:13 PM
-Install Date    : Sat 25 Jun 2022 08:24:10 AM
+Build Date      : Tue 13 Sep 2022 02:10:33 PM
+Install Date    : Thu 22 Sep 2022 10:14:33 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
 
 Name            : gst-plugins-ugly
-Version         : 1.20.3-1
+Version         : 1.20.3-2
 Description     : Multimedia graph framework - ugly plugins
 Architecture    : x86_64
 URL             : https://gstreamer.freedesktop.org/
@@ -2045,8 +2133,8 @@ Conflicts With  : None
 Replaces        : None
 Installed Size  : 714.19 KiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
-Build Date      : Thu 16 Jun 2022 04:55:13 PM
-Install Date    : Sat 25 Jun 2022 08:24:10 AM
+Build Date      : Tue 13 Sep 2022 02:10:33 PM
+Install Date    : Thu 22 Sep 2022 10:14:33 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -2126,7 +2214,7 @@ Licenses        : GPL  LGPL  FDL
 Groups          : kde-applications  kde-graphics
 Provides        : None
 Depends On      : kactivities  baloo  libkdcraw  kparts  kitemmodels  cfitsio  phonon-qt5  purpose  perl  kimageannotator
-Optional Deps   : qt5-imageformats: support for tiff, webp, and more image formats
+Optional Deps   : qt5-imageformats: support for tiff, webp, and more image formats [installed]
                   kimageformats: support for dds, xcf, exr, psd, and more image formats
                   kamera: import pictures from gphoto2 cameras
 Required By     : None
@@ -2158,7 +2246,7 @@ Replaces        : None
 Installed Size  : 146.92 KiB
 Packager        : Levente Polyak <anthraxx@archlinux.org>
 Build Date      : Thu 07 Apr 2022 01:33:40 PM
-Install Date    : Thu 26 May 2022 06:07:27 PM
+Install Date    : Sun 02 Oct 2022 05:05:28 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -2186,7 +2274,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : hdparm
-Version         : 9.64-1
+Version         : 9.65-1
 Description     : A shell utility for manipulating Linux IDE drive/driver parameters
 Architecture    : x86_64
 URL             : https://sourceforge.net/projects/hdparm/
@@ -2199,10 +2287,10 @@ Required By     : None
 Optional For    : None
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 186.17 KiB
+Installed Size  : 186.20 KiB
 Packager        : Tobias Powalowski <tpowa@archlinux.org>
-Build Date      : Sat 09 Jul 2022 11:22:09 AM
-Install Date    : Sun 11 Sep 2022 06:24:09 AM
+Build Date      : Sat 10 Sep 2022 03:57:50 PM
+Install Date    : Thu 22 Sep 2022 10:14:34 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -2232,14 +2320,14 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : hwdetect
-Version         : 2022.04-2
+Version         : 2022.09-4
 Description     : Hardware detection script with loading modules and mkinitcpio.conf
 Architecture    : any
 URL             : https://archlinux.org/packages/extra/any/hwdetect/
 Licenses        : GPL
 Groups          : None
 Provides        : None
-Depends On      : sh  awk  grep  coreutils  sed  e2fsprogs  gzip
+Depends On      : sh  awk  grep  coreutils  file  sed  e2fsprogs  gzip
 Optional Deps   : cryptsetup: for encrypt mkinitcpio config support [installed]
                   dmraid: for dmraid mkinitcpio config support [installed]
                   lvm2: for lvm2 mkinitcpio config support [installed]
@@ -2248,10 +2336,10 @@ Required By     : None
 Optional For    : None
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 15.45 KiB
+Installed Size  : 15.53 KiB
 Packager        : Tobias Powalowski <tpowa@archlinux.org>
-Build Date      : Tue 26 Apr 2022 03:34:42 AM
-Install Date    : Thu 26 May 2022 06:09:36 PM
+Build Date      : Sat 24 Sep 2022 05:14:46 AM
+Install Date    : Mon 26 Sep 2022 06:01:05 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -2446,7 +2534,7 @@ Provides        : None
 Depends On      : util-linux
 Optional Deps   : None
 Required By     : None
-Optional For    : gparted
+Optional For    : gparted  kpmcore
 Conflicts With  : None
 Replaces        : None
 Installed Size  : 955.58 KiB
@@ -2500,6 +2588,35 @@ Install Date    : Fri 27 May 2022 01:27:32 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : None
+
+Name            : kate
+Version         : 22.08.1-1
+Description     : Advanced text editor
+Architecture    : x86_64
+URL             : https://apps.kde.org/kate/
+Licenses        : GPL  LGPL  FDL
+Groups          : kde-applications  kde-utilities
+Provides        : kwrite
+Depends On      : knewstuff  ktexteditor  kactivities  kuserfeedback  hicolor-icon-theme
+Optional Deps   : konsole: open a terminal in Kate [installed]
+                  clang: C and C++ LSP support
+                  python-lsp-server: Python LSP support
+                  texlab: LaTeX LSP support
+                  rust: Rust LSP support
+                  git: git-blame plugin [installed]
+                  markdownpart: Markdown preview
+                  svgpart: SVG preview
+Required By     : None
+Optional For    : None
+Conflicts With  : kwrite
+Replaces        : kwrite
+Installed Size  : 27.89 MiB
+Packager        : Antonio Rojas <arojas@archlinux.org>
+Build Date      : Tue 06 Sep 2022 03:56:34 PM
+Install Date    : Mon 26 Sep 2022 06:00:32 AM
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
 
 Name            : kcalc
 Version         : 22.08.1-1
@@ -2615,7 +2732,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : kinit
-Version         : 5.97.0-1
+Version         : 5.98.0-1
 Description     : Process launcher to speed up launching KDE applications
 Architecture    : x86_64
 URL             : https://community.kde.org/Frameworks
@@ -2628,10 +2745,10 @@ Required By     : None
 Optional For    : None
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 496.71 KiB
-Packager        : Felix Yan <felixonmars@archlinux.org>
-Build Date      : Mon 15 Aug 2022 12:59:54 PM
-Install Date    : Sun 11 Sep 2022 06:24:51 AM
+Installed Size  : 496.77 KiB
+Packager        : Antonio Rojas <arojas@archlinux.org>
+Build Date      : Mon 05 Sep 2022 01:05:41 PM
+Install Date    : Thu 22 Sep 2022 10:14:36 PM
 Install Reason  : Explicitly installed
 Install Script  : Yes
 Validated By    : Signature
@@ -2658,6 +2775,73 @@ Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
 
+Name            : kio-gdrive
+Version         : 22.08.1-1
+Description     : KIO Slave to access Google Drive
+Architecture    : x86_64
+URL             : https://apps.kde.org/kio_gdrive/
+Licenses        : GPL
+Groups          : kde-applications  kde-network
+Provides        : None
+Depends On      : libkgapi  kaccounts-providers
+Optional Deps   : purpose: to use the share plugin [installed]
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 384.74 KiB
+Packager        : Antonio Rojas <arojas@archlinux.org>
+Build Date      : Tue 06 Sep 2022 02:54:07 PM
+Install Date    : Sun 02 Oct 2022 06:16:25 PM
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : kmail
+Version         : 22.08.1-1
+Description     : KDE mail client
+Architecture    : x86_64
+URL             : https://apps.kde.org/kmail2/
+Licenses        : GPL2
+Groups          : kde-applications  kde-pim
+Provides        : None
+Depends On      : kdepim-runtime  kmail-account-wizard  akonadi-import-wizard  mbox-importer  pim-data-exporter  pim-sieve-editor  kontactinterface  ktnef
+Optional Deps   : kleopatra: mail encryption support
+                  kdepim-addons: additional plugins
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 21.10 MiB
+Packager        : Antonio Rojas <arojas@archlinux.org>
+Build Date      : Tue 06 Sep 2022 03:29:01 PM
+Install Date    : Mon 26 Sep 2022 06:00:27 AM
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : kolourpaint
+Version         : 22.08.1-1
+Description     : Paint Program
+Architecture    : x86_64
+URL             : https://apps.kde.org/kolourpaint/
+Licenses        : GPL  LGPL  FDL
+Groups          : kde-applications  kde-graphics
+Provides        : None
+Depends On      : libksane  kio
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 9.18 MiB
+Packager        : Antonio Rojas <arojas@archlinux.org>
+Build Date      : Tue 06 Sep 2022 02:25:46 PM
+Install Date    : Mon 26 Sep 2022 06:00:27 AM
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
 Name            : konsole
 Version         : 22.08.1-1
 Description     : KDE terminal emulator
@@ -2669,13 +2853,65 @@ Provides        : None
 Depends On      : knotifyconfig  kpty  kparts  knewstuff
 Optional Deps   : keditbookmarks: to manage bookmarks
 Required By     : yakuake
-Optional For    : dolphin  eos-quickstart
+Optional For    : dolphin  eos-quickstart  kate
 Conflicts With  : None
 Replaces        : None
 Installed Size  : 6.71 MiB
 Packager        : Antonio Rojas <arojas@archlinux.org>
 Build Date      : Tue 06 Sep 2022 04:05:23 PM
 Install Date    : Sun 11 Sep 2022 06:24:54 AM
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : krename
+Version         : 5.0.2-1
+Description     : A very powerful batch file renamer
+Architecture    : x86_64
+URL             : https://www.krename.net
+Licenses        : GPL
+Groups          : None
+Provides        : None
+Depends On      : kio  kjs  exiv2  podofo  taglib  hicolor-icon-theme
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 2.18 MiB
+Packager        : Antonio Rojas <arojas@archlinux.org>
+Build Date      : Thu 01 Sep 2022 02:56:37 AM
+Install Date    : Mon 26 Sep 2022 06:00:32 AM
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : krita
+Version         : 5.1.1-2
+Description     : Edit and paint images
+Architecture    : x86_64
+URL             : https://krita.org
+Licenses        : GPL3
+Groups          : None
+Provides        : None
+Depends On      : kitemviews  kitemmodels  ki18n  kcompletion  kguiaddons  kcrash  qt5-svg  qt5-multimedia  quazip  gsl  libraw  exiv2  openexr  fftw  openjpeg2  opencolorio  libwebp  hicolor-icon-theme
+Optional Deps   : poppler-qt5: PDF filter [installed]
+                  ffmpeg: to save animations [installed]
+                  python-pyqt5: for the Python plugins [installed]
+                  libheif: HEIF filter [installed]
+                  kseexpr: SeExpr generator layer
+                  kimageformats: PSD support
+                  libmypaint: support for MyPaint brushes [installed]
+                  krita-plugin-gmic: GMic plugin
+                  libjxl: JPEG-XL filter
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 157.49 MiB
+Packager        : Antonio Rojas <arojas@archlinux.org>
+Build Date      : Wed 21 Sep 2022 04:10:43 PM
+Install Date    : Mon 26 Sep 2022 06:00:27 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -2698,6 +2934,33 @@ Installed Size  : 922.28 KiB
 Packager        : Antonio Rojas <arojas@archlinux.org>
 Build Date      : Tue 06 Sep 2022 10:02:50 AM
 Install Date    : Sun 11 Sep 2022 06:24:55 AM
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : ktorrent
+Version         : 22.08.1-1
+Description     : A powerful BitTorrent client for KDE
+Architecture    : x86_64
+URL             : https://apps.kde.org/ktorrent/
+Licenses        : GPL2
+Groups          : kde-applications  kde-network
+Provides        : None
+Depends On      : libktorrent  kcmutils  knotifyconfig  kparts  phonon-qt5  qt5-webengine
+Optional Deps   : plasma-workspace: shutdown plugin [installed]
+                  kdnssd: zeroconf plugin [installed]
+                  taglib: mediaplayer plugin [installed]
+                  geoip: info widget plugin [installed]
+                  syndication: syndication plugin [installed]
+                  kplotting: statistics plugin
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 10.44 MiB
+Packager        : Antonio Rojas <arojas@archlinux.org>
+Build Date      : Tue 06 Sep 2022 03:04:45 PM
+Install Date    : Mon 26 Sep 2022 06:00:32 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -2822,20 +3085,20 @@ Groups          : base-devel
 Provides        : libltdl=2.4.7  libtool-multilib=2.4.7
 Depends On      : sh  tar  glibc
 Optional Deps   : None
-Required By     : docker  graphviz  guile  hwloc  imagemagick  libcanberra  libgphoto2  mpg123  redland  xmlsec
+Required By     : docker  graphviz  guile  hwloc  imagemagick  libcanberra  libgphoto2  mpg123  redland  unixodbc  xmlsec
 Optional For    : None
 Conflicts With  : libltdl  libtool-multilib
 Replaces        : libltdl  libtool-multilib
 Installed Size  : 2.22 MiB
 Packager        : Frederik Schwan <freswa@archlinux.org>
 Build Date      : Sat 20 Aug 2022 06:18:29 PM
-Install Date    : Sun 11 Sep 2022 06:21:42 AM
+Install Date    : Sun 02 Oct 2022 05:05:28 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
 
 Name            : libwnck3
-Version         : 40.1-1
+Version         : 43.0-2
 Description     : Library to manage X windows and workspaces (via pagers, tasklists, etc.)
 Architecture    : x86_64
 URL             : https://gitlab.gnome.org/GNOME/libwnck
@@ -2848,10 +3111,10 @@ Required By     : guake
 Optional For    : None
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 3.06 MiB
+Installed Size  : 3.08 MiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
-Build Date      : Thu 17 Feb 2022 06:33:01 PM
-Install Date    : Thu 26 May 2022 06:09:33 PM
+Build Date      : Mon 26 Sep 2022 11:24:13 AM
+Install Date    : Tue 27 Sep 2022 08:07:43 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -2925,10 +3188,10 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : linux
-Version         : 5.19.7.arch1-1
+Version         : 5.19.12.arch1-1
 Description     : The Linux kernel and modules
 Architecture    : x86_64
-URL             : https://github.com/archlinux/linux/commits/v5.19.7-arch1
+URL             : https://github.com/archlinux/linux/commits/v5.19.12-arch1
 Licenses        : GPL2
 Groups          : None
 Provides        : VIRTUALBOX-GUEST-MODULES  WIREGUARD-MODULE  KSMBD-MODULE
@@ -2939,16 +3202,16 @@ Required By     : None
 Optional For    : base
 Conflicts With  : None
 Replaces        : virtualbox-guest-modules-arch  wireguard-arch
-Installed Size  : 178.61 MiB
+Installed Size  : 178.56 MiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
-Build Date      : Mon 05 Sep 2022 02:09:09 PM
-Install Date    : Sun 11 Sep 2022 06:25:35 AM
+Build Date      : Wed 28 Sep 2022 09:21:25 AM
+Install Date    : Sun 02 Oct 2022 06:13:59 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
 
 Name            : linux-firmware
-Version         : 20220815.8413c63-1
+Version         : 20220913.f09bebf-1
 Description     : Firmware files for Linux
 Architecture    : any
 URL             : https://git.kernel.org/?p=linux/kernel/git/firmware/linux-firmware.git;a=summary
@@ -2961,19 +3224,19 @@ Required By     : None
 Optional For    : linux
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 162.57 MiB
+Installed Size  : 163.27 MiB
 Packager        : Laurent Carlier <lordheavym@archlinux.org>
-Build Date      : Fri 26 Aug 2022 09:52:59 AM
-Install Date    : Sun 11 Sep 2022 06:25:47 AM
+Build Date      : Sat 24 Sep 2022 01:46:05 PM
+Install Date    : Tue 27 Sep 2022 08:07:44 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
 
 Name            : linux-headers
-Version         : 5.19.7.arch1-1
+Version         : 5.19.12.arch1-1
 Description     : Headers and scripts for building modules for the Linux kernel
 Architecture    : x86_64
-URL             : https://github.com/archlinux/linux/commits/v5.19.7-arch1
+URL             : https://github.com/archlinux/linux/commits/v5.19.12-arch1
 Licenses        : GPL2
 Groups          : None
 Provides        : None
@@ -2983,10 +3246,10 @@ Required By     : None
 Optional For    : dkms  nvidia-installer-common  nvidia-installer-dkms
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 144.46 MiB
+Installed Size  : 144.47 MiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
-Build Date      : Mon 05 Sep 2022 02:09:09 PM
-Install Date    : Sun 11 Sep 2022 06:26:07 AM
+Build Date      : Wed 28 Sep 2022 09:21:25 AM
+Install Date    : Sun 02 Oct 2022 08:56:51 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -3002,7 +3265,7 @@ Provides        : None
 Depends On      : popt  gzip  acl
 Optional Deps   : None
 Required By     : None
-Optional For    : None
+Optional For    : cups
 Conflicts With  : None
 Replaces        : None
 Installed Size  : 104.29 KiB
@@ -3036,7 +3299,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : lsd
-Version         : 0.23.0-1
+Version         : 0.23.1-1
 Description     : Modern ls with a lot of pretty colors and awesome icons
 Architecture    : x86_64
 URL             : https://github.com/Peltoche/lsd
@@ -3049,10 +3312,10 @@ Required By     : None
 Optional For    : None
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 1977.66 KiB
+Installed Size  : 1978.16 KiB
 Packager        : Orhun Parmaksız <orhun@archlinux.org>
-Build Date      : Mon 05 Sep 2022 09:05:30 AM
-Install Date    : Sun 11 Sep 2022 06:26:07 AM
+Build Date      : Tue 13 Sep 2022 12:27:50 PM
+Install Date    : Thu 22 Sep 2022 10:14:43 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -3118,7 +3381,7 @@ Replaces        : None
 Installed Size  : 502.14 KiB
 Packager        : Antonio Rojas <arojas@archlinux.org>
 Build Date      : Mon 07 Jun 2021 02:29:25 PM
-Install Date    : Thu 26 May 2022 06:07:27 PM
+Install Date    : Sun 02 Oct 2022 05:05:27 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -3140,7 +3403,7 @@ Replaces        : None
 Installed Size  : 1551.73 KiB
 Packager        : Evangelos Foutras <evangelos@foutrelis.com>
 Build Date      : Wed 08 Apr 2020 09:37:19 AM
-Install Date    : Thu 26 May 2022 06:07:28 PM
+Install Date    : Sun 02 Oct 2022 05:05:28 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -3209,7 +3472,7 @@ Optional Deps   : aspell: spelling corrections
                   perl: needed by several extfs scripts [installed]
                   python: to access uc1541 or s3 storage [installed]
                   python-boto: s3+ extfs
-                  python-pytz: s3+ extfs
+                  python-pytz: s3+ extfs [installed]
                   samba: VFS support [installed]
                   unace: uace extfs
                   unarj: uarj extfs
@@ -3410,7 +3673,7 @@ Install Script  : Yes
 Validated By    : Signature
 
 Name            : modemmanager
-Version         : 1.18.10-2
+Version         : 1.18.12-1
 Description     : Mobile broadband modem management service
 Architecture    : x86_64
 URL             : https://www.freedesktop.org/wiki/Software/ModemManager/
@@ -3425,14 +3688,14 @@ Conflicts With  : None
 Replaces        : None
 Installed Size  : 5.39 MiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
-Build Date      : Wed 27 Jul 2022 05:24:32 AM
-Install Date    : Sun 11 Sep 2022 06:26:08 AM
+Build Date      : Tue 13 Sep 2022 12:54:11 PM
+Install Date    : Thu 22 Sep 2022 10:14:43 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
 
 Name            : mtools
-Version         : 1:4.0.40-1
+Version         : 1:4.0.41-1
 Description     : A collection of utilities to access MS-DOS disks
 Architecture    : x86_64
 URL             : https://www.gnu.org/software/mtools/
@@ -3446,10 +3709,10 @@ Required By     : None
 Optional For    : gparted  grub  mc
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 386.03 KiB
+Installed Size  : 386.21 KiB
 Packager        : David Runge <dvzrv@archlinux.org>
-Build Date      : Tue 07 Jun 2022 04:39:47 AM
-Install Date    : Sat 25 Jun 2022 08:24:28 AM
+Build Date      : Wed 21 Sep 2022 08:44:37 AM
+Install Date    : Thu 22 Sep 2022 10:14:43 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -3708,7 +3971,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : newsboat
-Version         : 2.28-1
+Version         : 2.29-1
 Description     : An RSS/Atom feed reader for text terminals
 Architecture    : x86_64
 URL             : https://newsboat.org/
@@ -3725,10 +3988,10 @@ Required By     : None
 Optional For    : None
 Conflicts With  : None
 Replaces        : newsbeuter
-Installed Size  : 9.42 MiB
+Installed Size  : 9.24 MiB
 Packager        : Daniel M. Capella <polyzen@archlinux.org>
-Build Date      : Sun 26 Jun 2022 08:58:19 PM
-Install Date    : Sun 03 Jul 2022 07:49:47 PM
+Build Date      : Sun 25 Sep 2022 03:16:27 PM
+Install Date    : Mon 26 Sep 2022 06:01:13 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -3767,7 +4030,7 @@ Provides        : None
 Depends On      : util-linux
 Optional Deps   : None
 Required By     : None
-Optional For    : gparted
+Optional For    : gparted  kpmcore
 Conflicts With  : None
 Replaces        : None
 Installed Size  : 409.41 KiB
@@ -3823,7 +4086,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : noto-fonts
-Version         : 20220607-1
+Version         : 20220810-1
 Description     : Google Noto TTF fonts
 Architecture    : any
 URL             : https://fonts.google.com/noto
@@ -3838,16 +4101,16 @@ Required By     : firefox  plasma-integration  qt5-webengine  sddm  steam
 Optional For    : None
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 109.70 MiB
+Installed Size  : 109.68 MiB
 Packager        : Antonio Rojas <arojas@archlinux.org>
-Build Date      : Tue 21 Jun 2022 12:25:11 PM
-Install Date    : Sat 25 Jun 2022 08:24:00 AM
+Build Date      : Fri 30 Sep 2022 12:18:25 PM
+Install Date    : Sun 02 Oct 2022 06:14:04 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
 
 Name            : npm
-Version         : 8.19.1-1
+Version         : 8.19.2-1
 Description     : A package manager for javascript
 Architecture    : any
 URL             : https://www.npmjs.com/
@@ -3862,8 +4125,8 @@ Conflicts With  : None
 Replaces        : None
 Installed Size  : 6.49 MiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
-Build Date      : Sat 03 Sep 2022 02:49:32 AM
-Install Date    : Sun 11 Sep 2022 06:26:23 AM
+Build Date      : Wed 14 Sep 2022 04:54:24 AM
+Install Date    : Thu 22 Sep 2022 10:14:43 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -3901,7 +4164,7 @@ Provides        : ntfsprogs
 Depends On      : util-linux  fuse2
 Optional Deps   : None
 Required By     : None
-Optional For    : gparted  udisks2
+Optional For    : gparted  kpmcore  udisks2
 Conflicts With  : ntfsprogs
 Replaces        : ntfsprogs
 Installed Size  : 1624.69 KiB
@@ -3935,23 +4198,23 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : nvidia-dkms
-Version         : 515.65.01-2
+Version         : 515.76-1
 Description     : NVIDIA drivers - module sources
 Architecture    : x86_64
 URL             : http://www.nvidia.com/
 Licenses        : custom
 Groups          : None
 Provides        : NVIDIA-MODULE  nvidia
-Depends On      : dkms  nvidia-utils=515.65.01  libglvnd
+Depends On      : dkms  nvidia-utils=515.76  libglvnd
 Optional Deps   : None
 Required By     : None
 Optional For    : None
 Conflicts With  : NVIDIA-MODULE  nvidia
 Replaces        : None
-Installed Size  : 52.48 MiB
+Installed Size  : 52.51 MiB
 Packager        : Sven-Hendrik Haase <svenstaro@gmail.com>
-Build Date      : Sun 07 Aug 2022 11:04:53 AM
-Install Date    : Sun 11 Sep 2022 06:26:24 AM
+Build Date      : Fri 23 Sep 2022 02:06:50 AM
+Install Date    : Mon 26 Sep 2022 06:01:13 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -3982,14 +4245,14 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : obs-studio
-Version         : 27.2.4-2
+Version         : 28.0.2-2
 Description     : Free, open source software for live streaming and recording
 Architecture    : x86_64
 URL             : https://obsproject.com
 Licenses        : GPL2
 Groups          : None
 Provides        : None
-Depends On      : ffmpeg  jansson  libxinerama  libxkbcommon-x11  mbedtls  rnnoise  pciutils  qt5-svg  curl  jack  gtk-update-icon-cache  pipewire  libxcomposite
+Depends On      : ffmpeg  jansson  libxinerama  libxkbcommon-x11  mbedtls  rnnoise  pciutils  qt6-svg  curl  jack  gtk-update-icon-cache  pipewire  libxcomposite
 Optional Deps   : libfdk-aac: FDK AAC codec support [installed]
                   libva-intel-driver: hardware encoding
                   libva-mesa-driver: hardware encoding
@@ -4001,10 +4264,32 @@ Required By     : None
 Optional For    : None
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 17.61 MiB
-Packager        : Christian Hesse <eworm@archlinux.org>
-Build Date      : Mon 11 Jul 2022 04:35:15 PM
-Install Date    : Sun 04 Sep 2022 09:57:35 PM
+Installed Size  : 19.37 MiB
+Packager        : Justin Kromlinger <hashworks@archlinux.org>
+Build Date      : Sat 01 Oct 2022 10:24:57 AM
+Install Date    : Sun 02 Oct 2022 06:14:04 AM
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : obsidian
+Version         : 0.15.9-1
+Description     : A powerful knowledge base that works on top of a local folder of plain text Markdown files
+Architecture    : x86_64
+URL             : https://obsidian.md/
+Licenses        : custom:Commercial
+Groups          : None
+Provides        : None
+Depends On      : zlib  hicolor-icon-theme  fuse  electron18
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 17.24 MiB
+Packager        : Sven-Hendrik Haase <svenstaro@gmail.com>
+Build Date      : Wed 27 Jul 2022 10:48:58 AM
+Install Date    : Sat 01 Oct 2022 01:33:27 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -4086,7 +4371,7 @@ Install Script  : Yes
 Validated By    : Signature
 
 Name            : os-prober
-Version         : 1.80-1
+Version         : 1.81-1
 Description     : Utility to detect other OSes on a set of drives
 Architecture    : x86_64
 URL             : https://joeyh.name/code/os-prober/
@@ -4099,16 +4384,16 @@ Required By     : None
 Optional For    : grub  grub-tools
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 57.75 KiB
-Packager        : Antonio Rojas <arojas@archlinux.org>
-Build Date      : Sat 18 Jun 2022 01:51:42 PM
-Install Date    : Sat 25 Jun 2022 08:24:30 AM
+Installed Size  : 57.83 KiB
+Packager        : Felix Yan <felixonmars@archlinux.org>
+Build Date      : Mon 19 Sep 2022 05:59:20 PM
+Install Date    : Thu 22 Sep 2022 10:14:43 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
 
 Name            : pacman
-Version         : 6.0.1-7
+Version         : 6.0.1-8
 Description     : A library-based package manager with dependency support
 Architecture    : x86_64
 URL             : https://www.archlinux.org/pacman/
@@ -4122,9 +4407,9 @@ Optional For    : None
 Conflicts With  : None
 Replaces        : None
 Installed Size  : 4.70 MiB
-Packager        : Levente Polyak <anthraxx@archlinux.org>
-Build Date      : Wed 20 Jul 2022 04:23:47 PM
-Install Date    : Sun 11 Sep 2022 06:21:54 AM
+Packager        : Morten Linderud <foxboron@archlinux.org>
+Build Date      : Sun 25 Sep 2022 08:54:56 AM
+Install Date    : Sun 02 Oct 2022 05:05:25 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -4151,6 +4436,28 @@ Installed Size  : 116.33 KiB
 Packager        : Daniel M. Capella <polyzen@archlinux.org>
 Build Date      : Wed 07 Sep 2022 11:45:27 PM
 Install Date    : Sun 11 Sep 2022 06:26:25 AM
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : partitionmanager
+Version         : 22.08.1-1
+Description     : A KDE utility that allows you to manage disks, partitions, and file systems
+Architecture    : x86_64
+URL             : https://apps.kde.org/partitionmanager/
+Licenses        : GPL2
+Groups          : kde-applications  kde-system
+Provides        : None
+Depends On      : kpmcore  hicolor-icon-theme  kio
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 5.05 MiB
+Packager        : Antonio Rojas <arojas@archlinux.org>
+Build Date      : Tue 06 Sep 2022 03:54:04 PM
+Install Date    : Mon 26 Sep 2022 06:00:32 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -4200,7 +4507,7 @@ Replaces        : None
 Installed Size  : 197.75 KiB
 Packager        : Allan McRae <allan@archlinux.org>
 Build Date      : Tue 12 Nov 2019 07:05:02 PM
-Install Date    : Thu 26 May 2022 06:07:28 PM
+Install Date    : Sun 02 Oct 2022 05:05:28 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -4250,7 +4557,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : pipewire-alsa
-Version         : 1:0.3.57-1
+Version         : 1:0.3.58-1
 Description     : Low-latency audio/video router and processor - ALSA configuration
 Architecture    : x86_64
 URL             : https://pipewire.org
@@ -4265,14 +4572,14 @@ Conflicts With  : None
 Replaces        : None
 Installed Size  : 1218.00 B
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
-Build Date      : Fri 02 Sep 2022 02:30:32 PM
-Install Date    : Sun 11 Sep 2022 06:26:28 AM
+Build Date      : Thu 15 Sep 2022 12:16:02 PM
+Install Date    : Thu 22 Sep 2022 10:14:44 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
 
 Name            : pipewire-jack
-Version         : 1:0.3.57-1
+Version         : 1:0.3.58-1
 Description     : Low-latency audio/video router and processor - JACK support
 Architecture    : x86_64
 URL             : https://pipewire.org
@@ -4287,14 +4594,14 @@ Conflicts With  : jack  jack2
 Replaces        : None
 Installed Size  : 682.81 KiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
-Build Date      : Fri 02 Sep 2022 02:30:32 PM
-Install Date    : Sun 11 Sep 2022 06:21:44 AM
+Build Date      : Thu 15 Sep 2022 12:16:02 PM
+Install Date    : Thu 22 Sep 2022 10:14:30 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
 
 Name            : pipewire-pulse
-Version         : 1:0.3.57-1
+Version         : 1:0.3.58-1
 Description     : Low-latency audio/video router and processor - PulseAudio replacement
 Architecture    : x86_64
 URL             : https://pipewire.org
@@ -4309,8 +4616,8 @@ Conflicts With  : pulseaudio  pulseaudio-bluetooth
 Replaces        : None
 Installed Size  : 500.83 KiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
-Build Date      : Fri 02 Sep 2022 02:30:32 PM
-Install Date    : Sun 11 Sep 2022 06:26:28 AM
+Build Date      : Thu 15 Sep 2022 12:16:02 PM
+Install Date    : Thu 22 Sep 2022 10:14:44 PM
 Install Reason  : Explicitly installed
 Install Script  : Yes
 Validated By    : Signature
@@ -4332,7 +4639,7 @@ Replaces        : pkg-config
 Installed Size  : 161.65 KiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Thu 09 Sep 2021 07:50:13 AM
-Install Date    : Thu 26 May 2022 06:07:28 PM
+Install Date    : Sun 02 Oct 2022 05:05:28 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -4454,7 +4761,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : plasma-wayland-session
-Version         : 5.25.5-2
+Version         : 5.25.5-4
 Description     : Plasma Wayland session
 Architecture    : x86_64
 URL             : https://kde.org/plasma-desktop/
@@ -4469,8 +4776,8 @@ Conflicts With  : None
 Replaces        : None
 Installed Size  : 3.42 KiB
 Packager        : Antonio Rojas <arojas@archlinux.org>
-Build Date      : Thu 08 Sep 2022 04:29:01 PM
-Install Date    : Sun 11 Sep 2022 06:26:35 AM
+Build Date      : Wed 28 Sep 2022 06:29:39 AM
+Install Date    : Sun 02 Oct 2022 06:14:06 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -4543,7 +4850,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : ppp
-Version         : 2.4.9-1
+Version         : 2.4.9-2
 Description     : A daemon which implements the Point-to-Point Protocol for dial-up networking
 Architecture    : x86_64
 URL             : https://www.samba.org/ppp/
@@ -4556,10 +4863,10 @@ Required By     : modemmanager  pptpclient  rp-pppoe  xl2tpd
 Optional For    : netctl  networkmanager
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 2.07 MiB
-Packager        : Antonio Rojas <arojas@archlinux.org>
-Build Date      : Sun 02 May 2021 04:58:45 AM
-Install Date    : Thu 26 May 2022 06:09:33 PM
+Installed Size  : 1777.32 KiB
+Packager        : Felix Yan <felixonmars@archlinux.org>
+Build Date      : Mon 12 Sep 2022 05:42:40 AM
+Install Date    : Thu 22 Sep 2022 10:14:43 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -4644,9 +4951,9 @@ Optional Deps   : python-setuptools [installed]
                   sqlite [installed]
                   mpdecimal: for decimal
                   xz: for lzma [installed]
-                  tk: for tkinter
-Required By     : bind  ceph-libs  ddgr  fwupd  gameconqueror  glances  kitty-shell-integration  libixion  node-gyp  nvidia-installer-dkms  pahole  pcsclite  python-appdirs  python-autocommand  python-cairo  python-certifi  python-colorama  python-defusedxml  python-future  python-gobject  python-inflect  python-jaraco.context  python-more-itertools  python-ordered-set  python-ply  python-psutil  python-pydantic  python-pyparsing  python-pyqt5-sip  python-shtab  python-six  python-termcolor  python-tomli  python-trove-classifiers  python-typing_extensions  python-yaml  python-zipp  reflector  samba  smbclient  steam  youtube-dl
-Optional For    : btrfs-progs  git  glib2  graphviz  gstreamer  gtk2  gupnp  imath  ki18n  ldb  lensfun  libbytesize  libevent  libftdi  libieee1284  libnewt  libproxy  libsmbios  libxml2  libxslt  mc  neomutt  net-snmp  newsboat  nfs-utils  nftables  obs-studio  openconnect  talloc  tdb  tevent  usbutils  util-linux  volume_key  xfsprogs  zbar
+                  tk: for tkinter [installed]
+Required By     : bind  ceph-libs  ddgr  fwupd  gameconqueror  glances  kitty-shell-integration  libixion  node-gyp  nvidia-installer-dkms  pahole  pcsclite  python-appdirs  python-autocommand  python-babel  python-cairo  python-certifi  python-chardet  python-colorama  python-colour  python-defusedxml  python-easygui  python-future  python-gobject  python-gphoto2  python-idna  python-inflect  python-jaraco.context  python-more-itertools  python-ordered-set  python-ply  python-psutil  python-pydantic  python-pymediainfo  python-pyparsing  python-pyqt5-sip  python-pytz  python-pyxdg  python-pyzmq  python-shtab  python-six  python-sortedcontainers  python-tenacity  python-termcolor  python-tomli  python-tornado  python-trove-classifiers  python-typing_extensions  python-urllib3  python-yaml  python-zipp  reflector  samba  smbclient  steam  youtube-dl
+Optional For    : btrfs-progs  git  glib2  graphviz  gstreamer  gtk2  gupnp  imath  ki18n  ldb  lensfun  libbytesize  libevent  libftdi  libieee1284  libnewt  libproxy  libsmbios  libxml2  libxslt  mc  neomutt  net-snmp  newsboat  nfs-utils  nftables  obs-studio  opencolorio  openconnect  talloc  tdb  tevent  usbutils  util-linux  volume_key  xfsprogs  zbar
 Conflicts With  : None
 Replaces        : python3
 Installed Size  : 54.67 MiB
@@ -4711,7 +5018,7 @@ Groups          : None
 Provides        : None
 Depends On      : python-pyparsing
 Optional Deps   : None
-Required By     : python-nspektr  python-setuptools  python-validate-pyproject
+Required By     : python-nspektr  python-setuptools  python-show-in-file-manager  python-validate-pyproject
 Optional For    : None
 Conflicts With  : None
 Replaces        : None
@@ -4724,7 +5031,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : python-pyqt5
-Version         : 5.15.7-1
+Version         : 5.15.7-2
 Description     : A set of Python bindings for the Qt5 toolkit
 Architecture    : x86_64
 URL             : https://riverbankcomputing.com/software/pyqt/intro
@@ -4747,14 +5054,66 @@ Optional Deps   : python-opengl: enable OpenGL 3D graphics in PyQt applications
                   qt5-remoteobjects: QtRemoteObjects
                   qt5-speech: QtTextToSpeech [installed]
                   qt5-quick3d: QtQuick3D
-Required By     : None
-Optional For    : firewalld
+Required By     : rapid-photo-downloader
+Optional For    : firewalld  krita
 Conflicts With  : pyqt5-common
 Replaces        : None
-Installed Size  : 26.45 MiB
+Installed Size  : 28.71 MiB
 Packager        : Antonio Rojas <arojas@archlinux.org>
-Build Date      : Sat 18 Jun 2022 05:18:25 PM
-Install Date    : Sat 25 Jun 2022 08:24:32 AM
+Build Date      : Mon 19 Sep 2022 05:22:12 PM
+Install Date    : Thu 22 Sep 2022 10:14:45 PM
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : qt5-base
+Version         : 5.15.6+kde+r177-1
+Description     : A cross-platform application and UI framework
+Architecture    : x86_64
+URL             : https://www.qt.io
+Licenses        : GPL3  LGPL3  FDL  custom
+Groups          : qt  qt5
+Provides        : None
+Depends On      : libjpeg-turbo  xcb-util-keysyms  xcb-util-renderutil  libgl  fontconfig  xdg-utils  shared-mime-info  xcb-util-wm  libxrender  libxi  sqlite  xcb-util-image  mesa  tslib  libinput  libxkbcommon-x11  libproxy  libcups  double-conversion  md4c  qt5-translations
+Optional Deps   : qt5-svg: to use SVG icon themes [installed]
+                  qt5-wayland: to run Qt applications in a Wayland session [installed]
+                  postgresql-libs: PostgreSQL driver [installed]
+                  mariadb-libs: MariaDB driver [installed]
+                  unixodbc: ODBC driver [installed]
+                  libfbclient: Firebird/iBase driver [installed]
+                  freetds: MS SQL driver [installed]
+                  gtk3: GTK platform plugin [installed]
+                  perl: for fixqt4headers and syncqt [installed]
+Required By     : appstream-qt  attica  barrier  bluez-qt  cloudcross  karchive  kcalendarcore  kcodecs  kcolorpicker  kconfig  kcoreaddons  kdnssd  kdsoap  kholidays  kitemmodels  kitemviews  kjs  kuserfeedback  kwidgetsaddons  libaccounts-qt  libdbusmenu-qt5  libkdcraw  libkexiv2  libqaccessibilityclient  modemmanager-qt  networkmanager-qt  phonon-qt5  polkit-qt5  poppler-qt5  pulseaudio-qt  python-pyqt5  qca-qt5  qgpgme  qt5-declarative  qt5-imageformats  qt5-multimedia  qt5-networkauth  qt5-script  qt5-sensors  qt5-svg  qt5-tools  qt5-x11extras  qt5-xmlpatterns  qtkeychain-qt5  quazip-qt5  signond  smplayer  solid  sonnet  syntax-highlighting  threadweaver  vlc
+Optional For    : avahi  graphviz  libde265  openal  opencv  pinentry  v4l-utils
+Conflicts With  : qtchooser
+Replaces        : None
+Installed Size  : 62.96 MiB
+Packager        : Antonio Rojas <arojas@archlinux.org>
+Build Date      : Tue 20 Sep 2022 02:28:50 AM
+Install Date    : Sun 02 Oct 2022 05:05:28 PM
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : rapid-photo-downloader
+Version         : 0.9.33-1
+Description     : Photo and video downloader
+Architecture    : any
+URL             : https://www.damonlynch.net/rapid/
+Licenses        : GPL3
+Groups          : None
+Provides        : None
+Depends On      : desktop-file-utils  gstreamer  hicolor-icon-theme  libgexiv2  libnotify  python-arrow  perl-image-exiftool  python-colour  python-dateutil  python-easygui  python-gobject  python-gphoto2  python-psutil  python-pymediainfo  python-pyqt5  python-pyzmq  python-requests  python-setuptools  python-sortedcontainers  python-babel  python-tornado  python-pyxdg  qt5-imageformats  udisks2  python-tenacity  qt5-svg  python-show-in-file-manager
+Optional Deps   : ifuse: for iOS devices
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 28.01 MiB
+Packager        : Jaroslav Lichtblau <svetlemodry@archlinux.org>
+Build Date      : Tue 15 Mar 2022 07:02:04 AM
+Install Date    : Mon 26 Sep 2022 06:00:32 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -4836,7 +5195,7 @@ Provides        : None
 Depends On      : util-linux
 Optional Deps   : None
 Required By     : None
-Optional For    : btrfs-progs  gparted
+Optional For    : btrfs-progs  gparted  kpmcore
 Conflicts With  : None
 Replaces        : None
 Installed Size  : 595.44 KiB
@@ -4892,7 +5251,7 @@ Install Script  : Yes
 Validated By    : Signature
 
 Name            : rsync
-Version         : 3.2.6-1
+Version         : 3.2.6-2
 Description     : A fast and versatile file copying tool for remote and local files
 Architecture    : x86_64
 URL             : https://rsync.samba.org/
@@ -4905,10 +5264,10 @@ Required By     : None
 Optional For    : reflector
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 601.16 KiB
+Installed Size  : 601.19 KiB
 Packager        : Christian Hesse <eworm@archlinux.org>
-Build Date      : Sat 10 Sep 2022 04:12:05 AM
-Install Date    : Sun 11 Sep 2022 06:26:46 AM
+Build Date      : Mon 26 Sep 2022 03:23:54 AM
+Install Date    : Tue 27 Sep 2022 08:07:44 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -4936,14 +5295,14 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : samba
-Version         : 4.16.5-1
+Version         : 4.17.0-1
 Description     : SMB Fileserver and AD Domain server
 Architecture    : x86_64
 URL             : https://www.samba.org
 Licenses        : GPL3
 Groups          : None
 Provides        : None
-Depends On      : db>=4.7  popt  libcups  libcap>=2.16  gnutls>=2.4.1  talloc  ldb  libbsd  python  iniparser  tdb  libaio  perl-parse-yapp  smbclient>=4.16.5  gpgme  libldb.so=2-64  libtdb.so=1-64  libtevent.so=0-64  liburing  libunwind
+Depends On      : db>=4.7  popt  libcups  libcap>=2.16  gnutls>=2.4.1  talloc  ldb  libbsd  python  iniparser  tdb  libaio  perl-parse-yapp  smbclient>=4.17.0  gpgme  libldb.so=2-64  libtdb.so=1-64  libtevent.so=0-64  liburing  libunwind
 Optional Deps   : python-dnspython: samba_dnsupdate and samba_upgradedns in AD setup
                   python-markdown: for samba-tool domain schemeupgrade
                   glusterfs: for vfs_glusterfs support
@@ -4951,10 +5310,10 @@ Required By     : None
 Optional For    : libsoup  libsoup3  mc
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 55.02 MiB
+Installed Size  : 56.31 MiB
 Packager        : Tobias Powalowski <tpowa@archlinux.org>
-Build Date      : Wed 07 Sep 2022 04:55:40 PM
-Install Date    : Sun 11 Sep 2022 06:26:46 AM
+Build Date      : Mon 19 Sep 2022 10:52:25 AM
+Install Date    : Thu 22 Sep 2022 10:14:45 PM
 Install Reason  : Explicitly installed
 Install Script  : Yes
 Validated By    : Signature
@@ -4998,7 +5357,7 @@ Replaces        : None
 Installed Size  : 735.80 KiB
 Packager        : Sébastien Luttringer <seblu@seblu.net>
 Build Date      : Wed 15 Jan 2020 08:07:59 AM
-Install Date    : Thu 26 May 2022 06:07:26 PM
+Install Date    : Sun 02 Oct 2022 05:05:27 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -5035,7 +5394,7 @@ Groups          : None
 Provides        : None
 Depends On      : gcc-libs  libcap-ng  bash  systemd-libs
 Optional Deps   : s-nail: to get mail alerts to work [installed]
-Required By     : plasma-disks
+Required By     : kpmcore  plasma-disks
 Optional For    : None
 Conflicts With  : None
 Replaces        : None
@@ -5075,7 +5434,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : sof-firmware
-Version         : 2.2.1-1
+Version         : 2.2.2-1
 Description     : Sound Open Firmware
 Architecture    : x86_64
 URL             : https://www.sofproject.org/
@@ -5088,16 +5447,16 @@ Required By     : None
 Optional For    : None
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 16.79 MiB
+Installed Size  : 15.74 MiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
-Build Date      : Tue 23 Aug 2022 06:21:08 PM
-Install Date    : Sun 11 Sep 2022 06:26:47 AM
+Build Date      : Sat 24 Sep 2022 01:12:07 PM
+Install Date    : Mon 26 Sep 2022 06:01:13 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
 
 Name            : solid
-Version         : 5.97.0-1
+Version         : 5.98.0-1
 Description     : Hardware integration and detection
 Architecture    : x86_64
 URL             : https://community.kde.org/Frameworks
@@ -5111,9 +5470,9 @@ Optional For    : None
 Conflicts With  : None
 Replaces        : None
 Installed Size  : 2.46 MiB
-Packager        : Felix Yan <felixonmars@archlinux.org>
-Build Date      : Mon 15 Aug 2022 12:50:07 PM
-Install Date    : Sun 11 Sep 2022 06:21:41 AM
+Packager        : Antonio Rojas <arojas@archlinux.org>
+Build Date      : Mon 05 Sep 2022 12:59:37 PM
+Install Date    : Thu 22 Sep 2022 10:14:28 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -5201,7 +5560,29 @@ Replaces        : None
 Installed Size  : 6.98 MiB
 Packager        : Evangelos Foutras <foutrelis@archlinux.org>
 Build Date      : Tue 21 Jun 2022 04:49:22 PM
-Install Date    : Sat 25 Jun 2022 08:24:32 AM
+Install Date    : Sun 02 Oct 2022 05:05:28 PM
+Install Reason  : Explicitly installed
+Install Script  : Yes
+Validated By    : Signature
+
+Name            : syncthing
+Version         : 1.21.0-1
+Description     : Open Source Continuous Replication / Cluster Synchronization Thing
+Architecture    : x86_64
+URL             : https://syncthing.net/
+Licenses        : MPL
+Groups          : None
+Provides        : None
+Depends On      : glibc
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 22.54 MiB
+Packager        : Caleb Maclennan <alerque@archlinux.org>
+Build Date      : Tue 06 Sep 2022 07:54:45 AM
+Install Date    : Sun 02 Oct 2022 11:06:55 PM
 Install Reason  : Explicitly installed
 Install Script  : Yes
 Validated By    : Signature
@@ -5289,7 +5670,7 @@ Replaces        : None
 Installed Size  : 8.75 MiB
 Packager        : Antonio Rojas <arojas@archlinux.org>
 Build Date      : Tue 27 Jul 2021 05:17:31 PM
-Install Date    : Thu 26 May 2022 06:07:28 PM
+Install Date    : Sun 02 Oct 2022 05:05:28 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -5515,7 +5896,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : upower
-Version         : 0.99.20-1
+Version         : 1.90.0-1
 Description     : Abstraction for enumerating power devices, listening to device events and querying history and statistics
 Architecture    : x86_64
 URL             : https://upower.freedesktop.org
@@ -5528,10 +5909,10 @@ Required By     : power-profiles-daemon  solid
 Optional For    : inxi
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 769.89 KiB
+Installed Size  : 769.88 KiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
-Build Date      : Wed 13 Jul 2022 02:22:16 PM
-Install Date    : Sun 11 Sep 2022 06:21:40 AM
+Build Date      : Wed 07 Sep 2022 01:54:30 PM
+Install Date    : Thu 22 Sep 2022 10:14:28 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -5582,14 +5963,14 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : visual-studio-code-bin
-Version         : 1.68.1-1
+Version         : 1.71.2-1
 Description     : Visual Studio Code (vscode): Editor for building and debugging modern web and cloud applications (official binary version)
 Architecture    : x86_64
 URL             : https://code.visualstudio.com/
 Licenses        : custom: commercial
 Groups          : None
 Provides        : code  vscode
-Depends On      : libxkbfile  gnupg  gtk3  libsecret  nss  gcc-libs  libnotify  libxss  glibc  lsof  shared-mime-info  xdg-utils
+Depends On      : libxkbfile  gnupg  gtk3  libsecret  nss  gcc-libs  libnotify  libxss  glibc  lsof  shared-mime-info  xdg-utils  alsa-lib
 Optional Deps   : glib2: Needed for move to trash functionality [installed]
                   libdbusmenu-glib: Needed for KDE global menu
                   org.freedesktop.secrets: Needed for settings sync [installed]
@@ -5598,10 +5979,10 @@ Required By     : None
 Optional For    : None
 Conflicts With  : code
 Replaces        : None
-Installed Size  : 284.89 MiB
+Installed Size  : 294.60 MiB
 Packager        : Unknown Packager
-Build Date      : Sun 26 Jun 2022 03:07:37 AM
-Install Date    : Sun 26 Jun 2022 03:07:49 AM
+Build Date      : Thu 22 Sep 2022 10:20:47 PM
+Install Date    : Thu 22 Sep 2022 10:21:24 PM
 Install Reason  : Explicitly installed
 Install Script  : Yes
 Validated By    : None
@@ -5629,7 +6010,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : webcamoid
-Version         : 9.0.0-1
+Version         : 9.0.0-2
 Description     : Webcamoid is a full featured webcam capture application.
 Architecture    : x86_64
 URL             : https://webcamoid.github.io/
@@ -5658,14 +6039,14 @@ Conflicts With  : webcamoid
 Replaces        : None
 Installed Size  : 16.91 MiB
 Packager        : Unknown Packager
-Build Date      : Sat 18 Jun 2022 08:59:41 PM
-Install Date    : Sat 18 Jun 2022 09:06:26 PM
+Build Date      : Thu 22 Sep 2022 10:22:06 PM
+Install Date    : Thu 22 Sep 2022 10:28:48 PM
 Install Reason  : Explicitly installed
 Install Script  : Yes
 Validated By    : None
 
 Name            : welcome
-Version         : 3.34-1
+Version         : 3.38-1
 Description     : Welcome greeter for new EndeavourOS users.
 Architecture    : any
 URL             : https://github.com/endeavouros-team/PKGBUILDS/tree/master/welcome
@@ -5683,10 +6064,10 @@ Required By     : None
 Optional For    : None
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 81.92 KiB
+Installed Size  : 82.77 KiB
 Packager        : EndeavourOS <info@endeavouros.com>
-Build Date      : Sun 04 Sep 2022 08:07:51 AM
-Install Date    : Sun 11 Sep 2022 06:26:47 AM
+Build Date      : Tue 27 Sep 2022 09:40:18 AM
+Install Date    : Sun 02 Oct 2022 06:14:07 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -5730,29 +6111,29 @@ Replaces        : None
 Installed Size  : 34.38 KiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Wed 13 Nov 2019 12:08:36 PM
-Install Date    : Thu 26 May 2022 06:07:28 PM
+Install Date    : Sun 02 Oct 2022 05:05:28 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
 
 Name            : whois
-Version         : 5.5.13-1
+Version         : 5.5.13-2
 Description     : Intelligent WHOIS client
 Architecture    : x86_64
 URL             : https://github.com/rfc1036/whois
 Licenses        : GPL
 Groups          : None
 Provides        : None
-Depends On      : libidn2
+Depends On      : libidn2  libxcrypt
 Optional Deps   : None
 Required By     : reflector-simple
 Optional For    : None
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 159.32 KiB
+Installed Size  : 298.72 KiB
 Packager        : Evangelos Foutras <foutrelis@archlinux.org>
-Build Date      : Fri 08 Apr 2022 09:52:24 AM
-Install Date    : Thu 26 May 2022 06:09:34 PM
+Build Date      : Wed 14 Sep 2022 12:41:57 PM
+Install Date    : Thu 22 Sep 2022 10:14:45 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -5854,8 +6235,8 @@ Licenses        : GPL
 Groups          : None
 Provides        : None
 Depends On      : libx11  guile
-Optional Deps   : tk: xbindkeys_show
-Required By     : None
+Optional Deps   : tk: xbindkeys_show [installed]
+Required By     : xbindkeys_config-gtk2
 Optional For    : None
 Conflicts With  : None
 Replaces        : None
@@ -5866,6 +6247,28 @@ Install Date    : Sun 11 Sep 2022 06:26:47 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
+
+Name            : xbindkeys_config-gtk2
+Version         : 0.1.4-1
+Description     : XBindKeys_Config is an easy to use gtk program for configuring Xbindkeys. GTK2 version.
+Architecture    : x86_64
+URL             : https://github.com/rgeorgiev583/xbindkeys_config
+Licenses        : GPL
+Groups          : None
+Provides        : None
+Depends On      : xbindkeys  gtk2
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 47.92 KiB
+Packager        : Unknown Packager
+Build Date      : Sat 01 Oct 2022 12:47:43 PM
+Install Date    : Sat 01 Oct 2022 12:47:52 PM
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : None
 
 Name            : xdg-user-dirs
 Version         : 0.18-1
@@ -5890,7 +6293,7 @@ Install Script  : Yes
 Validated By    : Signature
 
 Name            : xdg-utils
-Version         : 1.1.3+21+g1a58bc2-1
+Version         : 1.1.3+21+g1a58bc2-2
 Description     : Command line tools that assist applications with a variety of desktop integration tasks
 Architecture    : any
 URL             : https://www.freedesktop.org/wiki/Software/xdg-utils/
@@ -5905,13 +6308,13 @@ Optional Deps   : kde-cli-tools: for KDE Plasma5 support in xdg-open [installed]
                   perl-net-dbus: Perl extension to dbus used in xdg-screensaver
                   perl-x11-protocol: Perl X11 protocol used in xdg-screensaver
 Required By     : eos-bash-shared  eos-update-notifier  google-chrome  mpv  openconnect  qt5-base  qt6-base  terminator  visual-studio-code-bin
-Optional For    : electron17
+Optional For    : cups  electron17  electron18
 Conflicts With  : None
 Replaces        : None
 Installed Size  : 283.59 KiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
-Build Date      : Sat 21 May 2022 03:26:47 PM
-Install Date    : Thu 26 May 2022 06:09:34 PM
+Build Date      : Wed 14 Sep 2022 04:59:26 AM
+Install Date    : Thu 22 Sep 2022 10:14:28 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -5950,7 +6353,7 @@ Depends On      : sh  util-linux-libs  icu  device-mapper  libinih  liburcu
 Optional Deps   : python: for xfs_scrub_all script [installed]
                   smtp-forwarder: for xfs_scrub_fail script
 Required By     : libblockdev
-Optional For    : gparted
+Optional For    : gparted  kpmcore
 Conflicts With  : None
 Replaces        : None
 Installed Size  : 3.59 MiB
@@ -6139,7 +6542,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : xterm
-Version         : 372-2
+Version         : 373-1
 Description     : X Terminal Emulator
 Architecture    : x86_64
 URL             : https://invisible-island.net/xterm/
@@ -6152,16 +6555,16 @@ Required By     : None
 Optional For    : eos-quickstart  graphviz  xorg-xinit
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 1117.41 KiB
-Packager        : Andreas Radke <andyrtr@archlinux.org>
-Build Date      : Sat 21 May 2022 03:12:06 PM
-Install Date    : Thu 26 May 2022 06:07:33 PM
+Installed Size  : 1122.08 KiB
+Packager        : Antonio Rojas <arojas@archlinux.org>
+Build Date      : Thu 29 Sep 2022 12:00:53 PM
+Install Date    : Sun 02 Oct 2022 06:14:07 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
 
 Name            : yad-eos
-Version         : 12.0-1.3
+Version         : 12.0-1.4
 Description     : A fork of zenity - display graphical dialogs from shell scripts or command line
 Architecture    : x86_64
 URL             : https://github.com/endeavouros-team/PKGBUILDS/tree/master/yad-eos
@@ -6176,8 +6579,8 @@ Conflicts With  : yad  yad-git
 Replaces        : None
 Installed Size  : 609.43 KiB
 Packager        : EndeavourOS <info@endeavouros.com>
-Build Date      : Mon 09 May 2022 04:37:44 AM
-Install Date    : Thu 26 May 2022 06:09:36 PM
+Build Date      : Wed 28 Sep 2022 09:05:06 AM
+Install Date    : Sun 02 Oct 2022 06:13:57 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -6341,7 +6744,7 @@ Replaces        : None
 Installed Size  : 6.60 MiB
 Packager        : Pierre Schmitz <pierre@archlinux.de>
 Build Date      : Sun 15 May 2022 01:54:20 AM
-Install Date    : Thu 26 May 2022 06:40:00 PM
+Install Date    : Fri 30 Sep 2022 03:30:36 PM
 Install Reason  : Explicitly installed
 Install Script  : Yes
 Validated By    : Signature
