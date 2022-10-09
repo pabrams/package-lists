@@ -180,6 +180,67 @@ Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
 
+Name            : ansible
+Version         : 6.4.0-1
+Description     : Official assortment of Ansible collections
+Architecture    : any
+URL             : https://pypi.org/project/ansible/
+Licenses        : GPL3
+Groups          : None
+Provides        : python-ansible_collections
+Depends On      : python  ansible-core
+Optional Deps   : python-argcomplete: shell completions
+                  python-pyopenssl: openssl modules
+                  python-dnspython: for dig lookup
+                  python-ovirt-engine-sdk: ovirt support
+                  python-boto3: aws_s3 module
+                  python-ldap: ldap support
+                  python-proxmoxer: proxmos modules
+                  python-openstacksdk: OpenStack module
+                  python-pynetbox: NetBox module
+                  python-ldap: LDAP modules
+                  python-keyring: Keyring module
+                  acme-tiny: openssl_certificate module
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 361.77 MiB
+Packager        : Sven-Hendrik Haase <svenstaro@gmail.com>
+Build Date      : Thu 15 Sep 2022 02:44:50 AM
+Install Date    : Fri 07 Oct 2022 06:25:44 PM
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+Name            : ansible-core
+Version         : 2.13.4-1
+Description     : Radically simple IT automation platform
+Architecture    : any
+URL             : https://pypi.org/project/ansible-core
+Licenses        : GPL3
+Groups          : None
+Provides        : python-ansible  ansible-base
+Depends On      : python  python-yaml  python-paramiko  python-jinja  python-resolvelib  python-packaging
+Optional Deps   : sshpass: for ssh connections with password
+                  python-passlib: crypt values for vars_prompt
+                  python-netaddr: for the ipaddr filter
+                  python-systemd: log to journal
+                  python-pywinrm: connect to Windows machines
+                  python-dnspython: for dig lookup
+                  python-jmespath: json_query support
+Required By     : ansible
+Optional For    : None
+Conflicts With  : None
+Replaces        : ansible-base
+Installed Size  : 15.08 MiB
+Packager        : Sven-Hendrik Haase <svenstaro@gmail.com>
+Build Date      : Tue 13 Sep 2022 06:52:22 AM
+Install Date    : Fri 07 Oct 2022 06:24:17 PM
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
 Name            : ark
 Version         : 22.08.1-1
 Description     : Archiving Tool
@@ -578,28 +639,6 @@ Installed Size  : 189.66 KiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Fri 10 Dec 2021 06:24:18 AM
 Install Date    : Thu 26 May 2022 06:09:33 PM
-Install Reason  : Explicitly installed
-Install Script  : No
-Validated By    : Signature
-
-Name            : chezmoi
-Version         : 2.24.0-1
-Description     : Manage your dotfiles across multiple machines
-Architecture    : x86_64
-URL             : https://www.chezmoi.io/
-Licenses        : MIT
-Groups          : None
-Provides        : None
-Depends On      : glibc
-Optional Deps   : None
-Required By     : None
-Optional For    : None
-Conflicts With  : None
-Replaces        : None
-Installed Size  : 30.16 MiB
-Packager        : Daurnimator <daurnimator@archlinux.org>
-Build Date      : Mon 26 Sep 2022 07:50:13 AM
-Install Date    : Tue 27 Sep 2022 08:07:43 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -1638,14 +1677,14 @@ Groups          : base-devel
 Provides        : gcc-multilib
 Depends On      : gcc-libs=12.2.0-1  binutils>=2.28  libmpc  zstd  libisl.so=23-64
 Optional Deps   : lib32-gcc-libs: for generating code for 32-bit ABI [installed]
-Required By     : dkms
+Required By     : dkms  ghc
 Optional For    : xorg-xrdb
 Conflicts With  : None
 Replaces        : gcc-multilib
 Installed Size  : 169.93 MiB
 Packager        : Frederik Schwan <freswa@archlinux.org>
 Build Date      : Fri 19 Aug 2022 09:12:31 PM
-Install Date    : Sun 02 Oct 2022 05:05:28 PM
+Install Date    : Sun 09 Oct 2022 03:55:38 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -3403,7 +3442,7 @@ Replaces        : None
 Installed Size  : 1551.73 KiB
 Packager        : Evangelos Foutras <evangelos@foutrelis.com>
 Build Date      : Wed 08 Apr 2020 09:37:19 AM
-Install Date    : Sun 02 Oct 2022 05:05:28 PM
+Install Date    : Sun 09 Oct 2022 03:55:38 AM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -3991,7 +4030,7 @@ Replaces        : newsbeuter
 Installed Size  : 9.24 MiB
 Packager        : Daniel M. Capella <polyzen@archlinux.org>
 Build Date      : Sun 25 Sep 2022 03:16:27 PM
-Install Date    : Mon 26 Sep 2022 06:01:13 AM
+Install Date    : Sun 09 Oct 2022 05:46:09 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -4544,7 +4583,7 @@ Groups          : None
 Provides        : perl-archive-tar=2.40  perl-attribute-handlers=1.02  perl-autodie=2.34  perl-autoloader=5.74  perl-autouse=1.11  perl-base=2.27  perl-bignum=0.65  perl-carp=1.52  perl-compress-raw-bzip2=2.103  perl-compress-raw-zlib=2.105  perl-config-perl-v=0.33  perl-constant=1.33  perl-cpan-meta-requirements=2.140  perl-cpan-meta-yaml=0.018  perl-cpan-meta=2.150010  perl-cpan=2.33  perl-data-dumper=2.184  perl-db_file=1.857  perl-devel-ppport=3.68  perl-devel-selfstubber=1.06  perl-digest-md5=2.58  perl-digest-sha=6.02  perl-digest=1.20  perl-dumpvalue=1.21  perl-encode=3.17  perl-encoding-warnings=0.13  perl-env=1.05  perl-experimental=0.028  perl-exporter=5.77  perl-extutils-cbuilder=0.280236  perl-extutils-constant=0.25  perl-extutils-install=2.20  perl-extutils-makemaker=7.64  perl-extutils-manifest=1.73  perl-extutils-parsexs=3.45  perl-extutils-pl2bat=0.004  perl-file-fetch=1.04  perl-file-path=2.18  perl-file-temp=0.2311  perl-filter-simple=0.96  perl-filter-util-call=1.60  perl-findbin=1.53  perl-getopt-long=2.52  perl-http-tiny=0.080  perl-i18n-collate=1.02  perl-i18n-langtags=0.45  perl-if=0.0610  perl-io-compress=2.106  perl-io-socket-ip=0.41  perl-io-zlib=1.11  perl-io=1.50  perl-ipc-cmd=1.04  perl-ipc-sysv=2.09  perl-json-pp=4.07  perl-lib=0.65  perl-libnet=3.13  perl-locale-maketext-simple=0.21_01  perl-locale-maketext=1.31  perl-math-bigint-fastcalc=0.5012  perl-math-bigint=1.999830  perl-math-bigrat=0.2621  perl-math-complex=1.5902  perl-memoize=1.03_01  perl-mime-base64=3.16  perl-module-corelist=5.20220520  perl-module-load-conditional=0.74  perl-module-load=0.36  perl-module-loaded=0.08  perl-module-metadata=1.000037  perl-net-ping=2.74  perl-params-check=0.38  perl-parent=0.238  perl-pathtools=3.84  perl-perl-ostype=1.010  perl-perlfaq=5.20210520  perl-perlio-via-quotedprint=0.09  perl-pod-checker=1.74  perl-pod-escapes=1.07  perl-pod-perldoc=3.2801  perl-pod-simple=3.43  perl-pod-usage=2.01  perl-podlators=5.008  perl-safe=2.43  perl-scalar-list-utils=1.62  perl-search-dict=1.07  perl-selfloader=1.26  perl-socket=2.033  perl-storable=3.26  perl-sys-syslog=0.36  perl-term-ansicolor=5.01  perl-term-cap=1.17  perl-term-complete=1.403  perl-term-readline=1.17  perl-test-harness=3.44  perl-test-simple=1.302190  perl-test=1.31  perl-text-abbrev=1.02  perl-text-balanced=2.04  perl-text-parsewords=3.31  perl-text-tabs=2021.0814  perl-thread-queue=3.14  perl-thread-semaphore=2.13  perl-threads-shared=1.64  perl-threads=2.27  perl-tie-file=1.06  perl-tie-refhash=1.40  perl-time-hires=1.9770  perl-time-local=1.30  perl-time-piece=1.3401  perl-unicode-collate=1.31  perl-unicode-normalize=1.31  perl-version=0.9929  perl-xsloader=0.31
 Depends On      : gdbm>=1.17  db  glibc  libxcrypt  libcrypt.so=2-64
 Optional Deps   : None
-Required By     : autoconf  automake  checkbashisms  ghc-libs  git  groff  gwenview  hyphen  inxi  kdelibs4support  kscreenlocker  libwpg  ndisc6  netpbm  ntp  pacman-contrib  parallel  perl-clone  perl-encode-locale  perl-error  perl-file-listing  perl-html-tagset  perl-http-cookies  perl-http-daemon  perl-http-message  perl-http-negotiate  perl-image-exiftool  perl-io-html  perl-libwww  perl-lwp-mediatypes  perl-net-http  perl-parse-yapp  perl-timedate  perl-try-tiny  perl-uri  perl-www-robotrules  perl-xml-writer  plasma-integration  plasma-pa  pptpclient  rkhunter  rsync  texinfo
+Required By     : autoconf  automake  checkbashisms  ghc-libs  git  groff  gwenview  hyphen  inxi  kdelibs4support  kscreenlocker  libwpg  llvm  ndisc6  netpbm  ntp  pacman-contrib  parallel  perl-clone  perl-encode-locale  perl-error  perl-file-listing  perl-html-tagset  perl-http-cookies  perl-http-daemon  perl-http-message  perl-http-negotiate  perl-image-exiftool  perl-io-html  perl-libwww  perl-lwp-mediatypes  perl-net-http  perl-parse-yapp  perl-timedate  perl-try-tiny  perl-uri  perl-www-robotrules  perl-xml-writer  plasma-integration  plasma-pa  pptpclient  rkhunter  rsync  texinfo
 Optional For    : digikam  gd  glibc  graphviz  hunspell  jemalloc  kconfigwidgets  kio-extras  libproxy  lm_sensors  mc  mpg123  neomutt  newsboat  openmpi  openssl  qt5-base  qt6-base
 Conflicts With  : None
 Replaces        : None
@@ -4952,7 +4991,7 @@ Optional Deps   : python-setuptools [installed]
                   mpdecimal: for decimal
                   xz: for lzma [installed]
                   tk: for tkinter [installed]
-Required By     : bind  ceph-libs  ddgr  fwupd  gameconqueror  glances  kitty-shell-integration  libixion  node-gyp  nvidia-installer-dkms  pahole  pcsclite  python-appdirs  python-autocommand  python-babel  python-cairo  python-certifi  python-chardet  python-colorama  python-colour  python-defusedxml  python-easygui  python-future  python-gobject  python-gphoto2  python-idna  python-inflect  python-jaraco.context  python-more-itertools  python-ordered-set  python-ply  python-psutil  python-pydantic  python-pymediainfo  python-pyparsing  python-pyqt5-sip  python-pytz  python-pyxdg  python-pyzmq  python-shtab  python-six  python-sortedcontainers  python-tenacity  python-termcolor  python-tomli  python-tornado  python-trove-classifiers  python-typing_extensions  python-urllib3  python-yaml  python-zipp  reflector  samba  smbclient  steam  youtube-dl
+Required By     : ansible  ansible-core  bind  ceph-libs  ddgr  fwupd  gameconqueror  glances  kitty-shell-integration  libixion  node-gyp  nvidia-installer-dkms  pahole  pcsclite  python-appdirs  python-autocommand  python-babel  python-bcrypt  python-cairo  python-certifi  python-chardet  python-colorama  python-colour  python-defusedxml  python-easygui  python-future  python-gobject  python-gphoto2  python-idna  python-inflect  python-jaraco.context  python-markupsafe  python-more-itertools  python-ordered-set  python-ply  python-psutil  python-pydantic  python-pymediainfo  python-pynacl  python-pyparsing  python-pyqt5-sip  python-pytz  python-pyxdg  python-pyzmq  python-resolvelib  python-shtab  python-six  python-sortedcontainers  python-tenacity  python-termcolor  python-tomli  python-tornado  python-trove-classifiers  python-typing_extensions  python-urllib3  python-yaml  python-zipp  reflector  samba  smbclient  steam  youtube-dl
 Optional For    : btrfs-progs  git  glib2  graphviz  gstreamer  gtk2  gupnp  imath  ki18n  ldb  lensfun  libbytesize  libevent  libftdi  libieee1284  libnewt  libproxy  libsmbios  libxml2  libxslt  mc  neomutt  net-snmp  newsboat  nfs-utils  nftables  obs-studio  opencolorio  openconnect  talloc  tdb  tevent  usbutils  util-linux  volume_key  xfsprogs  zbar
 Conflicts With  : None
 Replaces        : python3
@@ -5018,7 +5057,7 @@ Groups          : None
 Provides        : None
 Depends On      : python-pyparsing
 Optional Deps   : None
-Required By     : python-nspektr  python-setuptools  python-show-in-file-manager  python-validate-pyproject
+Required By     : ansible-core  python-nspektr  python-setuptools  python-show-in-file-manager  python-validate-pyproject
 Optional For    : None
 Conflicts With  : None
 Replaces        : None
@@ -6386,6 +6425,50 @@ Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
 
+Name            : xmonad-contrib-git
+Version         : v0.17.1.r34.gc3ea62c9-1
+Description     : Add-ons for xmonad
+Architecture    : x86_64
+URL             : http://xmonad.org/
+Licenses        : BSD
+Groups          : None
+Provides        : xmonad-contrib
+Depends On      : ghc  xmonad-git  sh  haskell-x11>=1.10  haskell-x11<1.11  haskell-x11-xft>=0.2  haskell-utf8-string  haskell-random  haskell-old-time
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : xmonad-contrib
+Replaces        : None
+Installed Size  : 20.80 MiB
+Packager        : Unknown Packager
+Build Date      : Fri 07 Oct 2022 07:46:47 PM
+Install Date    : Fri 07 Oct 2022 07:47:57 PM
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : None
+
+Name            : xmonad-git
+Version         : v0.17.1.r9.ga2259bb-1
+Description     : Lightweight X11 tiled window manager written in Haskell
+Architecture    : x86_64
+URL             : http://xmonad.org/
+Licenses        : BSD
+Groups          : None
+Provides        : xmonad
+Depends On      : ghc  sh  gmp  haskell-x11>=1.10  haskell-x11<1.11  haskell-mtl  haskell-utf8-string>=0.3  haskell-utf8-string<1.1  haskell-extensible-exceptions  haskell-setlocale
+Optional Deps   : xorg-xmessage: for displaying visual error messages [installed]
+Required By     : xmonad-contrib-git
+Optional For    : None
+Conflicts With  : xmonad
+Replaces        : None
+Installed Size  : 1699.42 KiB
+Packager        : Unknown Packager
+Build Date      : Fri 07 Oct 2022 07:46:04 PM
+Install Date    : Fri 07 Oct 2022 07:46:17 PM
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : None
+
 Name            : xorg-server
 Version         : 21.1.4-1
 Description     : Xorg X server
@@ -6558,7 +6641,7 @@ Replaces        : None
 Installed Size  : 1122.08 KiB
 Packager        : Antonio Rojas <arojas@archlinux.org>
 Build Date      : Thu 29 Sep 2022 12:00:53 PM
-Install Date    : Sun 02 Oct 2022 06:14:07 AM
+Install Date    : Fri 07 Oct 2022 07:48:26 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature

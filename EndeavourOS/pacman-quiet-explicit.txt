@@ -6,6 +6,8 @@ alacritty
 alsa-firmware
 alsa-plugins
 alsa-utils
+ansible
+ansible-core
 ark
 audiocd-kio
 autoconf
@@ -24,7 +26,6 @@ broot
 btop
 btrfs-progs
 cantarell-fonts
-chezmoi
 cloudcross
 cryptsetup
 ddgr
@@ -274,6 +275,8 @@ xdg-utils
 xf86-input-libinput
 xfsprogs
 xl2tpd
+xmonad-contrib-git
+xmonad-git
 xorg-server
 xorg-xdpyinfo
 xorg-xinit
