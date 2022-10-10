@@ -128,6 +128,7 @@ krita
 kscreen
 ktorrent
 kwallet-pam
+kwin-bismuth
 less
 libdvdcss
 libgsf
@@ -226,6 +227,7 @@ reiserfsprogs
 rkhunter
 rp-pppoe
 rsync
+rustup
 s-nail
 samba
 sddm-kcm
@@ -286,6 +288,7 @@ xorg-xrandr
 xsettingsd
 xterm
 yad-eos
+yadm
 yakuake
 yarn
 yay
