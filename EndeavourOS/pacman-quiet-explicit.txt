@@ -287,6 +287,7 @@ xorg-xkill
 xorg-xrandr
 xsettingsd
 xterm
+xvkbd
 yad-eos
 yadm
 yakuake
