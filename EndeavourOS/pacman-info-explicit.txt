@@ -5333,6 +5333,28 @@ Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
 
+Name            : rtl88x2bu-dkms-git
+Version         : 5.13.1.r175.3a1ecfe-1
+Description     : Kernel module for Realtek rtl88x2bu WiFi chipset
+Architecture    : x86_64
+URL             : https://github.com/RinCat/RTL88x2BU-Linux-Driver
+Licenses        : GPL2
+Groups          : None
+Provides        : None
+Depends On      : dkms  bc
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 27.26 MiB
+Packager        : Unknown Packager
+Build Date      : Mon 14 Nov 2022 04:46:43 PM
+Install Date    : Mon 14 Nov 2022 04:46:51 PM
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : None
+
 Name            : rustup
 Version         : 1.25.1-1
 Description     : The Rust toolchain installer

@@ -227,6 +227,7 @@ reiserfsprogs
 rkhunter
 rp-pppoe
 rsync
+rtl88x2bu-dkms-git
 rustup
 s-nail
 samba
