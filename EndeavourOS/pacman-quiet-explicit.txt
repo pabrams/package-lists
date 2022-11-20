@@ -2,7 +2,6 @@ accountsservice
 adobe-source-han-sans-cn-fonts
 adobe-source-han-sans-jp-fonts
 adobe-source-han-sans-kr-fonts
-alacritty
 alsa-firmware
 alsa-plugins
 alsa-utils
@@ -184,7 +183,7 @@ nss-mdns
 ntfs-3g
 ntp
 nvidia-dkms
-nvidia-installer-dkms
+nvidia-inst
 obs-studio
 obsidian
 okular
@@ -290,13 +289,9 @@ xorg-xkill
 xorg-xrandr
 xsettingsd
 xterm
-xvkbd
 yad-eos
 yadm
-yakuake
-yarn
 yay
-youtube-dl
 yt-dlp
 zettlr
 zsh
