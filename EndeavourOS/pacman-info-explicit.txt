@@ -241,6 +241,28 @@ Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
 
+Name            : arandr
+Version         : 0.1.10-7
+Description     : Provide a simple visual front end for XRandR 1.2.
+Architecture    : any
+URL             : https://christian.amsuess.com/tools/arandr/
+Licenses        : GPL3
+Groups          : None
+Provides        : None
+Depends On      : gtk3  python-cairo  python-gobject  xorg-xrandr
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 284.94 KiB
+Packager        : Felix Yan <felixonmars@archlinux.org>
+Build Date      : Thu 02 Dec 2021 08:25:32 PM
+Install Date    : Sat 19 Nov 2022 12:21:35 AM
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
 Name            : ark
 Version         : 22.08.2-1
 Description     : Archiving Tool
@@ -2858,6 +2880,28 @@ Install Date    : Sun 16 Oct 2022 04:34:18 PM
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
+
+Name            : kmonad-bin
+Version         : 0.4.1-4
+Description     : An advanced keyboard manager - static binary version
+Architecture    : x86_64
+URL             : https://github.com/kmonad/kmonad
+Licenses        : MIT
+Groups          : None
+Provides        : kmonad
+Depends On      : None
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : kmonad
+Replaces        : None
+Installed Size  : 3.45 MiB
+Packager        : Unknown Packager
+Build Date      : Sat 19 Nov 2022 09:26:15 PM
+Install Date    : Sat 19 Nov 2022 09:26:17 PM
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : None
 
 Name            : kolourpaint
 Version         : 22.08.2-1
@@ -6657,7 +6701,7 @@ Groups          : xorg-apps  xorg
 Provides        : None
 Depends On      : libxrandr  libx11
 Optional Deps   : None
-Required By     : eos-bash-shared  steam  xorg-setxkbmap  xorg-xinput
+Required By     : arandr  eos-bash-shared  steam  xorg-setxkbmap  xorg-xinput
 Optional For    : inxi  neofetch
 Conflicts With  : None
 Replaces        : None
