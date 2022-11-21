@@ -183,7 +183,9 @@ nss-mdns 0.15.1-1
 ntfs-3g 2022.10.3-1
 ntp 4.2.8.p15-2
 nvidia-dkms 520.56.06-2
+nvidia-hook 1.0-1
 nvidia-inst 1.4-4
+nvidia-settings 520.56.06-1
 obs-studio 28.1.2-1
 obsidian 1.0.3-1
 okular 22.08.3-1

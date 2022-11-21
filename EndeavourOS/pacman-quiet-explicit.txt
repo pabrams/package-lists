@@ -183,7 +183,9 @@ nss-mdns
 ntfs-3g
 ntp
 nvidia-dkms
+nvidia-hook
 nvidia-inst
+nvidia-settings
 obs-studio
 obsidian
 okular
